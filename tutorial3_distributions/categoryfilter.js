@@ -18,7 +18,8 @@ let yScale;
  * */
 let state = {
   data: [],
-  selectedIG: "All"
+  selectedIG: "All",
+  selectedRegion: "All"
 };
 
 /**
@@ -113,7 +114,7 @@ function draw() {
   let filteredData = state.data;
   // if there is a selectedIG, filter the data before mapping it to our elements
   if (state.selectedIG !== "All") {
-    filteredData = state.data.filter(d => d.IG === state.selectedIG);
+    filteredData = state.data.filter(d => d.IG === state.selectedIG && d.Region === state.selectedRegion);
   }
 
   const dot = svg
