@@ -1,0 +1,31 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2em;
+  }
+  
+  section {
+    padding: 1em 0;
+  }
+  
+  table {
+    border-collapse: separate;
+  }
+  
+  th {
+    padding: 0 1em;
+  }
+  
+  tr {
+    border-bottom: dotted 1px #e61f1f;
+    line-height: 2.0;
+  }
+  
+  td {
+    text-align: left;
+    padding: 0 2.0em;
+    background-color: rgb(233, 125, 125);
+  }
+  
+  .high {
+    background-color: rgb(54, 69, 82);
+  }
