@@ -1,9 +1,9 @@
 /**
  * CONSTANTS AND GLOBALS
  * */
-const width = window.innerWidth,
-  height = window.innerHeight,
-  margin = { top: 20, bottom: 20, left: 50, right: 80 },
+const width = window.innerWidth * 0.7,
+  height = window.innerHeight * 0.7,
+  margin = { top: 20, bottom: 50, left: 60, right: 40 },
   radius = 3,
   default_selection = "Select a Country";
 
@@ -14,7 +14,6 @@ let svg;
 let xScale;
 let yScale;
 let yAxis;
-let xAxis;
 
 /* 
 this extrapolated function allows us to replace the "G" with "B" min the case of billions.
@@ -34,10 +33,10 @@ let state = {
 /**
  * LOAD DATA
  * */
-d3.csv("../../data/NetMigrationbyYear.csv", d => ({
+d3.csv("../../data/populationOverTime.csv", d => ({
   year: new Date(d.Year, 0, 1),
-  country: d.Country,
-  nmr: +d.NMR,
+  country: d.Entity,
+  population: +d.Population,
 })).then(raw_data => {
   console.log("raw_data", raw_data);
   state.data = raw_data;
@@ -57,16 +56,16 @@ function init() {
 
   yScale = d3
     .scaleLinear()
-    .domain(0,[d3.max(state.data, d => d.nmr)])
-    .range([height,0]);
+    .domain([0, d3.max(state.data, d => d.population)])
+    .range([height - margin.bottom, margin.top]);
 
   // AXES
-  xAxis = d3.axisBottom(xScale).ticks(7);
-  yAxis = d3.axisLeft(yScale).ticks(8);
+  const xAxis = d3.axisBottom(xScale);
+  yAxis = d3.axisLeft(yScale).tickFormat(formatBillions);
 
   // UI ELEMENT SETUP
   const selectElement = d3.select("#dropdown").on("change", function() {
-    console.log("new selected country is", this.value);
+    console.log("new selected entity is", this.value);
     // `this` === the selectElement
     // this.value holds the dropdown value a user just selected
     state.selectedCountry = this.value;
@@ -117,7 +116,7 @@ function init() {
     .attr("y", "50%")
     .attr("dx", "-3em")
     .attr("writing-mode", "vertical-rl")
-    .text("Net Migration Rate");
+    .text("Population");
 
   draw(); // calls the draw function
 }
@@ -134,7 +133,7 @@ function draw() {
   }
 
   // update the scale domain (now that our data has changed)
-  yScale.domain([0, d3.max(filteredData, d => d.nmr)]);
+  yScale.domain([0, d3.max(filteredData, d => d.population)]);
 
   // re-draw our yAxix since our yScale is updated with the new data
   d3.select("g.y-axis")
@@ -142,16 +141,11 @@ function draw() {
     .duration(1000)
     .call(yAxis.scale(yScale)); // this updates the yAxis' scale to be our newly updated one
 
-  d3.select("g.x-axis")
-    .transition()
-    .duration(1000)
-    .call(xAxis.scale(xScale)); // this updates the XAxis' scale to be our newly updated one
-
   // we define our line function generator telling it how to access the x,y values for each point
   const lineFunc = d3
     .line()
     .x(d => xScale(d.year))
-    .y(d => yScale(d.nmr));
+    .y(d => yScale(d.population));
 
   const dot = svg
     .selectAll(".dot")
@@ -184,7 +178,7 @@ function draw() {
         selection
           .transition() // initialize transition
           .duration(1000) // duration 1000ms / 1s
-          .attr("cy", d => yScale(d.nmr)) // started from the bottom, now we're here
+          .attr("cy", d => yScale(d.population)) // started from the bottom, now we're here
     );
 
   const line = svg

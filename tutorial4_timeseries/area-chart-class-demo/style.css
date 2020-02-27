@@ -21,6 +21,10 @@ body {
 }
 
 .trend {
-  fill: none;
+  fill: red;
   stroke: black;
+}
+.area {
+    fill: lightsteelblue;
+    stroke-width: 0;
 }

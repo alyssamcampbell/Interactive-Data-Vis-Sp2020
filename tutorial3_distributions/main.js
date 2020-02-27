@@ -13,12 +13,14 @@ let svg;
 let xScale;
 let yScale;
 
+
 /**
  * APPLICATION STATE
  * */
 let state = {
   data: [],
-  selectedIG: "All"
+  selectedIG: "All",
+  selectedRegion: "All"
 };
 
 /**
@@ -53,11 +55,12 @@ function init() {
   // UI ELEMENT SETUP
   // add dropdown (HTML selection) for interaction
   // HTML select reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
-  const selectElement = d3.select("#dropdown").on("change", function() {
+  const selectElement = d3.select("#dropdown" && "dropdown1").on("change", function() {                  // Ellie: Do I need to add this second drop down here?
     console.log("the income group is", this.value);
     // `this` === the selectElement
     // this.value holds the dropdown value a user just selected
-    state.selectedIG = this.value;
+    state.selectedIG = this.value,
+    state.selectedRegion = this.value;
     draw(); // re-draw the graph based on this new selection
   });
 
@@ -65,6 +68,7 @@ function init() {
   selectElement
     .selectAll("option")
     .data(["All", "Lower middle", "Upper middle","Low", "Upper"]) // unique data values-- (hint: to do this programmatically take a look `Sets`)
+    .data(["All", "North America","Asia","Europe"]) // unique data values-- (hint: to do this programmatically take a look `Sets`)
     .join("option")
     .attr("value", d => d)
     .text(d => d);
@@ -112,8 +116,8 @@ function draw() {
   // filter the data for the selected IG
   let filteredData = state.data;
   // if there is a selectedIG, filter the data before mapping it to our elements
-  if (state.selectedIG !== "All") {
-    filteredData = state.data.filter(d => d.IG === state.selectedIG);
+  if (state.selectedIG !== "All" && state.selectedRegion != "All") {
+    filteredData = state.data.filter(d => d.IG === state.selectedIG && d.Region === state.selectedRegion);
   }
 
   const dot = svg
@@ -132,6 +136,9 @@ function draw() {
             else if (d.IG === "Lower middle") return "Pink";
             else if (d.IG === "Upper middle") return "Orange";
             else return "yellow";
+            if (d.Region == "Asia") return "Pink";
+            else if (d.Region == "Europe") return "Blue";
+            else return "orange";
           })
           .attr("r", radius)
           .attr("cy", d => yScale(d.NMR))
