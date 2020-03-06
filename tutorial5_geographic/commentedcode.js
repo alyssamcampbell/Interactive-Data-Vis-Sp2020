@@ -14,27 +14,25 @@ let svg;
  * APPLICATION STATE
  * */
 let state = {
-  geojson: null,
+  geojson: null, // Ellie why do we have these set to null? 
   extremes: null,
   hover: {
     latitude: null,
     longitude: null,
-    state: null,
+    state: null, 
   },
 };
-
-console.log(d3)
 
 /**
  * LOAD DATA
  * Using a Promise.all([]), we can load more than one dataset at a time
  * */
 Promise.all([
-  d3.json("../data/usState.json"),
-  d3.csv("../data/USHeatExtremes.csv", d3.autoType),
-]).then(([extremes]) => {
-  state.geojson = geojson;
-  state.extremes = extremes;
+  d3.json("../data/us-state.json"), // loading both data sets together
+  d3.csv("../data/usHeatExtremes.csv", d3.autoType),
+]).then(([geojson, extremes]) => { // not sure what this is doing here
+  state.geojson = geojson; 
+  state.extremes = extremes; // how does it know to refer to things as extremes ??  it was not defined above as a variable
   console.log("state: ", state);
   init();
 });
@@ -46,8 +44,8 @@ Promise.all([
 function init() {
   // our projection and path are only defined once, and we don't need to access them in the draw function,
   // so they can be locally scoped to init()
-  const projection = d3.geoAlbersUsa().fitSize([width, height], state.geojson);
-  const path = d3.geoPath().projection(projection);
+  const projection = d3.geoAlbersUsa().fitSize([width, height], state.geojson); // creating the projection, defining the map type, and how it fits with the data
+  const path = d3.geoPath().projection(projection); // defining the path for converting coordinates to pixel coordinates ?
 
   // create an svg element in our main `d3-container` element
   svg = d3
@@ -57,16 +55,16 @@ function init() {
     .attr("height", height);
 
   svg
-    .selectAll(".state")
+    .selectAll(".state") // selecting all the individual statets of geojson
     // all of the features of the geojson, meaning all the states as individuals
     .data(state.geojson.features)
-    .join("path")
-    .attr("d", path)
-    .attr("class", "state")
-    .attr("fill", "transparent")
+    .join("path") // joining the path to the data
+    .attr("d", path) // see above
+    .attr("class", "state") // defining style for the state data should be drawn
+    .attr("fill", "transparent") // fill
     .on("mouseover", d => {
       // when the mouse rolls over this feature, do this
-      state.hover["state"] = d.properties.NAME;
+      state.hover["state"] = d.properties.NAME; // input the name when mouse rolls over state
       draw(); // re-call the draw function when we set a new hoveredState
     });
 
@@ -80,8 +78,8 @@ function init() {
     .attr("r", 20)
     .attr("fill", "steelblue")
     .attr("transform", d => {
-      const [x, y] = projection([d.longitude, d.latitude]);
-      return `translate(${x}, ${y})`;
+      const [x, y] = projection([d.longitude, d.latitude]); // creating the lat and long coordinates into X and Y from the data set
+      return `translate(${x}, ${y})`; // creating the X and Y
     });
 
   // EXAMPLE 2: going from x, y => lat-long
@@ -105,13 +103,13 @@ function init() {
  * */
 function draw() {
   // return an array of [key, value] pairs
-  hoverData = Object.entries(state.hover);
+  hoverData = Object.entries(state.hover); // defining the variable as when it is being hovered upon 
 
-  d3.select("#hover-content")
-    .selectAll("div.row")
-    .data(hoverData)
-    .join("div")
-    .attr("class", "row")
+  d3.select("#hover-content") // defining the svg element
+    .selectAll("div.row") // ? 
+    .data(hoverData) // selecting the data in the hoverData variable 
+    .join("div") // ? 
+    .attr("class", "row") // ?
     .html(
       d =>
         // each d is [key, value] pair
