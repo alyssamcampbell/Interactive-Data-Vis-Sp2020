@@ -55,23 +55,39 @@ function init() {
   // UI ELEMENT SETUP
   // add dropdown (HTML selection) for interaction
   // HTML select reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
-  const selectElement = d3.select("#dropdown" && "dropdown1").on("change", function() {                  // Ellie: Do I need to add this second drop down here?
+  const selectElement = d3.select("#dropdown").on("change", function() {                  // Ellie: Do I need to add this second drop down here?
     console.log("the income group is", this.value);
     // `this` === the selectElement
     // this.value holds the dropdown value a user just selected
     state.selectedIG = this.value,
+    draw(); // re-draw the graph based on this new selection
+  });
+
+  const selectElement1 = d3.select("#dropdown1").on("change", function() {                  // Ellie: Do I need to add this second drop down here?
+    console.log("the income group is", this.value);
+    // `this` === the selectElement
+    // this.value holds the dropdown value a user just selected
     state.selectedRegion = this.value;
     draw(); // re-draw the graph based on this new selection
   });
 
   // add in dropdown options from the unique values in the data
   selectElement
-    .selectAll("option")
+    .selectAll("option.one")
     .data(["All", "Lower middle", "Upper middle","Low", "Upper"]) // unique data values-- (hint: to do this programmatically take a look `Sets`)
-    .data(["All", "North America","Asia","Europe"]) // unique data values-- (hint: to do this programmatically take a look `Sets`)
     .join("option")
+    .attr("class","one")
     .attr("value", d => d)
     .text(d => d);
+
+  selectElement1
+    .selectAll("option.two")
+    .data(["All", "North America","Asia","Europe"]) // unique data values-- (hint: to do this programmatically take a look `Sets`)
+    .join("option")
+    .attr("class","two")
+    .attr("value", d => d)
+    .text(d => d);
+
 
   // create an svg element in our main `d3-container` element
   svg = d3
