@@ -1,180 +1,180 @@
 ﻿Country,IG,CCVS,NMR,Region
-Switzerland,Upper,0.274,4.6,Europe
-Norway,Upper,0.278,4,Europe
-Luxembourg,Upper,0.285,13.3,Europe
-Germany,Upper,0.292,1.5,Europe
-Australia,Upper,0.295,8.1,South Pacific
-France,Upper,0.296,1.1,Europe
-Canada,Upper,0.296,5.6,North America
-United Kingdom,Upper,0.299,2.5,Europe
-Sweden,Upper,0.301,5.2,Europe
-Finland,Upper,0.308,2.6,Europe
-Spain,Upper,0.308,7,Europe
-Czech Republic,Upper,0.31,2.3,Europe
-Iceland,Upper,0.312,3.3,Europe
-Austria,Upper,0.313,3.6,Europe
-Italy,Upper,0.32,3.2,Europe
-Poland,Upper,0.324,-0.3,Europe
-New Zealand,Upper,0.331,8,South Pacific
-Russia,Upper middle,0.335,1.7,Europe
-Kazakhstan,Upper middle,0.336,0.4,Asia
-Israel,Upper,0.336,2.1,Middle East
-Turkey,Upper middle,0.338,-4.3,Middle East
-Slovenia,Upper,0.339,1.5,Europe
-United States,Upper,0.339,3,North America
-Belarus,Upper middle,0.342,0.7,Europe
-Bulgaria,Upper middle,0.344,-0.3,Europe
-Denmark,Upper,0.344,2.8,Europe
-Chile,Upper middle,0.345,0.3,South America
-Ireland,Upper,0.345,3.9,Europe
-Greece,Upper middle,0.346,0.9,Europe
-Venezuela,Upper middle,0.347,-3.4,South America
-Portugal,Upper,0.347,0.3,Europe
-Netherlands,Upper,0.351,1.9,Europe
-Malta,Upper,0.356,6.6,Europe
-Cyprus,Upper,0.36,7.6,Europe
-Belgium,Upper,0.361,4.8,Europe
-Slovakia,Upper,0.364,0.2,Europe
-Hungary,Upper middle,0.365,1.3,Europe
-Macedonia,Upper middle,0.366,0.4,Europe
-Ukraine,Lower middle,0.367,2.3,Europe
-Argentina,Upper middle,0.368,-0.1,South America
-Algeria,Upper middle,0.371,-0.9,Africa
-Bosnia & Herzegovina,Lower middle,0.371,-0.4,Europe
-Japan,Upper,0.372,0,Asia
-South Korea,Upper,0.375,2.3,Asia
-Qatar,Upper,0.375,12.28,Middle East
-Estonia,Upper,0.376,-3.1,Europe
-Bahamas,Upper,0.376,0,Central America & Caribbean
-Jordan,Lower middle,0.377,-11.3,Middle East
-Malaysia,Upper,0.377,-0.3,Asia
-Saint Vincent and the Grenadines,Lower middle,0.378,-7.2,Central America & Caribbean
-Morocco,Lower middle,0.378,-1.9,Africa
-United Arab Emirates,Upper,0.378,7.6,Middle East
-Barbados,Upper middle,0.381,-0.3,Central America & Caribbean
-Brazil,Upper middle,0.381,-0.1,South America
-Mexico,Upper middle,0.382,-1.9,Central America & Caribbean
-Libya,Upper middle,0.382,-0.7,Africa
-Uruguay,Upper middle,0.383,-0.9,South America
-Paraguay,Lower middle,0.385,-0.1,South America
-Croatia,Upper middle,0.387,-1,Europe
-Iran,Upper middle,0.387,-0.3,Middle East
-Lithuania,Upper,0.388,-5.9,Europe
-Montenegro,Upper middle,0.388,-4.9,Europe
-Uzbekistan,Lower middle,0.388,-1.9,Asia
-Colombia,Upper middle,0.388,-0.6,South America
-Saudi Arabia,Upper,0.388,4.7,Middle East
-China,Upper middle,0.389,-0.4,Asia
-Costa Rica,Upper middle,0.389,0.8,Central America & Caribbean
-Kyrgyzstan,Low,0.391,-5,Asia
-Grenada,Upper middle,0.391,-2.6,Europe
-Saint Lucia,Upper middle,0.391,-1.7,Central America & Caribbean
-Latvia,Upper middle,0.393,-5.9,Europe
-Tunisia,Lower middle,0.394,-1.4,Africa
-Brunei Darussalam,Upper,0.395,2.3,Asia
-South Africa,Upper middle,0.398,-0.2,Africa
-Dominica,Lower middle,0.403,-5.3,Central America & Caribbean
-Suriname,Upper middle,0.404,0.5,South America
-Trinidad and Tobago,Upper,0.405,-5.4,Central America & Caribbean
-Panama,Upper middle,0.406,-0.1,Central America & Caribbean
-Mongolia,Lower middle,0.407,-0.8,Asia
-Lebanon,Upper middle,0.408,-20.3,Middle East
-Azerbaijan,Upper middle,0.408,0,Asia
-Serbia,Upper middle,0.409,0,Europe
-Thailand,Upper middle,0.409,0,Asia
-Georgia,Lower middle,0.41,0.1,Middle East
-Romania,Upper middle,0.411,-0.2,Europe
-Armenia,Lower middle,0.414,-5.5,Middle East
-Singapore,Upper,0.415,11.8,Asia
-Oman,Upper,0.416,-0.4,Middle East
-Moldova,Lower middle,0.417,-9,Europe
-Saint Kitts and Nevis,Upper,0.418,1.2,Central America & Caribbean
+Afghanistan,Low,0.595,-0.1,Middle East
 Albania,Lower middle,0.423,-3.3,Europe
-Turkmenistan,Upper middle,0.425,-1.7,Asia
-Peru,Upper middle,0.426,-1.8,South America
-Egypt,Lower middle,0.426,-0.3,Africa
-Cuba,Lower Middle,0.428,-3.7,Central America & Caribbean
-Dominican Republic,Upper middle,0.432,-2.7,Central America & Caribbean
-Jamaica,Lower middle,0.433,-9.4,Central America & Caribbean
-Kuwait,Upper,0.434,-3.3,Middle East
-Iraq,Upper middle,0.436,-0.5,Middle East
-Tajikistan,Low,0.438,-1.1,Asia
-Mauritius,Upper middle,0.438,0,Africa
-Gabon,Upper middle,0.44,3.9,Africa
-Indonesia,Lower middle,0.445,-1.1,Asia
-Ecuador,Lower middle,0.446,0,South America
-El Salvador,Lower middle,0.448,-4.8,Central America & Caribbean
-Fiji,Lower middle,0.452,-6.2,South Pacific
-Nicaragua,Lower middle,0.453,-2.4,Central America & Caribbean
-Guatemala,Lower middle,0.457,-1.7,Central America & Caribbean
-Bahrain,Upper,0.458,10.6,Middle East
-Philippines,Lower middle,0.459,-1.8,Asia
-Bolivia,Lower middle,0.46,-0.3,South America
-Honduras,Lower middle,0.462,-1.4,Central America & Caribbean
-Ghana,Lower middle,0.468,-1.6,Africa
-Sri Lanka,Lower middle,0.47,-1.3,Asia
-Botswana,Upper middle,0.471,2.9,Africa
-Seychelles,Upper,0.472,1,Africa
-Belize,Lower middle,0.474,-1,South America
-Vietnam,Lower middle,0.477,-0.3,Asia
-Sao Tome and Principe,Low,0.478,-7.9,Africa
-Comoros,Low,0.479,-2.3,Africa
-Equatorial Guinea,Upper middle,0.479,0,Africa
-Guyana,Lower middle,0.48,0,South America
-Samoa,Lower middle,0.483,-8.1,South Pacific
-Cameroon,Low,0.483,-0.3,Africa
-Antigua and Barbuda,Upper middle,0.487,2.1,Central America & Caribbean
-Nigeria,Lower middle,0.489,-0.2,Africa
-Namibia,Lower middle,0.491,0,Africa
-Bhutan,Lower middle,0.493,0,Asia
-Djibouti,Low,0.5,5.1,Africa
-India,Lower middle,0.502,0,Asia
-Pakistan,Lower middle,0.507,-0.9,Asia
-Lesotho,Low,0.509,-6.1,Africa
-Côte d'Ivoire,Low,0.514,1.2,Africa
-Nepal,Low,0.516,-3.1,Asia
-Cambodia,Low,0.517,-0.3,Asia
+Algeria,Upper middle,0.371,-0.9,Africa
 Angola,Lower middle,0.517,-0.2,Africa
+Antigua and Barbuda,Upper middle,0.487,2.1,Central America & Caribbean
+Argentina,Upper middle,0.368,-0.1,South America
+Armenia,Lower middle,0.414,-5.5,Middle East
+Australia,Upper,0.295,8.1,South Pacific
+Austria,Upper,0.313,3.6,Europe
+Azerbaijan,Upper middle,0.408,0,Asia
+Bahamas,Upper,0.376,0,Central America & Caribbean
+Bahrain,Upper,0.458,10.6,Middle East
+Bangladesh,Low,0.543,-3,Asia
+Barbados,Upper middle,0.381,-0.3,Central America & Caribbean
+Belarus,Upper middle,0.342,0.7,Europe
+Belgium,Upper,0.361,4.8,Europe
+Belize,Lower middle,0.474,-1,South America
+Benin,Low,0.574,0.3,Africa
+Bhutan,Lower middle,0.493,0,Asia
+Bolivia,Lower middle,0.46,-0.3,South America
+Bosnia & Herzegovina,Lower middle,0.371,-0.4,Europe
+Botswana,Upper middle,0.471,2.9,Africa
+Brazil,Upper middle,0.381,-0.1,South America
+Brunei Darussalam,Upper,0.395,2.3,Asia
+Bulgaria,Upper middle,0.344,-0.3,Europe
+Burkina Faso,Low,0.572,-0.6,Africa
+Burundi,Low,0.581,-0.8,Africa
+Cambodia,Low,0.517,-0.3,Asia
+Cameroon,Low,0.483,-0.3,Africa
+Canada,Upper,0.296,5.6,North America
+Central African Republic,Low,0.58,0,Africa
+Chad,Low,0.651,-0.1,Africa
+Chile,Upper middle,0.345,0.3,South America
+China,Upper middle,0.389,-0.4,Asia
+Colombia,Upper middle,0.388,-0.6,South America
+Comoros,Low,0.479,-2.3,Africa
 Congo,Lower middle,0.518,-0.9,Africa
-Senegal,Low,0.535,-1.3,Africa
-Laos,Lower middle,0.537,-1,Asia
+Costa Rica,Upper middle,0.389,0.8,Central America & Caribbean
+Côte d'Ivoire,Low,0.514,1.2,Africa
+Croatia,Upper middle,0.387,-1,Europe
+Cuba,Lower Middle,0.428,-3.7,Central America & Caribbean
+Cyprus,Upper,0.36,7.6,Europe
+Czech Republic,Upper,0.31,2.3,Europe
+Democratic Republic of the Congo,Low,0.588,-0.9,Africa
+Denmark,Upper,0.344,2.8,Europe
+Djibouti,Low,0.5,5.1,Africa
+Dominica,Lower middle,0.403,-5.3,Central America & Caribbean
+Dominican Republic,Upper middle,0.432,-2.7,Central America & Caribbean
+Ecuador,Lower middle,0.446,0,South America
+Egypt,Lower middle,0.426,-0.3,Africa
+El Salvador,Lower middle,0.448,-4.8,Central America & Caribbean
+Equatorial Guinea,Upper middle,0.479,0,Africa
+Eritrea,Low,0.596,-11.6,Africa
+Estonia,Upper,0.376,-3.1,Europe
+Ethiopia,Low,0.566,-0.2,Africa
+Fiji,Lower middle,0.452,-6.2,South Pacific
+Finland,Upper,0.308,2.6,Europe
+France,Upper,0.296,1.1,Europe
+Gabon,Upper middle,0.44,3.9,Africa
 Gambia,Low,0.539,-1.6,Africa
-Togo,Low,0.539,0,Africa
+Georgia,Lower middle,0.41,0.1,Middle East
+Germany,Upper,0.292,1.5,Europe
+Ghana,Lower middle,0.468,-1.6,Africa
+Greece,Upper middle,0.346,0.9,Europe
+Grenada,Upper middle,0.391,-2.6,Europe
+Guatemala,Lower middle,0.457,-1.7,Central America & Caribbean
+Guinea,Low,0.543,0,Africa
+Guinea-Bissau,Low,0.626,-3.8,Africa
+Guyana,Lower middle,0.48,0,South America
+Haiti,Low,0.556,-1.9,Central America & Caribbean
+Honduras,Lower middle,0.462,-1.4,Central America & Caribbean
+Hungary,Upper middle,0.365,1.3,Europe
+Iceland,Upper,0.312,3.3,Europe
+India,Lower middle,0.502,0,Asia
+Indonesia,Lower middle,0.445,-1.1,Asia
+Iran,Upper middle,0.387,-0.3,Middle East
+Iraq,Upper middle,0.436,-0.5,Middle East
+Ireland,Upper,0.345,3.9,Europe
+Israel,Upper,0.336,2.1,Middle East
+Italy,Upper,0.32,3.2,Europe
+Jamaica,Lower middle,0.433,-9.4,Central America & Caribbean
+Japan,Upper,0.372,0,Asia
+Jordan,Lower middle,0.377,-11.3,Middle East
+Kazakhstan,Upper middle,0.336,0.4,Asia
+Kenya,Low,0.546,-0.2,Africa
+Kuwait,Upper,0.434,-3.3,Middle East
+Kyrgyzstan,Low,0.391,-5,Asia
+Laos,Lower middle,0.537,-1,Asia
+Latvia,Upper middle,0.393,-5.9,Europe
+Lebanon,Upper middle,0.408,-20.3,Middle East
+Lesotho,Low,0.509,-6.1,Africa
+Liberia,Low,0.617,-2.9,Africa
+Libya,Upper middle,0.382,-0.7,Africa
+Lithuania,Upper,0.388,-5.9,Europe
+Luxembourg,Upper,0.285,13.3,Europe
+Macedonia,Upper middle,0.366,0.4,Europe
+Madagascar,Low,0.584,0,Africa
+Malawi,Low,0.55,0,Africa
+Malaysia,Upper,0.377,-0.3,Asia
+Maldives,Upper middle,0.56,-12.7,Asia
+Mali,Low,0.609,-3.9,Africa
+Malta,Upper,0.356,6.6,Europe
+Mauritania,Low,0.567,-0.8,Africa
+Mauritius,Upper middle,0.438,0,Africa
+Mexico,Upper middle,0.382,-1.9,Central America & Caribbean
+Micronesia,Low,0.638,-20.9,South Pacific
+Moldova,Lower middle,0.417,-9,Europe
+Mongolia,Lower middle,0.407,-0.8,Asia
+Montenegro,Upper middle,0.388,-4.9,Europe
+Morocco,Lower middle,0.378,-1.9,Africa
 Mozambique,Low,0.541,-1.7,Africa
 Myanmar,Lower middle,0.542,-1.4,Asia
+Namibia,Lower middle,0.491,0,Africa
+Nepal,Low,0.516,-3.1,Asia
+Netherlands,Upper,0.351,1.9,Europe
+New Zealand,Upper,0.331,8,South Pacific
+Nicaragua,Lower middle,0.453,-2.4,Central America & Caribbean
+Niger,Low,0.67,-0.7,Africa
+Nigeria,Lower middle,0.489,-0.2,Africa
+Norway,Upper,0.278,4,Europe
+Oman,Upper,0.416,-0.4,Middle East
+Pakistan,Lower middle,0.507,-0.9,Asia
+Panama,Upper middle,0.406,-0.1,Central America & Caribbean
+Papua New Guinea,Lower middle,0.573,0,South Pacific
+Paraguay,Lower middle,0.385,-0.1,South America
+Peru,Upper middle,0.426,-1.8,South America
+Philippines,Lower middle,0.459,-1.8,Asia
+Poland,Upper,0.324,-0.3,Europe
+Portugal,Upper,0.347,0.3,Europe
+Qatar,Upper,0.375,12.28,Middle East
+Romania,Upper middle,0.411,-0.2,Europe
+Russia,Upper middle,0.335,1.7,Europe
+Rwanda,Low,0.555,-3.3,Africa
+Saint Kitts and Nevis,Upper,0.418,1.2,Central America & Caribbean
+Saint Lucia,Upper middle,0.391,-1.7,Central America & Caribbean
+Saint Vincent and the Grenadines,Lower middle,0.378,-7.2,Central America & Caribbean
+Samoa,Lower middle,0.483,-8.1,South Pacific
+Sao Tome and Principe,Low,0.478,-7.9,Africa
+Saudi Arabia,Upper,0.388,4.7,Middle East
+Senegal,Low,0.535,-1.3,Africa
+Serbia,Upper middle,0.409,0,Europe
+Seychelles,Upper,0.472,1,Africa
+Sierra Leone,Low,0.557,-1.2,Africa
+Singapore,Upper,0.415,11.8,Asia
+Slovakia,Upper,0.364,0.2,Europe
+Slovenia,Upper,0.339,1.5,Europe
+Solomon Islands,Low,0.658,-1.6,South Pacific
+Somalia,Low,0.678,-3.8,Africa
+South Africa,Upper middle,0.398,-0.2,Africa
+South Korea,Upper,0.375,2.3,Asia
+Spain,Upper,0.308,7,Europe
+Sri Lanka,Lower middle,0.47,-1.3,Asia
+Sudan,Lower middle,0.623,-0.4,Africa
+Suriname,Upper middle,0.404,0.5,South America
+Sweden,Upper,0.301,5.2,Europe
+Switzerland,Upper,0.274,4.6,Europe
+Tajikistan,Low,0.438,-1.1,Asia
+Tanzania,Low,0.551,-0.4,Africa
+Thailand,Upper middle,0.409,0,Asia
+Timor-Leste,Lower middle,0.558,-3.9,South Pacific
+Togo,Low,0.539,0,Africa
+Tonga,Lower middle,0.573,-17.9,South Pacific
+Trinidad and Tobago,Upper,0.405,-5.4,Central America & Caribbean
+Tunisia,Lower middle,0.394,-1.4,Africa
+Turkey,Upper middle,0.338,-4.3,Middle East
+Turkmenistan,Upper middle,0.425,-1.7,Asia
+Uganda,Low,0.58,-3.5,Africa
+Ukraine,Lower middle,0.367,2.3,Europe
+United Arab Emirates,Upper,0.378,7.6,Middle East
+United Kingdom,Upper,0.299,2.5,Europe
+United States,Upper,0.339,3,North America
+Uruguay,Upper middle,0.383,-0.9,South America
+Uzbekistan,Lower middle,0.388,-1.9,Asia
+Vanuatu,Low,0.569,-1.3,South Pacific
+Venezuela,Upper middle,0.347,-3.4,South America
+Vietnam,Lower middle,0.477,-0.3,Asia
+Yemen,Low,0.555,-0.2,Middle East
 Zambia,Low,0.542,0,Africa
 Zimbabwe,Low,0.543,-5,Africa
-Bangladesh,Low,0.543,-3,Asia
-Guinea,Low,0.543,0,Africa
-Kenya,Low,0.546,-0.2,Africa
-Malawi,Low,0.55,0,Africa
-Tanzania,Low,0.551,-0.4,Africa
-Rwanda,Low,0.555,-3.3,Africa
-Yemen,Low,0.555,-0.2,Middle East
-Haiti,Low,0.556,-1.9,Central America & Caribbean
-Sierra Leone,Low,0.557,-1.2,Africa
-Timor-Leste,Lower middle,0.558,-3.9,South Pacific
-Maldives,Upper middle,0.56,-12.7,Asia
-Ethiopia,Low,0.566,-0.2,Africa
-Mauritania,Low,0.567,-0.8,Africa
-Vanuatu,Low,0.569,-1.3,South Pacific
-Burkina Faso,Low,0.572,-0.6,Africa
-Tonga,Lower middle,0.573,-17.9,South Pacific
-Papua New Guinea,Lower middle,0.573,0,South Pacific
-Benin,Low,0.574,0.3,Africa
-Uganda,Low,0.58,-3.5,Africa
-Central African Republic,Low,0.58,0,Africa
-Burundi,Low,0.581,-0.8,Africa
-Madagascar,Low,0.584,0,Africa
-Democratic Republic of the Congo,Low,0.588,-0.9,Africa
-Afghanistan,Low,0.595,-0.1,Middle East
-Eritrea,Low,0.596,-11.6,Africa
-Mali,Low,0.609,-3.9,Africa
-Liberia,Low,0.617,-2.9,Africa
-Sudan,Lower middle,0.623,-0.4,Africa
-Guinea-Bissau,Low,0.626,-3.8,Africa
-Micronesia,Low,0.638,-20.9,South Pacific
-Chad,Low,0.651,-0.1,Africa
-Solomon Islands,Low,0.658,-1.6,South Pacific
-Niger,Low,0.67,-0.7,Africa
-Somalia,Low,0.678,-3.8,Africa

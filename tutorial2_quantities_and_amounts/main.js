@@ -1,64 +1,64 @@
-//data load
+// data load
 // reference for d3.autotype: https://github.com/d3/d3-dsv#autoType
-d3.csv("../data/Tutorial2.csv", d3.autoType).then(data => {
-    console.log(data)
+d3.csv("../../data/barchartdata.csv", d3.autoType).then(data => {
+  console.log(data);
 
-/**Constants*/
-//Constants help us reference the same values throughout our code
-const width = window.innerWidth*0.9,
-height = window.innerHeight/3,
-paddingInner = 0.2,
-margin = {top: 20, bottom: 40, left: 40, right: 40};
+  /** CONSTANTS */
+  // constants help us reference the same values throughout our code
+  const width = window.innerWidth,
+    height = window.innerHeight,
+    paddingInner = 0.5,
+    margin = { top: 20, bottom: 20, left: 20, right: 20 };
 
-/**Scales*/
-const xScale = d3
-.scaleBand()
-.domain(data.map(d => d.Country))
-.range([margin.left, width-margin.right])
-.paddingInner(paddingInner); 
+  /** SCALES */
+  // reference for d3.scales: https://github.com/d3/d3-scale
+  const xScale = d3
+    .scaleBand()
+    .domain(data.map(d => d.Region))
+    .range([margin.left, width - margin.right])
+    .paddingInner(paddingInner);
 
-const yScale = d3
-.scaleLinear()
-.domain([0, d3.max(data, d => d['% Emigrants'])])
-.range([height - margin.bottom, margin.top]);
+  const yScale = d3
+    .scaleLinear()
+    .domain([0, d3.max(data, d => d.Average2018CCD)])
+    .range([height - margin.bottom, margin.top]);
 
-// reference for d3.axis: https://github.com/d3/d3-axis
-const xAxis = d3.axisBottom(xScale).ticks(data.length);
+  // reference for d3.axis: https://github.com/d3/d3-axis
+  const xAxis = d3.axisBottom(xScale).ticks(data.length);
 
-/** MAIN CODE */
-const svg = d3
-.select("#d3-container")
-.append("svg")
-.attr("width", width)
-.attr("height", height);
+  /** MAIN CODE */
+  const svg = d3
+    .select("#d3-container")
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height);
 
-// append rects
-const rect = svg
-.selectAll("rect")
-.data(data)
-.join("rect")
-.attr("y", d => yScale(d['% Emigrants']))
-.attr("x", d => xScale(d.Country))
-.attr("width", xScale.bandwidth())
-.attr("height", d => height - margin.bottom - yScale(d['% Emigrants']))
-.attr("fill", "steelblue")
+  // append rects
+  const rect = svg
+    .selectAll("rect")
+    .data(data)
+    .join("rect")
+    .attr("y", d => yScale(d.Average2018CCD))
+    .attr("x", d => xScale(d.Region))
+    .attr("width", xScale.bandwidth())
+    .attr("height", d => height - margin.bottom - yScale(d.Average2018CCD))
+    .attr("fill", "green")
 
-// append text
-const text = svg
-.selectAll("text")
-.data(data)
-.join("text")
-.attr("class", "label")
+  // append text
+  const text = svg
+    .selectAll("text")
+    .data(data)
+    .join("text")
+    .attr("class", "label")
+    // this allows us to position the text in the center of the bar
+    .attr("x", d => xScale(d.Region) + (xScale.bandwidth() / 2))
+    .attr("y", d => yScale(d.Average2018CCD))
+    .text(d => d.Average2018CCD)
+    .attr("dy", "1em");
 
-// this allows us to position the text in the center of the bar
-.attr("x", d => xScale(d.Country) + (xScale.bandwidth() / 2))
-.attr("y", d => yScale(d['% Emigrants']))
-.text(d => d['% Emigrants'])
-.attr("dy", "1.25em");
-
-svg
-.append("g")
-.attr("class", "axis")
-.attr("transform", `translate(0, ${height - margin.bottom})`)
-.call(xAxis);
-});
+  svg
+    .append("g")
+    .attr("class", "axis")
+    .attr("transform", `translate(0, ${height - margin.bottom})`)
+    .call(xAxis);
+});;

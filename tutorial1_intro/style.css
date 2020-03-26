@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Helvetica Neue;
     padding: 2em;
   }
   
@@ -23,9 +23,13 @@ body {
   td {
     text-align: left;
     padding: 0 2.0em;
-    background-color: rgb(233, 125, 125);
+    background-color: green;
   }
   
   .high {
-    background-color: rgb(54, 69, 82);
+    background-color: red;
   }
+
+.high2 {
+backround-color: yellow;
+}

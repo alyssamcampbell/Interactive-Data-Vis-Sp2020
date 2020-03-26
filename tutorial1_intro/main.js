@@ -1,29 +1,41 @@
-d3.csv("../../data/DataEmigration.csv").then(data => {
-    console.log("data",data);
-const table = d3.select("#d3-table");
-const thead = table.append("thead");
-thead
-.append("tr")
-.append("th")
-.attr("colspan","10")
-.text("Emigration by Country");
-thead
-.append("tr")
-.selectAll("th")
-.data(data.columns)
-.join("td")
-.text(d => d);
-const rows = table
-.append("tbody")
-.selectAll("tr")
-.data(data)
-.join("tr");
-rows
-.selectAll("td")
-.data(d => Object.values(d))
-.join("td")
+// load in csv
+d3.csv("../../data/barchartdata.csv").then(data => {
+  // once the data loads, console log it
+  console.log("data", data);
 
-.attr("class", d => d > 200000 'high' : null)
-.text(d => d);
+  // select the `table` container in the HTML
+  const table = d3.select("#d3-table");
 
+  /** HEADER */
+  const thead = table.append("thead");
+  thead
+    .append("tr")
+    .append("th")
+    .attr("colspan", "7")
+    .text("2018 Displacements due to Natural Disaster, and Climate Change Vulnerability Score");
+
+  thead
+    .append("tr")
+    .selectAll("th")
+    .data(data.columns)
+    .join("td")
+    .text(d => d);
+
+  /** BODY */
+  // rows
+  const rows = table
+    .append("tbody")
+    .selectAll("tr")
+    .data(data)
+    .join("tr");
+
+  // cells
+  rows
+    .selectAll("td")
+    .data(d => Object.values(d))
+    .join("td")
+    // update the below logic to apply to your dataset
+    .attr("class", d => d.Average2018CCD > 100000 ? 'high' : null)
+    .attr("class", d => d.CCVS > 0.5 ? 'high2' : null)
+    .text(d => d);
 });

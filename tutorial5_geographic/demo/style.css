@@ -9,6 +9,16 @@ body {
   height: 50px;
 }
 
-path.state {
-  stroke: black;
+path.admin {
+  stroke: blue;
+}
+
+path.borders {
+stroke-width: 1;
+stroke: blue;
+}
+
+path.hover {
+fill: red;
+cursor: pointer;
 }

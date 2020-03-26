@@ -26,7 +26,7 @@ let state = {
 /**
  * LOAD DATA
  * */
-d3.csv("../data/NetMigrationClimateRisk.csv", d3.autoType).then(raw_data => {
+d3.csv("../../data/projectdata.csv", d3.autoType).then(raw_data => {
   console.log("raw_data", raw_data);
   state.data = raw_data;
   init();
@@ -74,7 +74,7 @@ function init() {
   // add in dropdown options from the unique values in the data
   selectElement
     .selectAll("option.one")
-    .data(["All", "Lower middle", "Upper middle","Low", "Upper"]) // unique data values-- (hint: to do this programmatically take a look `Sets`)
+    .data(["All", "Low Income","High Income","Lower Middle Income","Upper Middle Income"]) // unique data values-- (hint: to do this programmatically take a look `Sets`)
     .join("option")
     .attr("class","one")
     .attr("value", d => d)
@@ -82,7 +82,7 @@ function init() {
 
   selectElement1
     .selectAll("option.two")
-    .data(["All", "North America","Asia","Europe"]) // unique data values-- (hint: to do this programmatically take a look `Sets`)
+    .data(["All", "Western Asia","South Asia","East Asia","Southeast Asia","Central Asia","Oceania","North Africa","South America","Central America & Caribbean","North America","Sub-Saharan Africa","Northern Europe","Southern Europe","Western Europe","Eastern Europe"]) // unique data values-- (hint: to do this programmatically take a look `Sets`)
     .join("option")
     .attr("class","two")
     .attr("value", d => d)
@@ -148,12 +148,13 @@ function draw() {
           .attr("stroke", "lightgrey")
           .attr("opacity", 0.75)
           .attr("fill", d => {
-            if (d.IG === "Low") return "Red";
-            else if (d.IG === "Lower middle") return "Pink";
-            else if (d.IG === "Upper middle") return "Orange";
-            else return "yellow";
-            if (d.Region == "Asia") return "Pink";
-            else if (d.Region == "Europe") return "Blue";
+            if (d.IG === "Low Income") return "Red";
+            else if (d.IG === "Lower Middle Income") return "Orange";
+            else if (d.IG === "Upper Middle Income") return "Yellow";
+            else if (d.IG === "High Income") return "Green";
+            else return "orange";
+            if (d.Region == "South Asia") return "Pink";
+            else if (d.Region == "Oceania") return "Blue";
             else return "orange";
           })
           .attr("r", radius)

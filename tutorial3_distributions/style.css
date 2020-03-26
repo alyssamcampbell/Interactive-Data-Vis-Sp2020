@@ -1,6 +1,6 @@
 body {
   /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Helvetica Neue;
   padding: 1em 3em;
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 .dot:hover {
-  fill: grey;
+  fill: white;
 }
 
 .axis-label {

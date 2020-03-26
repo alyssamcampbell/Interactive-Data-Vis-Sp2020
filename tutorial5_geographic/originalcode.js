@@ -23,17 +23,19 @@ let state = {
   },
 };
 
+console.log(d3)
+
 /**
  * LOAD DATA
  * Using a Promise.all([]), we can load more than one dataset at a time
  * */
 Promise.all([
-  d3.json("../../data/worldmapgeojson.json"),
-  d3.csv("../../data/projectdata.csv", d3.autoType),
-]).then(([geojson, extremes]) => {
+  d3.json("../data/usState.json"),
+  d3.csv("../data/USHeatExtremes.csv", d3.autoType),
+]).then(([geojson,extremes]) => {
   state.geojson = geojson;
   state.extremes = extremes;
-  // console.log("state: ", state);
+  console.log("state: ", state);
   init();
 });
 
@@ -44,7 +46,7 @@ Promise.all([
 function init() {
   // our projection and path are only defined once, and we don't need to access them in the draw function,
   // so they can be locally scoped to init()
-  const projection = d3.geoMercator().fitSize([width, height], state.geojson);
+  const projection = d3.geoAlbersUsa().fitSize([width, height], state.geojson);
   const path = d3.geoPath().projection(projection);
 
   // create an svg element in our main `d3-container` element
@@ -54,42 +56,29 @@ function init() {
     .attr("width", width)
     .attr("height", height);
 
- svg
- .selectAll(".state")
- .enter(state.geojson.features)
- .append("path")
- .attr("d", path)
- .attr("class","borders")
-
- 
-
   svg
-    .selectAll(".state") // what is this referring to in the GeoJson file? I see no feature called 'state' in the geojson
+    .selectAll(".state")
     // all of the features of the geojson, meaning all the states as individuals
     .data(state.geojson.features)
     .join("path")
     .attr("d", path)
-    .attr("class", "admin") // how do i fill the countries to be red?
+    .attr("class", "state")
     .attr("fill", "transparent")
     .on("mouseover", d => {
       // when the mouse rolls over this feature, do this
       state.hover["state"] = d.properties.NAME;
       draw(); // re-call the draw function when we set a new hoveredState
-    })
-
-  svg 
-
+    });
 
   // EXAMPLE 1: going from Lat-Long => x, y
   // for how to position a dot
-  const Beirut = { latitude: 33.8938, longitude: 35.5018 };
+  const GradCenterCoord = { latitude: 40.7423, longitude: -73.9833 };
   svg
     .selectAll("circle")
-    .data([Beirut])
+    .data([GradCenterCoord])
     .join("circle")
-    .attr("r", 10)
-    .attr("fill", "red")
-    .attr("text","Beirut")
+    .attr("r", 20)
+    .attr("fill", "steelblue")
     .attr("transform", d => {
       const [x, y] = projection([d.longitude, d.latitude]);
       return `translate(${x}, ${y})`;

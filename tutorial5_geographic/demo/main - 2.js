@@ -1,3 +1,4 @@
+
 /**
  * CONSTANTS AND GLOBALS
  * */
@@ -79,6 +80,11 @@ function init() {
 
   svg 
 
+  const colorScale = d3.scaleLinear()
+  .domain([min,max])
+  .range(["#00806D", "#00BC4C", "#00F200", "#85FB44"].reverse());
+
+
 
   // EXAMPLE 1: going from Lat-Long => x, y
   // for how to position a dot
@@ -94,6 +100,8 @@ function init() {
       const [x, y] = projection([d.longitude, d.latitude]);
       return `translate(${x}, ${y})`;
     });
+
+.on("mouseover",function(d){})
 
   // EXAMPLE 2: going from x, y => lat-long
   // this triggers any movement at all while on the svg

@@ -1,14 +1,14 @@
 body {
-  /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 1em 3em;
+  margin: 0px;
+  overflow: hidden;
 }
 
-#tooltip {
-  display: block;
-  height: 50px;
+.sphere {
+  fill: #4242e4;
 }
 
-path.state {
+.admin {
+  fill: lightgreen;
   stroke: black;
+  stroke-opacity: 0.1;
 }
