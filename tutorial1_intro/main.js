@@ -1,5 +1,5 @@
 // load in csv
-d3.csv("../data/barchartdata.csv").then(data => {
+d3.csv("../../data/barchartdata.csv").then(data => {
   // once the data loads, console log it
   console.log("data", data);
 
