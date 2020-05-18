@@ -1,6 +1,6 @@
 // data load
 // reference for d3.autotype: https://github.com/d3/d3-dsv#autoType
-d3.csv("../../data/barchartdata.csv", d3.autoType).then(data => {
+d3.csv("../../data/barchartdata2.csv", d3.autoType).then(data => {
   console.log(data);
 
   /** CONSTANTS */

@@ -1,0 +1,13 @@
+body {
+  font-family: Quicksand, sans-serif;
+  padding: 1em 3em;
+}
+
+.label {
+  fill: white;
+  text-anchor: left;
+}
+
+.axis {
+  font-size: 12px;
+}

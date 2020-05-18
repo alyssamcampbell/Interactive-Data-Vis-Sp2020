@@ -1,0 +1,900 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-5Bs4ERl99/u2AUfpOZF2F0cdfNby7+Vd9teUshXUBPo5CjwECR7IAEf+weI/eCk5tF7K1h3O8hd8k0+P/HePeg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-e41b3811197df7fbb60147e939917617.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-21eX2YaEYIYa91WFh0mXaxJ3wLQxy2ldlpRbyuCueK3MvqHGEzmXYPkMQ4XBtASauZXKlL1hPxQQU9g28R03wQ==" rel="stylesheet" href="https://github.githubassets.com/assets/site-db5797d9868460861af755858749976b.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-whJUL2x2LCRTRARm7cOI7JLt7r+fON3F+LANQKvZarg3YuJttlZQnErXU2uAq06K5Io1Bcv6eWF64jH1L8Lbrg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-c212542f6c762c2453440466edc388ec.css" />
+    
+    
+    
+    
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>sweet-vis/unemployment.json at master · jamiely/sweet-vis · GitHub</title>
+    <meta name="description" content="Visualization Hotness. Contribute to jamiely/sweet-vis development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/187039?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="jamiely/sweet-vis" /><meta name="twitter:description" content="Visualization Hotness. Contribute to jamiely/sweet-vis development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/187039?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="jamiely/sweet-vis" /><meta property="og:url" content="https://github.com/jamiely/sweet-vis" /><meta property="og:description" content="Visualization Hotness. Contribute to jamiely/sweet-vis development by creating an account on GitHub." />
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+  
+
+  <meta name="request-id" content="C92B:736F:2EB456:46E947:5E7957B4" data-pjax-transient="true"/><meta name="html-safe-nonce" content="61bfdcf303a90cddcfd5b128976febb8ec8eeb68" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9qYW1pZWx5L3N3ZWV0LXZpcy9maW5kL21hc3RlciIsInJlcXVlc3RfaWQiOiJDOTJCOjczNkY6MkVCNDU2OjQ2RTk0Nzo1RTc5NTdCNCIsInZpc2l0b3JfaWQiOiIyODg2MTc4NTUzNzQzNDIyNDIyIiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="d74bcff9166e583090a48a98be9bfcd0338669092bc195f2f868293263f5d54c" data-pjax-transient="true"/>
+
+
+
+  <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+
+
+    <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES">
+
+  <meta http-equiv="x-pjax-version" content="fe3a25da4b2f648d9a3ae2e632757fd9">
+  
+
+      <link href="https://github.com/jamiely/sweet-vis/commits/master.atom" rel="alternate" title="Recent Commits to sweet-vis:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/jamiely/sweet-vis git https://github.com/jamiely/sweet-vis.git">
+
+  <meta name="octolytics-dimension-user_id" content="187039" /><meta name="octolytics-dimension-user_login" content="jamiely" /><meta name="octolytics-dimension-repository_id" content="3661696" /><meta name="octolytics-dimension-repository_nwo" content="jamiely/sweet-vis" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="3661696" /><meta name="octolytics-dimension-repository_network_root_nwo" content="jamiely/sweet-vis" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/jamiely/sweet-vis/blob/master/data/unemployment.json" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+      <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+
+    
+    
+
+
+
+        <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
+  <div class="container-lg d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+
+          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+            
+              <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+    <a class="Header-link" href="/jamiely">jamiely</a>
+    /
+    <a class="Header-link" href="/jamiely/sweet-vis">sweet-vis</a>
+
+
+          </div>
+
+        <div class="d-flex flex-items-center">
+            <a href="/join?source=header-repo"
+              class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/jamiely/sweet-vis/blob/master/data/unemployment.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7ceed3d7c29d45a4bf4b1b8cd00c414f981f7b8b81f47e7f65c95c1edb860f7f"
+              data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+              Sign&nbsp;up
+            </a>
+
+          <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+          </button>
+        </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a></li>
+                          <li class="edge-item-fix"><a href="/features/packages" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Packages">Packages</a></li>
+                      <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a></li>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex mb-3 mb-lg-0">
+            <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="3661696" data-scoped-search-url="/jamiely/sweet-vis/search" data-unscoped-search-url="/search" action="/jamiely/sweet-vis/search" accept-charset="UTF-8" method="get">
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="R7B2ydrP+m6O2CyG7ybtKalTpvW91HKdj08WHMGiStwF3t1KVVfBGPc06BA2W0oT8VRqumE8dslYOg3j6FMJxg==" />
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a href="/login?return_to=%2Fjamiely%2Fsweet-vis%2Fblob%2Fmaster%2Fdata%2Funemployment.json"
+          class="HeaderMenu-link no-underline mr-3"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/jamiely/sweet-vis/blob/master/data/unemployment.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4ab41611cd15579f7193aead2c39be40579ac7902f4367778ebf020c4df63b0a"
+          data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+          <a href="/join?source=header-repo&amp;source_repo=jamiely%2Fsweet-vis"
+            class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/jamiely/sweet-vis/blob/master/data/unemployment.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4ab41611cd15579f7193aead2c39be40579ac7902f4367778ebf020c4df63b0a"
+            data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+            Sign&nbsp;up
+          </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+    <div id="js-flash-container">
+
+</div>
+
+
+      
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main  >
+      
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <div class="pagehead repohead hx_repohead readability-menu bg-gray-light pb-0 pt-0 pt-lg-3">
+
+    <div class="d-flex container-lg mb-4 p-responsive d-none d-lg-flex">
+
+      <div class="flex-auto min-width-0 width-fit mr-3">
+        <h1 class="public  d-flex flex-wrap flex-items-center break-word float-none ">
+    <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author ml-1 flex-self-stretch" itemprop="author">
+    <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/jamiely/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/jamiely">jamiely</a>
+  </span>
+  <span class="path-divider flex-self-stretch">/</span>
+  <strong itemprop="name" class="mr-2 flex-self-stretch">
+    <a data-pjax="#js-repo-pjax-container" href="/jamiely/sweet-vis">sweet-vis</a>
+  </strong>
+  
+</h1>
+
+
+      </div>
+
+      <ul class="pagehead-actions flex-shrink-0 " >
+
+
+
+
+  <li>
+    
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/jamiely/sweet-vis/blob/master/data/unemployment.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="458a006ed7229c86bb71792f948e13de28b39c73c47d9ec9323979002ad2fccf" href="/login?return_to=%2Fjamiely%2Fsweet-vis">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+</a>    <a class="social-count" href="/jamiely/sweet-vis/watchers"
+       aria-label="1 user is watching this repository">
+      1
+    </a>
+
+  </li>
+
+  <li>
+    
+  </li>
+
+  <li>
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:3661696,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/jamiely/sweet-vis/blob/master/data/unemployment.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="241a8557399af013a55147042b1db87e8f52cc9321499f818d3fe39c561181b3" href="/login?return_to=%2Fjamiely%2Fsweet-vis">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+</a>
+    <a href="/jamiely/sweet-vis/network/members" class="social-count"
+       aria-label="0 users forked this repository">
+      0
+    </a>
+  </li>
+</ul>
+
+    </div>
+      
+<nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax clearfix container-lg p-responsive d-none d-lg-block"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+    aria-label="Repository"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /jamiely/sweet-vis" href="/jamiely/sweet-vis">
+      <div class="d-inline"><svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg></div>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /jamiely/sweet-vis/issues" href="/jamiely/sweet-vis/issues">
+        <div class="d-inline"><svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></div>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" data-skip-pjax="true" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /jamiely/sweet-vis/pulls" href="/jamiely/sweet-vis/pulls">
+      <div class="d-inline"><svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg></div>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="4">
+</a>  </span>
+
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="position-relative float-left">
+      <a data-hotkey="g w" data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /jamiely/sweet-vis/actions" href="/jamiely/sweet-vis/actions">
+        <div class="d-inline"><svg class="octicon octicon-play" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 8A7 7 0 110 8a7 7 0 0114 0zm-8.223 3.482l4.599-3.066a.5.5 0 000-.832L5.777 4.518A.5.5 0 005 4.934v6.132a.5.5 0 00.777.416z"/></svg></div>
+        Actions
+</a>
+    </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /jamiely/sweet-vis/projects" href="/jamiely/sweet-vis/projects">
+      <div class="d-inline"><svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"/></svg></div>
+      Projects
+      <span class="Counter">0</span>
+</a>
+
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy token_scanning code_scanning /jamiely/sweet-vis/security/advisories" href="/jamiely/sweet-vis/security/advisories">
+      <div class="d-inline"><svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"/></svg></div>
+      Security
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /jamiely/sweet-vis/pulse" href="/jamiely/sweet-vis/pulse">
+      <div class="d-inline"><svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg></div>
+      Insights
+</a>
+
+</nav>
+
+  <div class="reponav-wrapper reponav-small d-lg-none">
+  <nav class="reponav js-reponav text-center no-wrap"
+       itemscope
+       itemtype="http://schema.org/BreadcrumbList">
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /jamiely/sweet-vis" href="/jamiely/sweet-vis">
+        <span itemprop="name">Code</span>
+        <meta itemprop="position" content="1">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /jamiely/sweet-vis/issues" href="/jamiely/sweet-vis/issues">
+          <span itemprop="name">Issues</span>
+          <span class="Counter">0</span>
+          <meta itemprop="position" content="2">
+</a>      </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /jamiely/sweet-vis/pulls" href="/jamiely/sweet-vis/pulls">
+        <span itemprop="name">Pull requests</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="4">
+</a>    </span>
+
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /jamiely/sweet-vis/projects" href="/jamiely/sweet-vis/projects">
+          <span itemprop="name">Projects</span>
+          <span class="Counter">0</span>
+          <meta itemprop="position" content="5">
+</a>      </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /jamiely/sweet-vis/actions" href="/jamiely/sweet-vis/actions">
+          <span itemprop="name">Actions</span>
+          <meta itemprop="position" content="6">
+</a>      </span>
+
+
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy token_scanning code_scanning /jamiely/sweet-vis/security/advisories" href="/jamiely/sweet-vis/security/advisories">
+        <span itemprop="name">Security</span>
+        <meta itemprop="position" content="8">
+</a>
+      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /jamiely/sweet-vis/pulse" href="/jamiely/sweet-vis/pulse">
+        Pulse
+</a>
+
+  </nav>
+</div>
+
+
+  </div>
+
+  
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+<div class="container-lg clearfix new-discussion-timeline  p-responsive">
+  <div class="repository-content ">
+
+    
+    
+
+
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/jamiely/sweet-vis/blob/3a6e3f4b4d93434b985c49d469891193874e57c4/data/unemployment.json">Permalink</a>
+
+    <!-- blob contrib key: blob_contributors:v22:9c1e1040d9b36628bf0ad0dafff25e65 -->
+      <div class="signup-prompt-bg rounded-1 js-signup-prompt" data-prompt="signup" hidden>
+    <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+      <div class="position-relative">
+        <button type="button" class="position-absolute top-0 right-0 btn-link link-gray js-signup-prompt-button" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+          Dismiss
+        </button>
+        <h3 class="pt-2">Join GitHub today</h3>
+        <p class="col-6 mx-auto">GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.</p>
+        <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/jamiely/sweet-vis/blob/master/data/unemployment.json&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="19b0c01f4df2bd9951359933b310efea377cbed363d6a4277ac35e1d9c32a47c" href="/join?source=prompt-blob-show&amp;source_repo=jamiely%2Fsweet-vis">Sign up</a>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
+      <span class="d-flex flex-justify-between width-full width-md-auto">
+        
+<details class="details-reset details-overlay mr-2 " id="branch-select-menu">
+  <summary class="btn btn-sm css-truncate"
+           data-hotkey="w"
+           title="Switch branches or tags">
+    <i>Branch:</i>
+    <span class="css-truncate-target" data-menu-button>master</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/jamiely/sweet-vis/refs/master/data/unemployment.json?source_action=show&amp;source_controller=blob" preload>
+    <div class="SelectMenu-modal">
+      <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
+        <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
+      </include-fragment>
+    </div>
+  </details-menu>
+</details>
+
+        <div class="BtnGroup flex-shrink-0 d-md-none">
+          <a href="/jamiely/sweet-vis/find/master"
+                class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+                data-pjax
+                data-hotkey="t">
+            Find file
+          </a>
+          <clipboard-copy value="data/unemployment.json" class="btn btn-sm BtnGroup-item">
+            Copy path
+          </clipboard-copy>
+        </div>
+      </span>
+      <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
+          <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/jamiely/sweet-vis"><span>sweet-vis</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/jamiely/sweet-vis/tree/master/data"><span>data</span></a></span><span class="separator">/</span><strong class="final-path">unemployment.json</strong>
+      </h2>
+
+      <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
+        <a href="/jamiely/sweet-vis/find/master"
+              class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+              data-pjax
+              data-hotkey="t">
+          Find file
+        </a>
+        <clipboard-copy value="data/unemployment.json" class="btn btn-sm BtnGroup-item">
+          Copy path
+        </clipboard-copy>
+      </div>
+    </div>
+
+
+
+    <include-fragment src="/jamiely/sweet-vis/contributors/master/data/unemployment.json" class="Box Box--condensed commit-loader">
+      <div class="Box-body bg-blue-light f6">
+        Fetching contributors&hellip;
+      </div>
+
+      <div class="Box-body d-flex flex-items-center" >
+        <img alt="" class="loader-loading mr-2" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+        <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
+      </div>
+</include-fragment>
+
+
+
+
+
+    <div class="Box mt-3 position-relative
+      ">
+      
+<div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+
+      1 lines (1 sloc)
+      <span class="file-info-divider"></span>
+    38.8 KB
+  </div>
+
+  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/jamiely/sweet-vis/raw/master/data/unemployment.json">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/jamiely/sweet-vis/blame/master/data/unemployment.json">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/jamiely/sweet-vis/commits/master/data/unemployment.json">History</a>
+    </div>
+
+
+    <div>
+          <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
+             data-platforms="windows,mac"
+             href="https://desktop.github.com"
+             aria-label="Open this file in GitHub Desktop"
+             data-ga-click="Repository, open with desktop">
+              <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
+          </a>
+
+          <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+          </button>
+          <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+    </div>
+  </div>
+</div>
+
+
+
+      
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-json ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">{&quot;01001&quot;:9.7,&quot;01003&quot;:9.1,&quot;01005&quot;:13.4,&quot;01007&quot;:12.1,&quot;01009&quot;:9.9,&quot;01011&quot;:16.4,&quot;01013&quot;:16.7,&quot;01015&quot;:10.8,&quot;01017&quot;:18.6,&quot;01019&quot;:11.8,&quot;01021&quot;:9.9,&quot;01023&quot;:12.7,&quot;01025&quot;:17.0,&quot;01027&quot;:15.9,&quot;01029&quot;:10.4,&quot;01031&quot;:8.5,&quot;01033&quot;:11.4,&quot;01035&quot;:19.5,&quot;01037&quot;:14.0,&quot;01039&quot;:10.1,&quot;01041&quot;:9.7,&quot;01043&quot;:9.6,&quot;01045&quot;:9.3,&quot;01047&quot;:21.1,&quot;01049&quot;:14.3,&quot;01051&quot;:9.0,&quot;01053&quot;:12.9,&quot;01055&quot;:10.7,&quot;01057&quot;:12.8,&quot;01059&quot;:12.3,&quot;01061&quot;:10.0,&quot;01063&quot;:14.7,&quot;01065&quot;:12.7,&quot;01067&quot;:9.9,&quot;01069&quot;:8.9,&quot;01071&quot;:11.8,&quot;01073&quot;:10.7,&quot;01075&quot;:14.8,&quot;01077&quot;:10.5,&quot;01079&quot;:13.6,&quot;01081&quot;:8.6,&quot;01083&quot;:9.3,&quot;01085&quot;:18.5,&quot;01087&quot;:11.4,&quot;01089&quot;:7.5,&quot;01091&quot;:14.8,&quot;01093&quot;:15.2,&quot;01095&quot;:9.2,&quot;01097&quot;:11.1,&quot;01099&quot;:18.7,&quot;01101&quot;:10.2,&quot;01103&quot;:10.4,&quot;01105&quot;:19.8,&quot;01107&quot;:13.0,&quot;01109&quot;:8.7,&quot;01111&quot;:15.1,&quot;01113&quot;:12.6,&quot;01115&quot;:10.7,&quot;01117&quot;:7.6,&quot;01119&quot;:13.9,&quot;01121&quot;:13.6,&quot;01123&quot;:13.7,&quot;01125&quot;:9.0,&quot;01127&quot;:11.9,&quot;01129&quot;:15.1,&quot;01131&quot;:25.6,&quot;01133&quot;:17.5,&quot;02013&quot;:10.1,&quot;02016&quot;:8.4,&quot;02020&quot;:7.0,&quot;02050&quot;:14.8,&quot;02060&quot;:3.6,&quot;02068&quot;:3.4,&quot;02070&quot;:8.4,&quot;02090&quot;:6.9,&quot;02100&quot;:6.2,&quot;02110&quot;:5.7,&quot;02122&quot;:9.7,&quot;02130&quot;:6.1,&quot;02150&quot;:6.6,&quot;02164&quot;:5.9,&quot;02170&quot;:8.8,&quot;02180&quot;:12.1,&quot;02185&quot;:5.7,&quot;02188&quot;:13.2,&quot;02201&quot;:13.6,&quot;02220&quot;:5.9,&quot;02232&quot;:7.3,&quot;02240&quot;:8.1,&quot;02261&quot;:6.4,&quot;02270&quot;:20.4,&quot;02280&quot;:9.8,&quot;02282&quot;:6.3,&quot;02290&quot;:13.6,&quot;04001&quot;:14.8,&quot;04003&quot;:7.4,&quot;04005&quot;:7.7,&quot;04007&quot;:10.9,&quot;04009&quot;:14.4,&quot;04011&quot;:21.5,&quot;04012&quot;:8.9,&quot;04013&quot;:8.5,&quot;04015&quot;:10.2,&quot;04017&quot;:14.2,&quot;04019&quot;:8.4,&quot;04021&quot;:11.8,&quot;04023&quot;:17.2,&quot;04025&quot;:9.5,&quot;04027&quot;:24.2,&quot;05001&quot;:14.3,&quot;05003&quot;:9.1,&quot;05005&quot;:8.2,&quot;05007&quot;:5.3,&quot;05009&quot;:6.4,&quot;05011&quot;:7.8,&quot;05013&quot;:6.2,&quot;05015&quot;:4.3,&quot;05017&quot;:9.6,&quot;05019&quot;:6.3,&quot;05021&quot;:10.4,&quot;05023&quot;:5.9,&quot;05025&quot;:6.0,&quot;05027&quot;:8.1,&quot;05029&quot;:6.5,&quot;05031&quot;:5.9,&quot;05033&quot;:6.6,&quot;05035&quot;:9.9,&quot;05037&quot;:7.1,&quot;05039&quot;:7.6,&quot;05041&quot;:9.9,&quot;05043&quot;:9.1,&quot;05045&quot;:6.0,&quot;05047&quot;:5.9,&quot;05049&quot;:6.1,&quot;05051&quot;:6.6,&quot;05053&quot;:5.7,&quot;05055&quot;:8.2,&quot;05057&quot;:8.6,&quot;05059&quot;:7.3,&quot;05061&quot;:7.2,&quot;05063&quot;:7.8,&quot;05065&quot;:7.7,&quot;05067&quot;:9.2,&quot;05069&quot;:9.2,&quot;05071&quot;:6.1,&quot;05073&quot;:8.6,&quot;05075&quot;:7.9,&quot;05077&quot;:8.2,&quot;05079&quot;:8.2,&quot;05081&quot;:5.6,&quot;05083&quot;:7.7,&quot;05085&quot;:5.2,&quot;05087&quot;:5.3,&quot;05089&quot;:11.2,&quot;05091&quot;:4.5,&quot;05093&quot;:11.3,&quot;05095&quot;:7.4,&quot;05097&quot;:5.8,&quot;05099&quot;:8.7,&quot;05101&quot;:6.2,&quot;05103&quot;:7.1,&quot;05105&quot;:5.6,&quot;05107&quot;:8.8,&quot;05109&quot;:6.3,&quot;05111&quot;:7.5,&quot;05113&quot;:6.4,&quot;05115&quot;:6.2,&quot;05117&quot;:6.7,&quot;05119&quot;:6.0,&quot;05121&quot;:7.3,&quot;05123&quot;:9.4,&quot;05125&quot;:5.8,&quot;05127&quot;:6.3,&quot;05129&quot;:5.9,&quot;05131&quot;:6.2,&quot;05133&quot;:5.1,&quot;05135&quot;:7.8,&quot;05137&quot;:6.6,&quot;05139&quot;:9.5,&quot;05141&quot;:9.1,&quot;05143&quot;:5.0,&quot;05145&quot;:6.7,&quot;05147&quot;:9.1,&quot;05149&quot;:6.4,&quot;06001&quot;:11.3,&quot;06003&quot;:15.2,&quot;06005&quot;:12.1,&quot;06007&quot;:12.2,&quot;06009&quot;:14.3,&quot;06011&quot;:14.5,&quot;06013&quot;:11.2,&quot;06015&quot;:11.9,&quot;06017&quot;:11.2,&quot;06019&quot;:14.1,&quot;06021&quot;:13.8,&quot;06023&quot;:10.3,&quot;06025&quot;:30.1,&quot;06027&quot;:9.5,&quot;06029&quot;:13.9,&quot;06031&quot;:13.9,&quot;06033&quot;:14.7,&quot;06035&quot;:11.8,&quot;06037&quot;:12.7,&quot;06039&quot;:12.3,&quot;06041&quot;:8.0,&quot;06043&quot;:8.8,&quot;06045&quot;:10.1,&quot;06047&quot;:15.7,&quot;06049&quot;:11.1,&quot;06051&quot;:10.3,&quot;06053&quot;:10.0,&quot;06055&quot;:8.7,&quot;06057&quot;:10.9,&quot;06059&quot;:9.4,&quot;06061&quot;:11.3,&quot;06063&quot;:13.9,&quot;06065&quot;:14.7,&quot;06067&quot;:12.2,&quot;06069&quot;:12.5,&quot;06071&quot;:13.6,&quot;06073&quot;:10.2,&quot;06075&quot;:9.7,&quot;06077&quot;:15.5,&quot;06079&quot;:9.0,&quot;06081&quot;:9.0,&quot;06083&quot;:8.5,&quot;06085&quot;:11.8,&quot;06087&quot;:10.2,&quot;06089&quot;:14.7,&quot;06091&quot;:13.7,&quot;06093&quot;:13.5,&quot;06095&quot;:11.5,&quot;06097&quot;:9.9,&quot;06099&quot;:15.3,&quot;06101&quot;:15.1,&quot;06103&quot;:13.7,&quot;06105&quot;:15.9,&quot;06107&quot;:14.9,&quot;06109&quot;:12.7,&quot;06111&quot;:11.0,&quot;06113&quot;:10.9,&quot;06115&quot;:17.8,&quot;08001&quot;:8.1,&quot;08003&quot;:5.5,&quot;08005&quot;:6.9,&quot;08007&quot;:6.2,&quot;08009&quot;:3.4,&quot;08011&quot;:5.0,&quot;08013&quot;:5.5,&quot;08014&quot;:6.6,&quot;08015&quot;:5.1,&quot;08017&quot;:2.0,&quot;08019&quot;:7.0,&quot;08021&quot;:5.1,&quot;08023&quot;:8.4,&quot;08025&quot;:7.6,&quot;08027&quot;:5.2,&quot;08029&quot;:6.6,&quot;08031&quot;:7.7,&quot;08033&quot;:13.2,&quot;08035&quot;:5.9,&quot;08037&quot;:6.2,&quot;08039&quot;:6.0,&quot;08041&quot;:7.2,&quot;08043&quot;:7.7,&quot;08045&quot;:5.8,&quot;08047&quot;:6.0,&quot;08049&quot;:5.8,&quot;08051&quot;:4.4,&quot;08053&quot;:2.2,&quot;08055&quot;:7.2,&quot;08057&quot;:3.3,&quot;08059&quot;:6.7,&quot;08061&quot;:2.8,&quot;08063&quot;:2.9,&quot;08065&quot;:7.1,&quot;08067&quot;:4.7,&quot;08069&quot;:5.6,&quot;08071&quot;:7.0,&quot;08073&quot;:3.7,&quot;08075&quot;:4.6,&quot;08077&quot;:8.2,&quot;08079&quot;:5.3,&quot;08081&quot;:5.6,&quot;08083&quot;:6.3,&quot;08085&quot;:6.9,&quot;08087&quot;:4.9,&quot;08089&quot;:5.8,&quot;08091&quot;:4.1,&quot;08093&quot;:6.1,&quot;08095&quot;:2.6,&quot;08097&quot;:5.0,&quot;08099&quot;:5.0,&quot;08101&quot;:7.5,&quot;08103&quot;:3.9,&quot;08105&quot;:4.8,&quot;08107&quot;:6.0,&quot;08109&quot;:7.8,&quot;08111&quot;:5.3,&quot;08113&quot;:4.2,&quot;08115&quot;:3.3,&quot;08117&quot;:5.8,&quot;08119&quot;:6.7,&quot;08121&quot;:3.2,&quot;08123&quot;:7.5,&quot;08125&quot;:2.6,&quot;09001&quot;:7.8,&quot;09003&quot;:8.8,&quot;09005&quot;:7.9,&quot;09007&quot;:6.7,&quot;09009&quot;:8.9,&quot;09011&quot;:7.6,&quot;09013&quot;:6.7,&quot;09015&quot;:9.0,&quot;10001&quot;:7.9,&quot;10003&quot;:8.6,&quot;10005&quot;:7.3,&quot;11001&quot;:11.7,&quot;12001&quot;:7.1,&quot;12003&quot;:11.4,&quot;12005&quot;:8.9,&quot;12007&quot;:8.3,&quot;12009&quot;:11.1,&quot;12011&quot;:9.8,&quot;12013&quot;:8.2,&quot;12015&quot;:12.7,&quot;12017&quot;:12.1,&quot;12019&quot;:9.8,&quot;12021&quot;:13.1,&quot;12023&quot;:9.0,&quot;12027&quot;:11.7,&quot;12029&quot;:12.3,&quot;12031&quot;:11.2,&quot;12033&quot;:9.8,&quot;12035&quot;:16.2,&quot;12037&quot;:7.1,&quot;12039&quot;:9.6,&quot;12041&quot;:10.0,&quot;12043&quot;:10.0,&quot;12045&quot;:9.8,&quot;12047&quot;:11.3,&quot;12049&quot;:12.6,&quot;12051&quot;:16.8,&quot;12053&quot;:13.8,&quot;12055&quot;:11.6,&quot;12057&quot;:11.5,&quot;12059&quot;:7.2,&quot;12061&quot;:15.2,&quot;12063&quot;:7.2,&quot;12065&quot;:8.5,&quot;12067&quot;:7.2,&quot;12069&quot;:12.3,&quot;12071&quot;:13.9,&quot;12073&quot;:7.2,&quot;12075&quot;:12.1,&quot;12077&quot;:5.3,&quot;12079&quot;:11.7,&quot;12081&quot;:12.7,&quot;12083&quot;:13.3,&quot;12085&quot;:11.9,&quot;12086&quot;:11.3,&quot;12087&quot;:7.0,&quot;12089&quot;:10.7,&quot;12091&quot;:7.2,&quot;12093&quot;:13.3,&quot;12095&quot;:11.4,&quot;12097&quot;:12.8,&quot;12099&quot;:11.7,&quot;12101&quot;:12.5,&quot;12103&quot;:11.2,&quot;12105&quot;:12.7,&quot;12107&quot;:12.2,&quot;12109&quot;:9.0,&quot;12111&quot;:15.3,&quot;12113&quot;:9.4,&quot;12115&quot;:12.3,&quot;12117&quot;:10.6,&quot;12119&quot;:9.0,&quot;12121&quot;:9.8,&quot;12123&quot;:10.4,&quot;12125&quot;:8.4,&quot;12127&quot;:11.7,&quot;12129&quot;:7.2,&quot;12131&quot;:6.8,&quot;12133&quot;:9.6,&quot;13001&quot;:9.7,&quot;13003&quot;:12.6,&quot;13005&quot;:8.5,&quot;13007&quot;:9.1,&quot;13009&quot;:11.6,&quot;13011&quot;:6.7,&quot;13013&quot;:11.1,&quot;13015&quot;:13.3,&quot;13017&quot;:15.3,&quot;13019&quot;:12.4,&quot;13021&quot;:10.0,&quot;13023&quot;:9.7,&quot;13025&quot;:11.6,&quot;13027&quot;:8.7,&quot;13029&quot;:8.1,&quot;13031&quot;:9.0,&quot;13033&quot;:12.2,&quot;13035&quot;:12.7,&quot;13037&quot;:11.1,&quot;13039&quot;:9.1,&quot;13043&quot;:9.3,&quot;13045&quot;:10.8,&quot;13047&quot;:8.0,&quot;13049&quot;:10.6,&quot;13051&quot;:8.5,&quot;13053&quot;:14.6,&quot;13055&quot;:11.4,&quot;13057&quot;:9.5,&quot;13059&quot;:7.0,&quot;13061&quot;:8.2,&quot;13063&quot;:12.3,&quot;13065&quot;:11.0,&quot;13067&quot;:9.6,&quot;13069&quot;:16.8,&quot;13071&quot;:9.0,&quot;13073&quot;:7.0,&quot;13075&quot;:11.9,&quot;13077&quot;:10.0,&quot;13079&quot;:9.5,&quot;13081&quot;:12.1,&quot;13083&quot;:9.0,&quot;13085&quot;:10.1,&quot;13087&quot;:12.7,&quot;13089&quot;:10.7,&quot;13091&quot;:11.2,&quot;13093&quot;:10.1,&quot;13095&quot;:11.1,&quot;13097&quot;:11.4,&quot;13099&quot;:10.5,&quot;13101&quot;:6.7,&quot;13103&quot;:7.9,&quot;13105&quot;:12.2,&quot;13107&quot;:10.3,&quot;13109&quot;:8.9,&quot;13111&quot;:10.0,&quot;13113&quot;:8.4,&quot;13115&quot;:11.1,&quot;13117&quot;:8.6,&quot;13119&quot;:11.8,&quot;13121&quot;:10.7,&quot;13123&quot;:9.8,&quot;13125&quot;:11.1,&quot;13127&quot;:8.2,&quot;13129&quot;:13.1,&quot;13131&quot;:9.8,&quot;13133&quot;:11.1,&quot;13135&quot;:9.4,&quot;13137&quot;:9.4,&quot;13139&quot;:9.1,&quot;13141&quot;:17.7,&quot;13143&quot;:11.3,&quot;13145&quot;:7.2,&quot;13147&quot;:13.8,&quot;13149&quot;:12.4,&quot;13151&quot;:10.4,&quot;13153&quot;:7.3,&quot;13155&quot;:14.5,&quot;13157&quot;:10.9,&quot;13159&quot;:12.7,&quot;13161&quot;:13.5,&quot;13163&quot;:14.9,&quot;13165&quot;:19.6,&quot;13167&quot;:11.9,&quot;13169&quot;:8.6,&quot;13171&quot;:15.3,&quot;13173&quot;:8.4,&quot;13175&quot;:10.8,&quot;13177&quot;:7.9,&quot;13179&quot;:8.5,&quot;13181&quot;:10.3,&quot;13183&quot;:5.9,&quot;13185&quot;:8.2,&quot;13187&quot;:11.1,&quot;13189&quot;:12.1,&quot;13191&quot;:9.6,&quot;13193&quot;:13.0,&quot;13195&quot;:8.3,&quot;13197&quot;:9.9,&quot;13199&quot;:13.2,&quot;13201&quot;:8.7,&quot;13205&quot;:10.4,&quot;13207&quot;:10.2,&quot;13209&quot;:8.5,&quot;13211&quot;:9.8,&quot;13213&quot;:12.3,&quot;13215&quot;:9.2,&quot;13217&quot;:12.6,&quot;13219&quot;:6.2,&quot;13221&quot;:8.2,&quot;13223&quot;:10.7,&quot;13225&quot;:10.2,&quot;13227&quot;:10.8,&quot;13229&quot;:9.3,&quot;13231&quot;:11.8,&quot;13233&quot;:10.8,&quot;13235&quot;:7.1,&quot;13237&quot;:10.4,&quot;13239&quot;:11.8,&quot;13241&quot;:10.4,&quot;13243&quot;:13.0,&quot;13245&quot;:10.3,&quot;13247&quot;:12.0,&quot;13249&quot;:13.8,&quot;13251&quot;:13.7,&quot;13253&quot;:10.7,&quot;13255&quot;:15.4,&quot;13257&quot;:10.7,&quot;13259&quot;:10.7,&quot;13261&quot;:12.9,&quot;13263&quot;:9.8,&quot;13265&quot;:12.4,&quot;13267&quot;:8.7,&quot;13269&quot;:13.0,&quot;13271&quot;:16.2,&quot;13273&quot;:11.6,&quot;13275&quot;:9.3,&quot;13277&quot;:10.6,&quot;13279&quot;:9.8,&quot;13281&quot;:7.8,&quot;13283&quot;:11.9,&quot;13285&quot;:12.9,&quot;13287&quot;:13.0,&quot;13289&quot;:11.4,&quot;13291&quot;:9.0,&quot;13293&quot;:13.3,&quot;13295&quot;:9.6,&quot;13297&quot;:11.0,&quot;13299&quot;:10.7,&quot;13301&quot;:18.8,&quot;13303&quot;:14.0,&quot;13305&quot;:11.7,&quot;13307&quot;:9.1,&quot;13309&quot;:9.1,&quot;13311&quot;:9.5,&quot;13313&quot;:12.5,&quot;13315&quot;:11.6,&quot;13317&quot;:11.7,&quot;13319&quot;:10.7,&quot;13321&quot;:10.8,&quot;15001&quot;:10.8,&quot;15003&quot;:6.3,&quot;15007&quot;:9.6,&quot;15009&quot;:9.7,&quot;16001&quot;:9.1,&quot;16003&quot;:12.1,&quot;16005&quot;:8.4,&quot;16007&quot;:5.2,&quot;16009&quot;:12.1,&quot;16011&quot;:5.9,&quot;16013&quot;:7.7,&quot;16015&quot;:7.1,&quot;16017&quot;:9.5,&quot;16019&quot;:5.9,&quot;16021&quot;:12.0,&quot;16023&quot;:4.5,&quot;16025&quot;:11.0,&quot;16027&quot;:10.6,&quot;16029&quot;:6.0,&quot;16031&quot;:5.9,&quot;16033&quot;:4.1,&quot;16035&quot;:11.8,&quot;16037&quot;:3.9,&quot;16039&quot;:7.7,&quot;16041&quot;:4.0,&quot;16043&quot;:6.6,&quot;16045&quot;:10.4,&quot;16047&quot;:5.5,&quot;16049&quot;:8.3,&quot;16051&quot;:6.8,&quot;16053&quot;:5.9,&quot;16055&quot;:8.7,&quot;16057&quot;:5.9,&quot;16059&quot;:6.5,&quot;16061&quot;:5.2,&quot;16063&quot;:9.7,&quot;16065&quot;:5.5,&quot;16067&quot;:6.0,&quot;16069&quot;:5.5,&quot;16071&quot;:5.0,&quot;16073&quot;:4.1,&quot;16075&quot;:7.7,&quot;16077&quot;:6.7,&quot;16079&quot;:11.9,&quot;16081&quot;:5.1,&quot;16083&quot;:6.8,&quot;16085&quot;:11.4,&quot;16087&quot;:8.4,&quot;17001&quot;:7.9,&quot;17003&quot;:11.2,&quot;17005&quot;:9.3,&quot;17007&quot;:13.8,&quot;17009&quot;:4.5,&quot;17011&quot;:10.9,&quot;17013&quot;:9.5,&quot;17015&quot;:10.5,&quot;17017&quot;:7.3,&quot;17019&quot;:8.2,&quot;17021&quot;:9.9,&quot;17023&quot;:13.1,&quot;17025&quot;:11.4,&quot;17027&quot;:7.9,&quot;17029&quot;:9.1,&quot;17031&quot;:10.6,&quot;17033&quot;:10.5,&quot;17035&quot;:9.7,&quot;17037&quot;:9.2,&quot;17039&quot;:9.2,&quot;17041&quot;:9.1,&quot;17043&quot;:8.6,&quot;17045&quot;:10.7,&quot;17047&quot;:9.1,&quot;17049&quot;:7.9,&quot;17051&quot;:11.6,&quot;17053&quot;:10.4,&quot;17055&quot;:14.6,&quot;17057&quot;:12.5,&quot;17059&quot;:11.0,&quot;17061&quot;:9.2,&quot;17063&quot;:11.4,&quot;17065&quot;:9.3,&quot;17067&quot;:11.3,&quot;17069&quot;:12.8,&quot;17071&quot;:9.4,&quot;17073&quot;:8.6,&quot;17075&quot;:10.0,&quot;17077&quot;:7.3,&quot;17079&quot;:9.5,&quot;17081&quot;:10.0,&quot;17083&quot;:8.8,&quot;17085&quot;:8.1,&quot;17087&quot;:10.4,&quot;17089&quot;:9.9,&quot;17091&quot;:12.8,&quot;17093&quot;:10.4,&quot;17095&quot;:10.3,&quot;17097&quot;:10.0,&quot;17099&quot;:12.4,&quot;17101&quot;:10.3,&quot;17103&quot;:10.9,&quot;17105&quot;:10.7,&quot;17107&quot;:9.5,&quot;17109&quot;:7.7,&quot;17111&quot;:9.3,&quot;17113&quot;:7.4,&quot;17115&quot;:12.4,&quot;17117&quot;:10.5,&quot;17119&quot;:9.7,&quot;17121&quot;:11.9,&quot;17123&quot;:10.6,&quot;17125&quot;:14.3,&quot;17127&quot;:8.0,&quot;17129&quot;:7.8,&quot;17131&quot;:8.9,&quot;17133&quot;:7.8,&quot;17135&quot;:12.2,&quot;17137&quot;:8.4,&quot;17139&quot;:9.0,&quot;17141&quot;:11.9,&quot;17143&quot;:11.6,&quot;17145&quot;:11.9,&quot;17147&quot;:8.2,&quot;17149&quot;:8.1,&quot;17151&quot;:10.6,&quot;17153&quot;:11.9,&quot;17155&quot;:15.0,&quot;17157&quot;:9.4,&quot;17159&quot;:10.5,&quot;17161&quot;:9.5,&quot;17163&quot;:10.8,&quot;17165&quot;:11.2,&quot;17167&quot;:7.9,&quot;17169&quot;:6.6,&quot;17171&quot;:7.5,&quot;17173&quot;:10.0,&quot;17175&quot;:9.8,&quot;17177&quot;:11.6,&quot;17179&quot;:11.3,&quot;17181&quot;:10.8,&quot;17183&quot;:12.0,&quot;17185&quot;:10.3,&quot;17187&quot;:8.0,&quot;17189&quot;:8.0,&quot;17191&quot;:9.7,&quot;17193&quot;:8.6,&quot;17195&quot;:10.6,&quot;17197&quot;:9.9,&quot;17199&quot;:9.6,&quot;17201&quot;:15.5,&quot;17203&quot;:8.6,&quot;18001&quot;:13.4,&quot;18003&quot;:9.3,&quot;18005&quot;:8.8,&quot;18007&quot;:9.0,&quot;18009&quot;:13.3,&quot;18011&quot;:6.8,&quot;18013&quot;:7.8,&quot;18015&quot;:9.9,&quot;18017&quot;:10.5,&quot;18019&quot;:8.2,&quot;18021&quot;:9.6,&quot;18023&quot;:9.2,&quot;18025&quot;:10.5,&quot;18027&quot;:4.9,&quot;18029&quot;:8.9,&quot;18031&quot;:11.0,&quot;18033&quot;:12.4,&quot;18035&quot;:9.5,&quot;18037&quot;:8.0,&quot;18039&quot;:15.0,&quot;18041&quot;:13.4,&quot;18043&quot;:7.4,&quot;18045&quot;:11.6,&quot;18047&quot;:8.9,&quot;18049&quot;:11.2,&quot;18051&quot;:6.7,&quot;18053&quot;:11.1,&quot;18055&quot;:7.1,&quot;18057&quot;:6.1,&quot;18059&quot;:7.8,&quot;18061&quot;:7.8,&quot;18063&quot;:6.8,&quot;18065&quot;:12.0,&quot;18067&quot;:11.9,&quot;18069&quot;:11.1,&quot;18071&quot;:10.1,&quot;18073&quot;:8.7,&quot;18075&quot;:10.4,&quot;18077&quot;:9.5,&quot;18079&quot;:12.2,&quot;18081&quot;:7.4,&quot;18083&quot;:6.6,&quot;18085&quot;:11.0,&quot;18087&quot;:14.0,&quot;18089&quot;:9.4,&quot;18091&quot;:10.7,&quot;18093&quot;:11.1,&quot;18095&quot;:9.7,&quot;18097&quot;:8.4,&quot;18099&quot;:11.4,&quot;18101&quot;:6.3,&quot;18103&quot;:12.3,&quot;18105&quot;:5.6,&quot;18107&quot;:9.7,&quot;18109&quot;:7.5,&quot;18111&quot;:8.9,&quot;18113&quot;:14.5,&quot;18115&quot;:10.5,&quot;18117&quot;:9.2,&quot;18119&quot;:8.1,&quot;18121&quot;:8.3,&quot;18123&quot;:8.8,&quot;18125&quot;:8.7,&quot;18127&quot;:8.2,&quot;18129&quot;:7.0,&quot;18131&quot;:9.5,&quot;18133&quot;:8.2,&quot;18135&quot;:10.2,&quot;18137&quot;:9.1,&quot;18139&quot;:9.5,&quot;18141&quot;:10.4,&quot;18143&quot;:12.1,&quot;18145&quot;:8.8,&quot;18147&quot;:8.1,&quot;18149&quot;:12.6,&quot;18151&quot;:12.9,&quot;18153&quot;:9.3,&quot;18155&quot;:7.0,&quot;18157&quot;:8.5,&quot;18159&quot;:10.3,&quot;18161&quot;:8.6,&quot;18163&quot;:7.4,&quot;18165&quot;:10.8,&quot;18167&quot;:9.2,&quot;18169&quot;:12.0,&quot;18171&quot;:10.1,&quot;18173&quot;:6.9,&quot;18175&quot;:11.2,&quot;18177&quot;:10.9,&quot;18179&quot;:9.1,&quot;18181&quot;:9.4,&quot;18183&quot;:11.6,&quot;19001&quot;:5.1,&quot;19003&quot;:6.0,&quot;19005&quot;:9.3,&quot;19007&quot;:9.4,&quot;19009&quot;:5.1,&quot;19011&quot;:5.8,&quot;19013&quot;:5.8,&quot;19015&quot;:5.9,&quot;19017&quot;:5.0,&quot;19019&quot;:5.9,&quot;19021&quot;:5.5,&quot;19023&quot;:6.0,&quot;19025&quot;:5.4,&quot;19027&quot;:4.2,&quot;19029&quot;:5.8,&quot;19031&quot;:5.7,&quot;19033&quot;:6.7,&quot;19035&quot;:4.4,&quot;19037&quot;:8.4,&quot;19039&quot;:7.4,&quot;19041&quot;:6.2,&quot;19043&quot;:7.9,&quot;19045&quot;:7.7,&quot;19047&quot;:4.7,&quot;19049&quot;:5.1,&quot;19051&quot;:10.1,&quot;19053&quot;:6.6,&quot;19055&quot;:6.8,&quot;19057&quot;:8.2,&quot;19059&quot;:5.8,&quot;19061&quot;:6.0,&quot;19063&quot;:8.6,&quot;19065&quot;:8.5,&quot;19067&quot;:8.7,&quot;19069&quot;:7.0,&quot;19071&quot;:7.0,&quot;19073&quot;:6.3,&quot;19075&quot;:4.9,&quot;19077&quot;:5.6,&quot;19079&quot;:8.1,&quot;19081&quot;:9.0,&quot;19083&quot;:6.0,&quot;19085&quot;:4.4,&quot;19087&quot;:8.8,&quot;19089&quot;:8.6,&quot;19091&quot;:6.2,&quot;19093&quot;:5.8,&quot;19095&quot;:5.8,&quot;19097&quot;:7.7,&quot;19099&quot;:8.1,&quot;19101&quot;:8.7,&quot;19103&quot;:4.4,&quot;19105&quot;:6.3,&quot;19107&quot;:7.1,&quot;19109&quot;:5.6,&quot;19111&quot;:11.4,&quot;19113&quot;:6.5,&quot;19115&quot;:8.0,&quot;19117&quot;:6.0,&quot;19119&quot;:4.3,&quot;19121&quot;:5.8,&quot;19123&quot;:7.7,&quot;19125&quot;:5.7,&quot;19127&quot;:7.0,&quot;19129&quot;:4.3,&quot;19131&quot;:5.4,&quot;19133&quot;:7.1,&quot;19135&quot;:7.5,&quot;19137&quot;:8.7,&quot;19139&quot;:8.9,&quot;19141&quot;:5.3,&quot;19143&quot;:5.4,&quot;19145&quot;:8.7,&quot;19147&quot;:7.0,&quot;19149&quot;:4.7,&quot;19151&quot;:5.2,&quot;19153&quot;:6.2,&quot;19155&quot;:4.8,&quot;19157&quot;:6.6,&quot;19159&quot;:5.3,&quot;19161&quot;:4.7,&quot;19163&quot;:7.3,&quot;19165&quot;:3.9,&quot;19167&quot;:4.1,&quot;19169&quot;:4.5,&quot;19171&quot;:6.6,&quot;19173&quot;:6.7,&quot;19175&quot;:6.0,&quot;19177&quot;:8.0,&quot;19179&quot;:9.4,&quot;19181&quot;:5.8,&quot;19183&quot;:4.9,&quot;19185&quot;:6.4,&quot;19187&quot;:8.3,&quot;19189&quot;:9.1,&quot;19191&quot;:5.8,&quot;19193&quot;:5.7,&quot;19195&quot;:6.3,&quot;19197&quot;:8.4,&quot;20001&quot;:7.8,&quot;20003&quot;:7.9,&quot;20005&quot;:8.1,&quot;20007&quot;:5.1,&quot;20009&quot;:6.1,&quot;20011&quot;:6.5,&quot;20013&quot;:5.6,&quot;20015&quot;:7.2,&quot;20017&quot;:5.4,&quot;20019&quot;:8.4,&quot;20021&quot;:8.5,&quot;20023&quot;:3.7,&quot;20025&quot;:3.7,&quot;20027&quot;:4.2,&quot;20029&quot;:4.5,&quot;20031&quot;:5.7,&quot;20033&quot;:3.8,&quot;20035&quot;:7.6,&quot;20037&quot;:8.1,&quot;20039&quot;:3.3,&quot;20041&quot;:5.1,&quot;20043&quot;:8.8,&quot;20045&quot;:5.4,&quot;20047&quot;:4.4,&quot;20049&quot;:11.0,&quot;20051&quot;:3.6,&quot;20053&quot;:4.1,&quot;20055&quot;:4.3,&quot;20057&quot;:3.8,&quot;20059&quot;:7.1,&quot;20061&quot;:6.9,&quot;20063&quot;:3.5,&quot;20065&quot;:4.3,&quot;20067&quot;:4.2,&quot;20069&quot;:3.4,&quot;20071&quot;:4.5,&quot;20073&quot;:7.2,&quot;20075&quot;:4.2,&quot;20077&quot;:5.6,&quot;20079&quot;:7.4,&quot;20081&quot;:3.7,&quot;20083&quot;:4.2,&quot;20085&quot;:6.0,&quot;20087&quot;:6.7,&quot;20089&quot;:4.9,&quot;20091&quot;:6.8,&quot;20093&quot;:4.5,&quot;20095&quot;:6.3,&quot;20097&quot;:4.9,&quot;20099&quot;:7.8,&quot;20101&quot;:3.4,&quot;20103&quot;:7.3,&quot;20105&quot;:6.3,&quot;20107&quot;:8.4,&quot;20109&quot;:4.0,&quot;20111&quot;:5.7,&quot;20113&quot;:5.1,&quot;20115&quot;:6.3,&quot;20117&quot;:4.9,&quot;20119&quot;:4.2,&quot;20121&quot;:6.8,&quot;20123&quot;:5.8,&quot;20125&quot;:9.4,&quot;20127&quot;:6.8,&quot;20129&quot;:4.7,&quot;20131&quot;:4.3,&quot;20133&quot;:7.0,&quot;20135&quot;:4.0,&quot;20137&quot;:4.7,&quot;20139&quot;:7.0,&quot;20141&quot;:4.4,&quot;20143&quot;:6.5,&quot;20145&quot;:3.7,&quot;20147&quot;:6.0,&quot;20149&quot;:4.1,&quot;20151&quot;:5.3,&quot;20153&quot;:3.5,&quot;20155&quot;:6.3,&quot;20157&quot;:4.1,&quot;20159&quot;:5.1,&quot;20161&quot;:3.2,&quot;20163&quot;:7.3,&quot;20165&quot;:5.9,&quot;20167&quot;:4.6,&quot;20169&quot;:5.7,&quot;20171&quot;:3.2,&quot;20173&quot;:8.8,&quot;20175&quot;:5.1,&quot;20177&quot;:6.4,&quot;20179&quot;:3.2,&quot;20181&quot;:3.9,&quot;20183&quot;:4.3,&quot;20185&quot;:6.1,&quot;20187&quot;:3.4,&quot;20189&quot;:5.3,&quot;20191&quot;:9.0,&quot;20193&quot;:3.6,&quot;20195&quot;:3.6,&quot;20197&quot;:6.6,&quot;20199&quot;:5.9,&quot;20201&quot;:4.5,&quot;20203&quot;:3.5,&quot;20205&quot;:10.2,&quot;20207&quot;:8.9,&quot;20209&quot;:10.4,&quot;21001&quot;:10.1,&quot;21003&quot;:14.3,&quot;21005&quot;:10.9,&quot;21007&quot;:10.2,&quot;21009&quot;:11.6,&quot;21011&quot;:13.3,&quot;21013&quot;:12.5,&quot;21015&quot;:9.2,&quot;21017&quot;:9.1,&quot;21019&quot;:8.3,&quot;21021&quot;:11.0,&quot;21023&quot;:10.2,&quot;21025&quot;:10.0,&quot;21027&quot;:12.1,&quot;21029&quot;:10.8,&quot;21031&quot;:13.7,&quot;21033&quot;:10.9,&quot;21035&quot;:8.0,&quot;21037&quot;:10.7,&quot;21039&quot;:9.1,&quot;21041&quot;:12.4,&quot;21043&quot;:13.5,&quot;21045&quot;:10.2,&quot;21047&quot;:12.9,&quot;21049&quot;:11.4,&quot;21051&quot;:13.5,&quot;21053&quot;:9.0,&quot;21055&quot;:10.8,&quot;21057&quot;:13.0,&quot;21059&quot;:9.1,&quot;21061&quot;:12.8,&quot;21063&quot;:12.6,&quot;21065&quot;:12.9,&quot;21067&quot;:7.7,&quot;21069&quot;:12.2,&quot;21071&quot;:12.4,&quot;21073&quot;:9.1,&quot;21075&quot;:14.4,&quot;21077&quot;:11.1,&quot;21079&quot;:11.9,&quot;21081&quot;:10.1,&quot;21083&quot;:10.3,&quot;21085&quot;:16.4,&quot;21087&quot;:12.4,&quot;21089&quot;:9.8,&quot;21091&quot;:13.6,&quot;21093&quot;:10.0,&quot;21095&quot;:12.5,&quot;21097&quot;:11.1,&quot;21099&quot;:10.6,&quot;21101&quot;:9.8,&quot;21103&quot;:10.7,&quot;21105&quot;:9.2,&quot;21107&quot;:9.1,&quot;21109&quot;:17.5,&quot;21111&quot;:10.5,&quot;21113&quot;:8.8,&quot;21115&quot;:11.1,&quot;21117&quot;:10.0,&quot;21119&quot;:12.0,&quot;21121&quot;:11.5,&quot;21123&quot;:10.7,&quot;21125&quot;:10.1,&quot;21127&quot;:13.1,&quot;21129&quot;:12.3,&quot;21131&quot;:13.7,&quot;21133&quot;:12.0,&quot;21135&quot;:15.1,&quot;21137&quot;:12.1,&quot;21139&quot;:9.8,&quot;21141&quot;:10.4,&quot;21143&quot;:12.2,&quot;21145&quot;:9.1,&quot;21147&quot;:13.3,&quot;21149&quot;:10.6,&quot;21151&quot;:8.7,&quot;21153&quot;:21.4,&quot;21155&quot;:12.9,&quot;21157&quot;:10.7,&quot;21159&quot;:12.4,&quot;21161&quot;:11.1,&quot;21163&quot;:12.4,&quot;21165&quot;:14.7,&quot;21167&quot;:10.8,&quot;21169&quot;:15.8,&quot;21171&quot;:14.0,&quot;21173&quot;:12.6,&quot;21175&quot;:14.5,&quot;21177&quot;:10.7,&quot;21179&quot;:11.5,&quot;21181&quot;:12.5,&quot;21183&quot;:9.4,&quot;21185&quot;:8.6,&quot;21187&quot;:10.1,&quot;21189&quot;:11.2,&quot;21191&quot;:11.7,&quot;21193&quot;:12.5,&quot;21195&quot;:10.7,&quot;21197&quot;:16.7,&quot;21199&quot;:10.0,&quot;21201&quot;:9.6,&quot;21203&quot;:12.8,&quot;21205&quot;:8.6,&quot;21207&quot;:10.8,&quot;21209&quot;:9.1,&quot;21211&quot;:9.6,&quot;21213&quot;:11.8,&quot;21215&quot;:10.2,&quot;21217&quot;:10.2,&quot;21219&quot;:12.6,&quot;21221&quot;:16.0,&quot;21223&quot;:10.7,&quot;21225&quot;:10.8,&quot;21227&quot;:9.2,&quot;21229&quot;:12.7,&quot;21231&quot;:13.6,&quot;21233&quot;:8.8,&quot;21235&quot;:11.4,&quot;21237&quot;:13.9,&quot;21239&quot;:8.3,&quot;22001&quot;:7.1,&quot;22003&quot;:10.1,&quot;22005&quot;:6.7,&quot;22007&quot;:8.8,&quot;22009&quot;:8.1,&quot;22011&quot;:8.0,&quot;22013&quot;:10.5,&quot;22015&quot;:6.4,&quot;22017&quot;:7.9,&quot;22019&quot;:7.2,&quot;22021&quot;:10.7,&quot;22023&quot;:5.6,&quot;22025&quot;:10.3,&quot;22027&quot;:10.3,&quot;22029&quot;:11.3,&quot;22031&quot;:9.0,&quot;22033&quot;:6.8,&quot;22035&quot;:14.2,&quot;22037&quot;:8.0,&quot;22039&quot;:8.6,&quot;22041&quot;:11.3,&quot;22043&quot;:8.2,&quot;22045&quot;:7.6,&quot;22047&quot;:10.4,&quot;22049&quot;:7.8,&quot;22051&quot;:6.5,&quot;22053&quot;:6.4,&quot;22055&quot;:5.9,&quot;22057&quot;:4.9,&quot;22059&quot;:7.3,&quot;22061&quot;:7.8,&quot;22063&quot;:7.0,&quot;22065&quot;:9.3,&quot;22067&quot;:15.1,&quot;22069&quot;:8.4,&quot;22071&quot;:10.7,&quot;22073&quot;:7.6,&quot;22075&quot;:6.2,&quot;22077&quot;:7.9,&quot;22079&quot;:6.9,&quot;22081&quot;:9.6,&quot;22083&quot;:10.7,&quot;22085&quot;:8.1,&quot;22087&quot;:10.5,&quot;22089&quot;:6.5,&quot;22091&quot;:11.8,&quot;22093&quot;:10.0,&quot;22095&quot;:8.4,&quot;22097&quot;:8.3,&quot;22099&quot;:7.5,&quot;22101&quot;:8.6,&quot;22103&quot;:5.2,&quot;22105&quot;:8.1,&quot;22107&quot;:13.5,&quot;22109&quot;:5.2,&quot;22111&quot;:12.2,&quot;22113&quot;:7.2,&quot;22115&quot;:6.7,&quot;22117&quot;:9.6,&quot;22119&quot;:9.1,&quot;22121&quot;:7.4,&quot;22123&quot;:17.0,&quot;22125&quot;:8.2,&quot;22127&quot;:9.1,&quot;23001&quot;:8.4,&quot;23003&quot;:9.3,&quot;23005&quot;:6.5,&quot;23007&quot;:11.2,&quot;23009&quot;:6.8,&quot;23011&quot;:7.3,&quot;23013&quot;:7.0,&quot;23015&quot;:6.3,&quot;23017&quot;:10.9,&quot;23019&quot;:8.0,&quot;23021&quot;:11.6,&quot;23023&quot;:6.7,&quot;23025&quot;:10.7,&quot;23027&quot;:7.8,&quot;23029&quot;:10.4,&quot;23031&quot;:7.4,&quot;24001&quot;:7.5,&quot;24003&quot;:6.5,&quot;24005&quot;:7.7,&quot;24009&quot;:5.9,&quot;24011&quot;:8.8,&quot;24013&quot;:6.0,&quot;24015&quot;:8.6,&quot;24017&quot;:5.9,&quot;24019&quot;:10.9,&quot;24021&quot;:5.9,&quot;24023&quot;:6.9,&quot;24025&quot;:7.1,&quot;24027&quot;:5.4,&quot;24029&quot;:7.1,&quot;24031&quot;:5.3,&quot;24033&quot;:7.3,&quot;24035&quot;:6.6,&quot;24037&quot;:5.6,&quot;24039&quot;:9.5,&quot;24041&quot;:6.8,&quot;24043&quot;:9.4,&quot;24045&quot;:7.7,&quot;24047&quot;:7.5,&quot;24510&quot;:10.6,&quot;25001&quot;:8.0,&quot;25003&quot;:8.4,&quot;25005&quot;:11.8,&quot;25007&quot;:5.0,&quot;25009&quot;:10.1,&quot;25011&quot;:8.7,&quot;25013&quot;:10.5,&quot;25015&quot;:7.3,&quot;25017&quot;:8.1,&quot;25019&quot;:5.0,&quot;25021&quot;:8.5,&quot;25023&quot;:9.7,&quot;25025&quot;:9.3,&quot;25027&quot;:10.1,&quot;26001&quot;:16.7,&quot;26003&quot;:12.0,&quot;26005&quot;:13.2,&quot;26007&quot;:13.9,&quot;26009&quot;:14.7,&quot;26011&quot;:15.8,&quot;26013&quot;:24.3,&quot;26015&quot;:10.5,&quot;26017&quot;:12.3,&quot;26019&quot;:12.0,&quot;26021&quot;:13.5,&quot;26023&quot;:14.0,&quot;26025&quot;:12.4,&quot;26027&quot;:11.4,&quot;26029&quot;:13.9,&quot;26031&quot;:8.6,&quot;26033&quot;:11.6,&quot;26035&quot;:16.8,&quot;26037&quot;:9.4,&quot;26039&quot;:13.7,&quot;26041&quot;:11.5,&quot;26043&quot;:12.0,&quot;26045&quot;:10.3,&quot;26047&quot;:12.2,&quot;26049&quot;:15.8,&quot;26051&quot;:16.5,&quot;26053&quot;:13.3,&quot;26055&quot;:12.0,&quot;26057&quot;:13.7,&quot;26059&quot;:17.2,&quot;26061&quot;:10.2,&quot;26063&quot;:14.8,&quot;26065&quot;:11.6,&quot;26067&quot;:13.4,&quot;26069&quot;:16.4,&quot;26071&quot;:11.7,&quot;26073&quot;:8.5,&quot;26075&quot;:14.9,&quot;26077&quot;:11.2,&quot;26079&quot;:14.3,&quot;26081&quot;:11.7,&quot;26083&quot;:11.9,&quot;26085&quot;:17.5,&quot;26087&quot;:18.1,&quot;26089&quot;:9.0,&quot;26091&quot;:16.1,&quot;26093&quot;:13.6,&quot;26095&quot;:13.2,&quot;26097&quot;:6.1,&quot;26099&quot;:18.1,&quot;26101&quot;:12.6,&quot;26103&quot;:10.1,&quot;26105&quot;:12.9,&quot;26107&quot;:13.0,&quot;26109&quot;:12.5,&quot;26111&quot;:10.2,&quot;26113&quot;:15.0,&quot;26115&quot;:14.2,&quot;26117&quot;:17.6,&quot;26119&quot;:18.9,&quot;26121&quot;:16.0,&quot;26123&quot;:13.8,&quot;26125&quot;:15.6,&quot;26127&quot;:15.2,&quot;26129&quot;:12.7,&quot;26131&quot;:13.8,&quot;26133&quot;:15.3,&quot;26135&quot;:19.1,&quot;26137&quot;:14.7,&quot;26139&quot;:12.8,&quot;26141&quot;:16.0,&quot;26143&quot;:14.6,&quot;26145&quot;:12.9,&quot;26147&quot;:19.0,&quot;26149&quot;:13.9,&quot;26151&quot;:17.8,&quot;26153&quot;:12.7,&quot;26155&quot;:15.2,&quot;26157&quot;:16.3,&quot;26159&quot;:13.2,&quot;26161&quot;:9.3,&quot;26163&quot;:18.3,&quot;26165&quot;:18.3,&quot;27001&quot;:8.1,&quot;27003&quot;:7.9,&quot;27005&quot;:6.4,&quot;27007&quot;:7.2,&quot;27009&quot;:7.0,&quot;27011&quot;:4.5,&quot;27013&quot;:6.3,&quot;27015&quot;:5.5,&quot;27017&quot;:7.3,&quot;27019&quot;:7.0,&quot;27021&quot;:7.9,&quot;27023&quot;:6.1,&quot;27025&quot;:8.4,&quot;27027&quot;:3.6,&quot;27029&quot;:9.1,&quot;27031&quot;:4.7,&quot;27033&quot;:5.2,&quot;27035&quot;:7.4,&quot;27037&quot;:6.9,&quot;27039&quot;:6.1,&quot;27041&quot;:5.6,&quot;27043&quot;:7.6,&quot;27045&quot;:7.0,&quot;27047&quot;:7.6,&quot;27049&quot;:6.7,&quot;27051&quot;:6.8,&quot;27053&quot;:7.3,&quot;27055&quot;:7.1,&quot;27057&quot;:7.3,&quot;27059&quot;:8.3,&quot;27061&quot;:9.2,&quot;27063&quot;:4.7,&quot;27065&quot;:10.3,&quot;27067&quot;:5.5,&quot;27069&quot;:5.2,&quot;27071&quot;:7.3,&quot;27073&quot;:5.4,&quot;27075&quot;:7.5,&quot;27077&quot;:6.9,&quot;27079&quot;:8.6,&quot;27081&quot;:4.5,&quot;27083&quot;:4.9,&quot;27085&quot;:8.0,&quot;27087&quot;:6.0,&quot;27089&quot;:6.2,&quot;27091&quot;:6.9,&quot;27093&quot;:7.8,&quot;27095&quot;:10.5,&quot;27097&quot;:9.0,&quot;27099&quot;:5.5,&quot;27101&quot;:3.9,&quot;27103&quot;:6.1,&quot;27105&quot;:4.5,&quot;27107&quot;:5.1,&quot;27109&quot;:5.5,&quot;27111&quot;:6.3,&quot;27113&quot;:5.6,&quot;27115&quot;:9.1,&quot;27117&quot;:5.3,&quot;27119&quot;:4.4,&quot;27121&quot;:6.4,&quot;27123&quot;:7.4,&quot;27125&quot;:6.7,&quot;27127&quot;:6.1,&quot;27129&quot;:6.4,&quot;27131&quot;:7.5,&quot;27133&quot;:5.1,&quot;27135&quot;:5.0,&quot;27137&quot;:8.2,&quot;27139&quot;:6.8,&quot;27141&quot;:8.1,&quot;27143&quot;:6.5,&quot;27145&quot;:6.8,&quot;27147&quot;:7.7,&quot;27149&quot;:4.3,&quot;27151&quot;:6.6,&quot;27153&quot;:7.5,&quot;27155&quot;:6.2,&quot;27157&quot;:7.1,&quot;27159&quot;:8.8,&quot;27161&quot;:7.0,&quot;27163&quot;:6.8,&quot;27165&quot;:7.5,&quot;27167&quot;:4.7,&quot;27169&quot;:7.0,&quot;27171&quot;:8.2,&quot;27173&quot;:5.1,&quot;28001&quot;:8.0,&quot;28003&quot;:11.3,&quot;28005&quot;:8.6,&quot;28007&quot;:11.8,&quot;28009&quot;:12.6,&quot;28011&quot;:9.0,&quot;28013&quot;:9.7,&quot;28015&quot;:9.8,&quot;28017&quot;:13.2,&quot;28019&quot;:11.3,&quot;28021&quot;:15.0,&quot;28023&quot;:10.0,&quot;28025&quot;:17.8,&quot;28027&quot;:11.1,&quot;28029&quot;:9.9,&quot;28031&quot;:7.7,&quot;28033&quot;:7.2,&quot;28035&quot;:7.7,&quot;28037&quot;:9.0,&quot;28039&quot;:10.0,&quot;28041&quot;:9.9,&quot;28043&quot;:11.0,&quot;28045&quot;:7.5,&quot;28047&quot;:7.2,&quot;28049&quot;:7.9,&quot;28051&quot;:16.6,&quot;28053&quot;:10.2,&quot;28055&quot;:9.2,&quot;28057&quot;:9.6,&quot;28059&quot;:8.0,&quot;28061&quot;:10.2,&quot;28063&quot;:15.5,&quot;28065&quot;:10.6,&quot;28067&quot;:7.1,&quot;28069&quot;:10.3,&quot;28071&quot;:6.9,&quot;28073&quot;:6.6,&quot;28075&quot;:8.7,&quot;28077&quot;:10.2,&quot;28079&quot;:8.7,&quot;28081&quot;:9.8,&quot;28083&quot;:11.6,&quot;28085&quot;:8.8,&quot;28087&quot;:10.2,&quot;28089&quot;:6.3,&quot;28091&quot;:10.1,&quot;28093&quot;:11.2,&quot;28095&quot;:13.7,&quot;28097&quot;:12.7,&quot;28099&quot;:8.4,&quot;28101&quot;:7.9,&quot;28103&quot;:17.6,&quot;28105&quot;:8.0,&quot;28107&quot;:11.9,&quot;28109&quot;:8.3,&quot;28111&quot;:10.4,&quot;28113&quot;:9.8,&quot;28115&quot;:8.7,&quot;28117&quot;:11.5,&quot;28119&quot;:11.1,&quot;28121&quot;:5.6,&quot;28123&quot;:5.9,&quot;28125&quot;:9.0,&quot;28127&quot;:8.2,&quot;28129&quot;:8.2,&quot;28131&quot;:7.2,&quot;28133&quot;:11.8,&quot;28135&quot;:9.9,&quot;28137&quot;:10.3,&quot;28139&quot;:12.5,&quot;28141&quot;:10.1,&quot;28143&quot;:13.0,&quot;28145&quot;:8.8,&quot;28147&quot;:10.3,&quot;28149&quot;:9.1,&quot;28151&quot;:11.3,&quot;28153&quot;:9.4,&quot;28155&quot;:13.5,&quot;28157&quot;:10.1,&quot;28159&quot;:15.1,&quot;28161&quot;:12.9,&quot;28163&quot;:10.5,&quot;29001&quot;:6.5,&quot;29003&quot;:7.6,&quot;29005&quot;:7.9,&quot;29007&quot;:9.2,&quot;29009&quot;:8.1,&quot;29011&quot;:11.7,&quot;29013&quot;:10.8,&quot;29015&quot;:9.3,&quot;29017&quot;:8.8,&quot;29019&quot;:6.2,&quot;29021&quot;:8.7,&quot;29023&quot;:8.0,&quot;29025&quot;:8.6,&quot;29027&quot;:8.0,&quot;29029&quot;:7.9,&quot;29031&quot;:6.9,&quot;29033&quot;:9.8,&quot;29035&quot;:8.7,&quot;29037&quot;:9.7,&quot;29039&quot;:8.6,&quot;29041&quot;:10.5,&quot;29043&quot;:8.0,&quot;29045&quot;:11.3,&quot;29047&quot;:8.6,&quot;29049&quot;:8.7,&quot;29051&quot;:6.7,&quot;29053&quot;:8.4,&quot;29055&quot;:10.7,&quot;29057&quot;:10.1,&quot;29059&quot;:9.4,&quot;29061&quot;:8.7,&quot;29063&quot;:9.3,&quot;29065&quot;:9.4,&quot;29067&quot;:9.8,&quot;29069&quot;:11.1,&quot;29071&quot;:11.5,&quot;29073&quot;:10.8,&quot;29075&quot;:6.8,&quot;29077&quot;:8.3,&quot;29079&quot;:6.9,&quot;29081&quot;:7.8,&quot;29083&quot;:9.6,&quot;29085&quot;:12.3,&quot;29087&quot;:7.1,&quot;29089&quot;:8.3,&quot;29091&quot;:9.2,&quot;29093&quot;:8.7,&quot;29095&quot;:10.9,&quot;29097&quot;:8.4,&quot;29099&quot;:10.6,&quot;29101&quot;:8.0,&quot;29103&quot;:5.9,&quot;29105&quot;:11.0,&quot;29107&quot;:9.0,&quot;29109&quot;:7.8,&quot;29111&quot;:8.3,&quot;29113&quot;:11.3,&quot;29115&quot;:10.3,&quot;29117&quot;:7.8,&quot;29119&quot;:7.0,&quot;29121&quot;:7.9,&quot;29123&quot;:9.8,&quot;29125&quot;:8.7,&quot;29127&quot;:8.9,&quot;29129&quot;:7.9,&quot;29131&quot;:10.6,&quot;29133&quot;:9.7,&quot;29135&quot;:7.8,&quot;29137&quot;:11.0,&quot;29139&quot;:10.3,&quot;29141&quot;:11.3,&quot;29143&quot;:8.9,&quot;29145&quot;:7.9,&quot;29147&quot;:5.9,&quot;29149&quot;:9.0,&quot;29151&quot;:9.9,&quot;29153&quot;:7.6,&quot;29155&quot;:12.1,&quot;29157&quot;:7.2,&quot;29159&quot;:8.1,&quot;29161&quot;:7.1,&quot;29163&quot;:8.3,&quot;29165&quot;:8.0,&quot;29167&quot;:8.9,&quot;29169&quot;:6.8,&quot;29171&quot;:7.4,&quot;29173&quot;:8.0,&quot;29175&quot;:9.4,&quot;29177&quot;:8.3,&quot;29179&quot;:12.7,&quot;29181&quot;:9.5,&quot;29183&quot;:8.7,&quot;29185&quot;:10.3,&quot;29186&quot;:9.3,&quot;29187&quot;:10.9,&quot;29189&quot;:9.6,&quot;29195&quot;:7.9,&quot;29197&quot;:7.8,&quot;29199&quot;:12.2,&quot;29201&quot;:9.2,&quot;29203&quot;:9.6,&quot;29205&quot;:8.1,&quot;29207&quot;:9.0,&quot;29209&quot;:9.0,&quot;29211&quot;:6.4,&quot;29213&quot;:8.6,&quot;29215&quot;:8.8,&quot;29217&quot;:7.9,&quot;29219&quot;:11.2,&quot;29221&quot;:13.7,&quot;29223&quot;:9.5,&quot;29225&quot;:9.0,&quot;29227&quot;:8.4,&quot;29229&quot;:9.6,&quot;29510&quot;:11.1,&quot;30001&quot;:4.4,&quot;30003&quot;:10.2,&quot;30005&quot;:5.0,&quot;30007&quot;:6.2,&quot;30009&quot;:4.8,&quot;30011&quot;:3.9,&quot;30013&quot;:5.2,&quot;30015&quot;:4.2,&quot;30017&quot;:4.6,&quot;30019&quot;:4.2,&quot;30021&quot;:4.8,&quot;30023&quot;:6.5,&quot;30025&quot;:3.7,&quot;30027&quot;:4.7,&quot;30029&quot;:8.8,&quot;30031&quot;:5.5,&quot;30033&quot;:3.4,&quot;30035&quot;:7.2,&quot;30037&quot;:4.7,&quot;30039&quot;:8.2,&quot;30041&quot;:5.1,&quot;30043&quot;:5.8,&quot;30045&quot;:4.6,&quot;30047&quot;:8.3,&quot;30049&quot;:4.3,&quot;30051&quot;:4.7,&quot;30053&quot;:11.1,&quot;30055&quot;:3.2,&quot;30057&quot;:4.8,&quot;30059&quot;:7.8,&quot;30061&quot;:8.6,&quot;30063&quot;:5.6,&quot;30065&quot;:7.5,&quot;30067&quot;:6.1,&quot;30069&quot;:4.5,&quot;30071&quot;:4.8,&quot;30073&quot;:6.0,&quot;30075&quot;:4.0,&quot;30077&quot;:7.3,&quot;30079&quot;:3.1,&quot;30081&quot;:7.5,&quot;30083&quot;:4.6,&quot;30085&quot;:7.5,&quot;30087&quot;:7.3,&quot;30089&quot;:11.2,&quot;30091&quot;:4.3,&quot;30093&quot;:5.5,&quot;30095&quot;:5.2,&quot;30097&quot;:3.1,&quot;30099&quot;:4.0,&quot;30101&quot;:4.1,&quot;30103&quot;:5.1,&quot;30105&quot;:4.6,&quot;30107&quot;:4.3,&quot;30109&quot;:4.1,&quot;30111&quot;:4.7,&quot;31001&quot;:5.6,&quot;31003&quot;:3.6,&quot;31005&quot;:4.4,&quot;31007&quot;:3.5,&quot;31009&quot;:5.2,&quot;31011&quot;:3.9,&quot;31013&quot;:7.1,&quot;31015&quot;:3.6,&quot;31017&quot;:3.1,&quot;31019&quot;:3.5,&quot;31021&quot;:5.7,&quot;31023&quot;:3.9,&quot;31025&quot;:4.6,&quot;31027&quot;:3.2,&quot;31029&quot;:3.0,&quot;31031&quot;:2.5,&quot;31033&quot;:4.1,&quot;31035&quot;:4.3,&quot;31037&quot;:4.0,&quot;31039&quot;:3.5,&quot;31041&quot;:3.1,&quot;31043&quot;:5.5,&quot;31045&quot;:4.4,&quot;31047&quot;:4.8,&quot;31049&quot;:3.8,&quot;31051&quot;:3.7,&quot;31053&quot;:4.9,&quot;31055&quot;:5.0,&quot;31057&quot;:4.0,&quot;31059&quot;:4.4,&quot;31061&quot;:3.7,&quot;31063&quot;:3.0,&quot;31065&quot;:4.1,&quot;31067&quot;:5.9,&quot;31069&quot;:4.4,&quot;31071&quot;:2.5,&quot;31073&quot;:3.8,&quot;31075&quot;:3.1,&quot;31077&quot;:3.3,&quot;31079&quot;:4.4,&quot;31081&quot;:3.4,&quot;31083&quot;:3.6,&quot;31085&quot;:4.2,&quot;31087&quot;:6.6,&quot;31089&quot;:3.2,&quot;31091&quot;:4.0,&quot;31093&quot;:3.8,&quot;31095&quot;:4.6,&quot;31097&quot;:3.9,&quot;31099&quot;:3.8,&quot;31101&quot;:3.9,&quot;31103&quot;:4.4,&quot;31105&quot;:4.3,&quot;31107&quot;:3.6,&quot;31109&quot;:4.2,&quot;31111&quot;:4.0,&quot;31113&quot;:4.3,&quot;31115&quot;:3.2,&quot;31117&quot;:4.0,&quot;31119&quot;:4.2,&quot;31121&quot;:4.0,&quot;31123&quot;:4.1,&quot;31125&quot;:3.6,&quot;31127&quot;:5.4,&quot;31129&quot;:4.7,&quot;31131&quot;:5.0,&quot;31133&quot;:4.1,&quot;31135&quot;:3.1,&quot;31137&quot;:3.8,&quot;31139&quot;:3.6,&quot;31141&quot;:4.4,&quot;31143&quot;:4.2,&quot;31145&quot;:4.2,&quot;31147&quot;:5.7,&quot;31149&quot;:3.1,&quot;31151&quot;:4.0,&quot;31153&quot;:4.7,&quot;31155&quot;:4.5,&quot;31157&quot;:4.8,&quot;31159&quot;:3.7,&quot;31161&quot;:3.5,&quot;31163&quot;:3.0,&quot;31165&quot;:3.8,&quot;31167&quot;:3.6,&quot;31169&quot;:4.3,&quot;31171&quot;:3.8,&quot;31173&quot;:13.8,&quot;31175&quot;:2.9,&quot;31177&quot;:4.1,&quot;31179&quot;:3.8,&quot;31181&quot;:4.2,&quot;31183&quot;:3.2,&quot;31185&quot;:5.7,&quot;32001&quot;:9.9,&quot;32003&quot;:13.9,&quot;32005&quot;:12.6,&quot;32007&quot;:6.8,&quot;32009&quot;:8.3,&quot;32011&quot;:9.3,&quot;32013&quot;:8.6,&quot;32015&quot;:7.2,&quot;32017&quot;:9.4,&quot;32019&quot;:16.3,&quot;32021&quot;:10.5,&quot;32023&quot;:16.1,&quot;32027&quot;:10.6,&quot;32029&quot;:14.8,&quot;32031&quot;:13.1,&quot;32033&quot;:8.4,&quot;32510&quot;:12.8,&quot;33001&quot;:7.0,&quot;33003&quot;:5.4,&quot;33005&quot;:6.5,&quot;33007&quot;:7.8,&quot;33009&quot;:5.6,&quot;33011&quot;:7.5,&quot;33013&quot;:6.3,&quot;33015&quot;:7.5,&quot;33017&quot;:6.6,&quot;33019&quot;:6.5,&quot;34001&quot;:12.2,&quot;34003&quot;:8.4,&quot;34005&quot;:9.1,&quot;34007&quot;:10.9,&quot;34009&quot;:8.5,&quot;34011&quot;:12.6,&quot;34013&quot;:11.1,&quot;34015&quot;:10.0,&quot;34017&quot;:11.6,&quot;34019&quot;:6.9,&quot;34021&quot;:8.1,&quot;34023&quot;:9.2,&quot;34025&quot;:8.7,&quot;34027&quot;:7.6,&quot;34029&quot;:9.6,&quot;34031&quot;:11.7,&quot;34033&quot;:10.1,&quot;34035&quot;:7.9,&quot;34037&quot;:8.5,&quot;34039&quot;:9.8,&quot;34041&quot;:8.8,&quot;35001&quot;:7.5,&quot;35003&quot;:8.1,&quot;35005&quot;:6.8,&quot;35006&quot;:6.3,&quot;35007&quot;:8.0,&quot;35009&quot;:4.4,&quot;35011&quot;:4.3,&quot;35013&quot;:6.9,&quot;35015&quot;:6.0,&quot;35017&quot;:12.3,&quot;35019&quot;:7.5,&quot;35021&quot;:4.5,&quot;35023&quot;:7.6,&quot;35025&quot;:8.3,&quot;35027&quot;:5.1,&quot;35028&quot;:2.9,&quot;35029&quot;:13.4,&quot;35031&quot;:8.6,&quot;35033&quot;:13.1,&quot;35035&quot;:6.8,&quot;35037&quot;:5.9,&quot;35039&quot;:7.2,&quot;35041&quot;:4.4,&quot;35043&quot;:9.0,&quot;35045&quot;:8.3,&quot;35047&quot;:7.8,&quot;35049&quot;:6.5,&quot;35051&quot;:4.8,&quot;35053&quot;:5.0,&quot;35055&quot;:8.7,&quot;35057&quot;:8.8,&quot;35059&quot;:5.5,&quot;35061&quot;:8.5,&quot;36001&quot;:7.1,&quot;36003&quot;:7.9,&quot;36005&quot;:13.3,&quot;36007&quot;:8.5,&quot;36009&quot;:8.5,&quot;36011&quot;:8.0,&quot;36013&quot;:7.8,&quot;36015&quot;:8.9,&quot;36017&quot;:8.7,&quot;36019&quot;:9.0,&quot;36021&quot;:7.7,&quot;36023&quot;:8.5,&quot;36025&quot;:8.4,&quot;36027&quot;:8.2,&quot;36029&quot;:8.3,&quot;36031&quot;:7.8,&quot;36033&quot;:7.8,&quot;36035&quot;:9.1,&quot;36037&quot;:7.2,&quot;36039&quot;:8.4,&quot;36041&quot;:5.6,&quot;36043&quot;:7.6,&quot;36045&quot;:7.8,&quot;36047&quot;:11.0,&quot;36049&quot;:7.6,&quot;36051&quot;:7.5,&quot;36053&quot;:7.4,&quot;36055&quot;:8.3,&quot;36057&quot;:8.8,&quot;36059&quot;:7.2,&quot;36061&quot;:9.2,&quot;36063&quot;:8.8,&quot;36065&quot;:7.3,&quot;36067&quot;:7.9,&quot;36069&quot;:6.7,&quot;36071&quot;:8.2,&quot;36073&quot;:8.2,&quot;36075&quot;:9.3,&quot;36077&quot;:6.8,&quot;36079&quot;:7.0,&quot;36081&quot;:9.1,&quot;36083&quot;:7.7,&quot;36085&quot;:8.9,&quot;36087&quot;:7.4,&quot;36089&quot;:8.9,&quot;36091&quot;:6.4,&quot;36093&quot;:7.8,&quot;36095&quot;:7.6,&quot;36097&quot;:7.4,&quot;36099&quot;:7.3,&quot;36101&quot;:9.5,&quot;36103&quot;:7.5,&quot;36105&quot;:8.6,&quot;36107&quot;:7.9,&quot;36109&quot;:5.6,&quot;36111&quot;:8.1,&quot;36113&quot;:7.2,&quot;36115&quot;:7.4,&quot;36117&quot;:7.8,&quot;36119&quot;:7.4,&quot;36121&quot;:7.8,&quot;36123&quot;:6.0,&quot;37001&quot;:11.8,&quot;37003&quot;:13.6,&quot;37005&quot;:10.9,&quot;37007&quot;:14.8,&quot;37009&quot;:10.0,&quot;37011&quot;:7.9,&quot;37013&quot;:11.2,&quot;37015&quot;:10.5,&quot;37017&quot;:12.0,&quot;37019&quot;:10.5,&quot;37021&quot;:8.2,&quot;37023&quot;:14.1,&quot;37025&quot;:11.4,&quot;37027&quot;:15.2,&quot;37029&quot;:7.1,&quot;37031&quot;:7.6,&quot;37033&quot;:12.4,&quot;37035&quot;:13.6,&quot;37037&quot;:8.0,&quot;37039&quot;:14.2,&quot;37041&quot;:11.9,&quot;37043&quot;:10.8,&quot;37045&quot;:14.3,&quot;37047&quot;:12.5,&quot;37049&quot;:10.0,&quot;37051&quot;:9.1,&quot;37053&quot;:5.0,&quot;37055&quot;:6.8,&quot;37057&quot;:12.5,&quot;37059&quot;:12.1,&quot;37061&quot;:8.7,&quot;37063&quot;:8.0,&quot;37065&quot;:16.3,&quot;37067&quot;:9.5,&quot;37069&quot;:9.7,&quot;37071&quot;:13.3,&quot;37073&quot;:7.1,&quot;37075&quot;:13.4,&quot;37077&quot;:10.2,&quot;37079&quot;:10.2,&quot;37081&quot;:11.0,&quot;37083&quot;:13.1,&quot;37085&quot;:10.9,&quot;37087&quot;:8.5,&quot;37089&quot;:8.6,&quot;37091&quot;:9.4,&quot;37093&quot;:8.3,&quot;37095&quot;:5.9,&quot;37097&quot;:12.1,&quot;37099&quot;:7.8,&quot;37101&quot;:9.5,&quot;37103&quot;:10.9,&quot;37105&quot;:13.5,&quot;37107&quot;:11.4,&quot;37109&quot;:13.2,&quot;37111&quot;:14.1,&quot;37113&quot;:9.2,&quot;37115&quot;:9.3,&quot;37117&quot;:10.6,&quot;37119&quot;:11.0,&quot;37121&quot;:11.0,&quot;37123&quot;:13.3,&quot;37125&quot;:9.5,&quot;37127&quot;:11.9,&quot;37129&quot;:9.1,&quot;37131&quot;:10.7,&quot;37133&quot;:8.3,&quot;37135&quot;:6.3,&quot;37137&quot;:10.1,&quot;37139&quot;:9.1,&quot;37141&quot;:10.8,&quot;37143&quot;:10.3,&quot;37145&quot;:10.8,&quot;37147&quot;:10.0,&quot;37149&quot;:8.2,&quot;37151&quot;:11.0,&quot;37153&quot;:13.2,&quot;37155&quot;:11.5,&quot;37157&quot;:11.7,&quot;37159&quot;:12.8,&quot;37161&quot;:14.3,&quot;37163&quot;:8.3,&quot;37165&quot;:16.5,&quot;37167&quot;:11.9,&quot;37169&quot;:10.1,&quot;37171&quot;:11.8,&quot;37173&quot;:9.1,&quot;37175&quot;:8.5,&quot;37177&quot;:8.8,&quot;37179&quot;:10.0,&quot;37181&quot;:13.0,&quot;37183&quot;:8.3,&quot;37185&quot;:12.7,&quot;37187&quot;:11.7,&quot;37189&quot;:6.9,&quot;37191&quot;:8.8,&quot;37193&quot;:12.9,&quot;37195&quot;:11.9,&quot;37197&quot;:9.3,&quot;37199&quot;:10.9,&quot;38001&quot;:2.7,&quot;38003&quot;:3.4,&quot;38005&quot;:5.3,&quot;38007&quot;:1.3,&quot;38009&quot;:2.9,&quot;38011&quot;:2.7,&quot;38013&quot;:2.2,&quot;38015&quot;:2.8,&quot;38017&quot;:3.7,&quot;38019&quot;:2.5,&quot;38021&quot;:4.1,&quot;38023&quot;:3.4,&quot;38025&quot;:3.6,&quot;38027&quot;:3.8,&quot;38029&quot;:5.1,&quot;38031&quot;:2.8,&quot;38033&quot;:2.5,&quot;38035&quot;:3.5,&quot;38037&quot;:3.2,&quot;38039&quot;:3.6,&quot;38041&quot;:2.7,&quot;38043&quot;:3.4,&quot;38045&quot;:4.3,&quot;38047&quot;:2.7,&quot;38049&quot;:2.9,&quot;38051&quot;:3.1,&quot;38053&quot;:2.2,&quot;38055&quot;:3.4,&quot;38057&quot;:3.3,&quot;38059&quot;:3.0,&quot;38061&quot;:4.4,&quot;38063&quot;:2.9,&quot;38065&quot;:3.1,&quot;38067&quot;:5.1,&quot;38069&quot;:4.0,&quot;38071&quot;:3.2,&quot;38073&quot;:6.0,&quot;38075&quot;:3.3,&quot;38077&quot;:4.3,&quot;38079&quot;:9.7,&quot;38081&quot;:6.5,&quot;38083&quot;:3.7,&quot;38085&quot;:4.3,&quot;38087&quot;:1.2,&quot;38089&quot;:2.8,&quot;38091&quot;:2.1,&quot;38093&quot;:3.2,&quot;38095&quot;:2.6,&quot;38097&quot;:3.5,&quot;38099&quot;:4.5,&quot;38101&quot;:2.8,&quot;38103&quot;:3.8,&quot;38105&quot;:2.0,&quot;39001&quot;:13.8,&quot;39003&quot;:10.2,&quot;39005&quot;:11.4,&quot;39007&quot;:12.6,&quot;39009&quot;:8.6,&quot;39011&quot;:10.1,&quot;39013&quot;:9.2,&quot;39015&quot;:11.9,&quot;39017&quot;:9.1,&quot;39019&quot;:13.2,&quot;39021&quot;:11.4,&quot;39023&quot;:9.9,&quot;39025&quot;:9.4,&quot;39027&quot;:13.9,&quot;39029&quot;:12.5,&quot;39031&quot;:12.3,&quot;39033&quot;:13.2,&quot;39035&quot;:8.5,&quot;39037&quot;:9.9,&quot;39039&quot;:11.7,&quot;39041&quot;:6.7,&quot;39043&quot;:9.5,&quot;39045&quot;:8.2,&quot;39047&quot;:11.7,&quot;39049&quot;:8.2,&quot;39051&quot;:12.1,&quot;39053&quot;:9.5,&quot;39055&quot;:6.5,&quot;39057&quot;:9.4,&quot;39059&quot;:10.8,&quot;39061&quot;:8.9,&quot;39063&quot;:9.1,&quot;39065&quot;:11.2,&quot;39067&quot;:10.6,&quot;39069&quot;:10.9,&quot;39071&quot;:15.3,&quot;39073&quot;:10.4,&quot;39075&quot;:6.3,&quot;39077&quot;:12.8,&quot;39079&quot;:10.5,&quot;39081&quot;:12.7,&quot;39083&quot;:8.7,&quot;39085&quot;:7.9,&quot;39087&quot;:8.4,&quot;39089&quot;:8.9,&quot;39091&quot;:11.2,&quot;39093&quot;:9.1,&quot;39095&quot;:11.3,&quot;39097&quot;:8.5,&quot;39099&quot;:11.8,&quot;39101&quot;:10.2,&quot;39103&quot;:7.5,&quot;39105&quot;:15.2,&quot;39107&quot;:7.8,&quot;39109&quot;:11.0,&quot;39111&quot;:11.5,&quot;39113&quot;:11.0,&quot;39115&quot;:14.6,&quot;39117&quot;:10.0,&quot;39119&quot;:11.9,&quot;39121&quot;:14.0,&quot;39123&quot;:10.7,&quot;39125&quot;:11.5,&quot;39127&quot;:12.8,&quot;39129&quot;:10.3,&quot;39131&quot;:14.7,&quot;39133&quot;:9.2,&quot;39135&quot;:11.1,&quot;39137&quot;:9.0,&quot;39139&quot;:11.8,&quot;39141&quot;:11.5,&quot;39143&quot;:10.8,&quot;39145&quot;:12.1,&quot;39147&quot;:12.0,&quot;39149&quot;:11.9,&quot;39151&quot;:11.0,&quot;39153&quot;:9.6,&quot;39155&quot;:13.5,&quot;39157&quot;:10.2,&quot;39159&quot;:8.0,&quot;39161&quot;:13.2,&quot;39163&quot;:11.3,&quot;39165&quot;:8.5,&quot;39167&quot;:9.4,&quot;39169&quot;:8.9,&quot;39171&quot;:14.1,&quot;39173&quot;:10.0,&quot;39175&quot;:11.2,&quot;40001&quot;:7.6,&quot;40003&quot;:5.5,&quot;40005&quot;:8.4,&quot;40007&quot;:3.3,&quot;40009&quot;:5.9,&quot;40011&quot;:5.7,&quot;40013&quot;:5.2,&quot;40015&quot;:6.1,&quot;40017&quot;:5.5,&quot;40019&quot;:5.7,&quot;40021&quot;:5.6,&quot;40023&quot;:7.6,&quot;40025&quot;:3.5,&quot;40027&quot;:5.2,&quot;40029&quot;:8.8,&quot;40031&quot;:5.1,&quot;40033&quot;:4.0,&quot;40035&quot;:5.5,&quot;40037&quot;:8.1,&quot;40039&quot;:4.9,&quot;40041&quot;:6.0,&quot;40043&quot;:4.6,&quot;40045&quot;:4.5,&quot;40047&quot;:4.5,&quot;40049&quot;:5.9,&quot;40051&quot;:7.4,&quot;40053&quot;:4.2,&quot;40055&quot;:7.9,&quot;40057&quot;:6.9,&quot;40059&quot;:4.3,&quot;40061&quot;:8.4,&quot;40063&quot;:10.7,&quot;40065&quot;:4.8,&quot;40067&quot;:8.6,&quot;40069&quot;:7.0,&quot;40071&quot;:8.1,&quot;40073&quot;:4.3,&quot;40075&quot;:6.2,&quot;40077&quot;:10.4,&quot;40079&quot;:8.7,&quot;40081&quot;:6.7,&quot;40083&quot;:5.6,&quot;40085&quot;:5.4,&quot;40087&quot;:5.6,&quot;40089&quot;:11.6,&quot;40091&quot;:8.2,&quot;40093&quot;:4.5,&quot;40095&quot;:7.5,&quot;40097&quot;:8.1,&quot;40099&quot;:4.7,&quot;40101&quot;:8.1,&quot;40103&quot;:7.7,&quot;40105&quot;:9.3,&quot;40107&quot;:8.9,&quot;40109&quot;:6.1,&quot;40111&quot;:8.5,&quot;40113&quot;:7.4,&quot;40115&quot;:6.2,&quot;40117&quot;:8.2,&quot;40119&quot;:6.3,&quot;40121&quot;:6.5,&quot;40123&quot;:5.1,&quot;40125&quot;:6.5,&quot;40127&quot;:8.9,&quot;40129&quot;:4.5,&quot;40131&quot;:7.2,&quot;40133&quot;:9.2,&quot;40135&quot;:8.7,&quot;40137&quot;:8.4,&quot;40139&quot;:3.8,&quot;40141&quot;:5.6,&quot;40143&quot;:6.8,&quot;40145&quot;:6.6,&quot;40147&quot;:5.9,&quot;40149&quot;:6.3,&quot;40151&quot;:4.2,&quot;40153&quot;:6.5,&quot;41001&quot;:8.5,&quot;41003&quot;:7.5,&quot;41005&quot;:10.4,&quot;41007&quot;:8.2,&quot;41009&quot;:12.6,&quot;41011&quot;:11.7,&quot;41013&quot;:16.1,&quot;41015&quot;:11.2,&quot;41017&quot;:13.5,&quot;41019&quot;:14.0,&quot;41021&quot;:5.6,&quot;41023&quot;:9.9,&quot;41025&quot;:15.0,&quot;41027&quot;:6.6,&quot;41029&quot;:11.5,&quot;41031&quot;:12.9,&quot;41033&quot;:13.3,&quot;41035&quot;:12.0,&quot;41037&quot;:10.1,&quot;41039&quot;:11.5,&quot;41041&quot;:9.4,&quot;41043&quot;:13.6,&quot;41045&quot;:9.3,&quot;41047&quot;:10.3,&quot;41049&quot;:7.4,&quot;41051&quot;:10.9,&quot;41053&quot;:9.3,&quot;41055&quot;:7.6,&quot;41057&quot;:8.2,&quot;41059&quot;:7.8,&quot;41061&quot;:10.2,&quot;41063&quot;:8.7,&quot;41065&quot;:8.0,&quot;41067&quot;:9.6,&quot;41069&quot;:6.7,&quot;41071&quot;:11.0,&quot;42001&quot;:7.4,&quot;42003&quot;:7.2,&quot;42005&quot;:8.0,&quot;42007&quot;:8.4,&quot;42009&quot;:10.9,&quot;42011&quot;:9.1,&quot;42013&quot;:7.4,&quot;42015&quot;:7.6,&quot;42017&quot;:7.3,&quot;42019&quot;:7.1,&quot;42021&quot;:8.8,&quot;42023&quot;:16.7,&quot;42025&quot;:10.0,&quot;42027&quot;:5.6,&quot;42029&quot;:6.3,&quot;42031&quot;:8.3,&quot;42033&quot;:9.8,&quot;42035&quot;:8.2,&quot;42037&quot;:8.2,&quot;42039&quot;:10.1,&quot;42041&quot;:6.8,&quot;42043&quot;:8.1,&quot;42045&quot;:7.9,&quot;42047&quot;:12.9,&quot;42049&quot;:9.2,&quot;42051&quot;:9.1,&quot;42053&quot;:10.2,&quot;42055&quot;:8.6,&quot;42057&quot;:14.3,&quot;42059&quot;:7.8,&quot;42061&quot;:10.2,&quot;42063&quot;:7.8,&quot;42065&quot;:9.5,&quot;42067&quot;:7.6,&quot;42069&quot;:8.3,&quot;42071&quot;:7.5,&quot;42073&quot;:8.9,&quot;42075&quot;:7.0,&quot;42077&quot;:9.3,&quot;42079&quot;:9.2,&quot;42081&quot;:9.3,&quot;42083&quot;:10.0,&quot;42085&quot;:11.3,&quot;42087&quot;:10.4,&quot;42089&quot;:9.0,&quot;42091&quot;:7.0,&quot;42093&quot;:5.9,&quot;42095&quot;:8.8,&quot;42097&quot;:9.4,&quot;42099&quot;:8.1,&quot;42101&quot;:11.0,&quot;42103&quot;:8.6,&quot;42105&quot;:10.3,&quot;42107&quot;:10.1,&quot;42109&quot;:8.6,&quot;42111&quot;:8.5,&quot;42113&quot;:7.9,&quot;42115&quot;:7.8,&quot;42117&quot;:7.8,&quot;42119&quot;:8.8,&quot;42121&quot;:8.7,&quot;42123&quot;:7.3,&quot;42125&quot;:7.9,&quot;42127&quot;:6.6,&quot;42129&quot;:7.8,&quot;42131&quot;:6.9,&quot;42133&quot;:8.4,&quot;44001&quot;:11.1,&quot;44003&quot;:11.9,&quot;44005&quot;:10.0,&quot;44007&quot;:13.5,&quot;44009&quot;:9.2,&quot;45001&quot;:14.8,&quot;45003&quot;:9.4,&quot;45005&quot;:22.5,&quot;45007&quot;:12.5,&quot;45009&quot;:18.1,&quot;45011&quot;:19.0,&quot;45013&quot;:8.7,&quot;45015&quot;:10.7,&quot;45017&quot;:14.4,&quot;45019&quot;:9.0,&quot;45021&quot;:16.2,&quot;45023&quot;:21.1,&quot;45025&quot;:16.8,&quot;45027&quot;:16.1,&quot;45029&quot;:14.2,&quot;45031&quot;:13.0,&quot;45033&quot;:17.2,&quot;45035&quot;:10.3,&quot;45037&quot;:10.7,&quot;45039&quot;:12.9,&quot;45041&quot;:11.7,&quot;45043&quot;:12.5,&quot;45045&quot;:10.2,&quot;45047&quot;:13.7,&quot;45049&quot;:16.1,&quot;45051&quot;:10.9,&quot;45053&quot;:10.7,&quot;45055&quot;:10.4,&quot;45057&quot;:17.9,&quot;45059&quot;:11.7,&quot;45061&quot;:15.7,&quot;45063&quot;:8.3,&quot;45065&quot;:15.7,&quot;45067&quot;:21.0,&quot;45069&quot;:20.2,&quot;45071&quot;:11.7,&quot;45073&quot;:14.2,&quot;45075&quot;:18.7,&quot;45077&quot;:10.6,&quot;45079&quot;:9.5,&quot;45081&quot;:9.4,&quot;45083&quot;:12.2,&quot;45085&quot;:13.9,&quot;45087&quot;:20.6,&quot;45089&quot;:15.4,&quot;45091&quot;:14.1,&quot;46003&quot;:4.0,&quot;46005&quot;:3.0,&quot;46007&quot;:6.0,&quot;46009&quot;:4.9,&quot;46011&quot;:3.2,&quot;46013&quot;:3.1,&quot;46015&quot;:2.7,&quot;46017&quot;:17.2,&quot;46019&quot;:3.9,&quot;46021&quot;:4.5,&quot;46023&quot;:4.8,&quot;46025&quot;:4.7,&quot;46027&quot;:3.7,&quot;46029&quot;:5.8,&quot;46031&quot;:5.6,&quot;46033&quot;:3.0,&quot;46035&quot;:4.3,&quot;46037&quot;:5.3,&quot;46039&quot;:4.8,&quot;46041&quot;:10.4,&quot;46043&quot;:3.1,&quot;46045&quot;:2.7,&quot;46047&quot;:4.9,&quot;46049&quot;:3.1,&quot;46051&quot;:3.5,&quot;46053&quot;:3.1,&quot;46055&quot;:3.6,&quot;46057&quot;:5.1,&quot;46059&quot;:2.8,&quot;46061&quot;:3.0,&quot;46063&quot;:2.3,&quot;46065&quot;:2.7,&quot;46067&quot;:3.9,&quot;46069&quot;:3.6,&quot;46071&quot;:6.2,&quot;46073&quot;:2.6,&quot;46075&quot;:2.4,&quot;46077&quot;:5.1,&quot;46079&quot;:5.8,&quot;46081&quot;:3.8,&quot;46083&quot;:3.9,&quot;46085&quot;:5.7,&quot;46087&quot;:4.5,&quot;46089&quot;:5.0,&quot;46091&quot;:4.7,&quot;46093&quot;:4.0,&quot;46095&quot;:6.8,&quot;46097&quot;:5.7,&quot;46099&quot;:4.7,&quot;46101&quot;:6.1,&quot;46103&quot;:4.4,&quot;46105&quot;:3.9,&quot;46107&quot;:3.2,&quot;46109&quot;:4.8,&quot;46111&quot;:3.8,&quot;46113&quot;:12.6,&quot;46115&quot;:3.4,&quot;46117&quot;:2.1,&quot;46119&quot;:2.4,&quot;46121&quot;:8.4,&quot;46123&quot;:2.9,&quot;46125&quot;:4.4,&quot;46127&quot;:5.3,&quot;46129&quot;:4.0,&quot;46135&quot;:5.3,&quot;46137&quot;:7.8,&quot;47001&quot;:9.7,&quot;47003&quot;:12.1,&quot;47005&quot;:12.8,&quot;47007&quot;:13.7,&quot;47009&quot;:9.3,&quot;47011&quot;:9.3,&quot;47013&quot;:13.1,&quot;47015&quot;:10.8,&quot;47017&quot;:16.4,&quot;47019&quot;:9.8,&quot;47021&quot;:9.4,&quot;47023&quot;:11.5,&quot;47025&quot;:11.1,&quot;47027&quot;:12.6,&quot;47029&quot;:12.2,&quot;47031&quot;:10.2,&quot;47033&quot;:13.4,&quot;47035&quot;:10.8,&quot;47037&quot;:9.2,&quot;47039&quot;:14.2,&quot;47041&quot;:10.2,&quot;47043&quot;:9.8,&quot;47045&quot;:14.0,&quot;47047&quot;:10.8,&quot;47049&quot;:13.0,&quot;47051&quot;:10.4,&quot;47053&quot;:15.7,&quot;47055&quot;:14.0,&quot;47057&quot;:13.5,&quot;47059&quot;:14.3,&quot;47061&quot;:13.0,&quot;47063&quot;:12.5,&quot;47065&quot;:8.7,&quot;47067&quot;:18.3,&quot;47069&quot;:12.7,&quot;47071&quot;:11.1,&quot;47073&quot;:10.3,&quot;47075&quot;:18.0,&quot;47077&quot;:18.1,&quot;47079&quot;:13.1,&quot;47081&quot;:12.4,&quot;47083&quot;:11.6,&quot;47085&quot;:11.9,&quot;47087&quot;:12.7,&quot;47089&quot;:11.8,&quot;47091&quot;:12.2,&quot;47093&quot;:8.1,&quot;47095&quot;:10.7,&quot;47097&quot;:18.9,&quot;47099&quot;:14.6,&quot;47101&quot;:14.9,&quot;47103&quot;:6.9,&quot;47105&quot;:9.5,&quot;47107&quot;:13.0,&quot;47109&quot;:12.7,&quot;47111&quot;:11.2,&quot;47113&quot;:11.0,&quot;47115&quot;:12.1,&quot;47117&quot;:16.3,&quot;47119&quot;:11.9,&quot;47121&quot;:13.6,&quot;47123&quot;:16.1,&quot;47125&quot;:9.0,&quot;47127&quot;:9.7,&quot;47129&quot;:11.6,&quot;47131&quot;:10.4,&quot;47133&quot;:12.0,&quot;47135&quot;:17.6,&quot;47137&quot;:13.4,&quot;47139&quot;:11.4,&quot;47141&quot;:9.7,&quot;47143&quot;:12.7,&quot;47145&quot;:8.9,&quot;47147&quot;:10.1,&quot;47149&quot;:9.5,&quot;47151&quot;:18.4,&quot;47153&quot;:12.8,&quot;47155&quot;:9.2,&quot;47157&quot;:10.2,&quot;47159&quot;:12.8,&quot;47161&quot;:11.1,&quot;47163&quot;:8.8,&quot;47165&quot;:9.7,&quot;47167&quot;:11.6,&quot;47169&quot;:12.0,&quot;47171&quot;:10.3,&quot;47173&quot;:10.7,&quot;47175&quot;:14.2,&quot;47177&quot;:12.5,&quot;47179&quot;:8.6,&quot;47181&quot;:12.9,&quot;47183&quot;:13.0,&quot;47185&quot;:13.5,&quot;47187&quot;:7.5,&quot;47189&quot;:9.0,&quot;48001&quot;:9.4,&quot;48003&quot;:7.6,&quot;48005&quot;:8.9,&quot;48007&quot;:7.3,&quot;48009&quot;:6.5,&quot;48011&quot;:5.1,&quot;48013&quot;:7.9,&quot;48015&quot;:8.4,&quot;48017&quot;:5.2,&quot;48019&quot;:6.8,&quot;48021&quot;:8.0,&quot;48023&quot;:5.1,&quot;48025&quot;:10.3,&quot;48027&quot;:7.1,&quot;48029&quot;:7.2,&quot;48031&quot;:5.8,&quot;48033&quot;:6.2,&quot;48035&quot;:8.6,&quot;48037&quot;:7.8,&quot;48039&quot;:8.9,&quot;48041&quot;:6.2,&quot;48043&quot;:5.1,&quot;48045&quot;:5.9,&quot;48047&quot;:9.9,&quot;48049&quot;:7.2,&quot;48051&quot;:7.4,&quot;48053&quot;:6.3,&quot;48055&quot;:8.2,&quot;48057&quot;:9.5,&quot;48059&quot;:6.3,&quot;48061&quot;:10.8,&quot;48063&quot;:9.6,&quot;48065&quot;:6.7,&quot;48067&quot;:12.5,&quot;48069&quot;:5.3,&quot;48071&quot;:10.7,&quot;48073&quot;:9.7,&quot;48075&quot;:6.4,&quot;48077&quot;:7.4,&quot;48079&quot;:7.2,&quot;48081&quot;:8.6,&quot;48083&quot;:6.9,&quot;48085&quot;:7.8,&quot;48087&quot;:5.9,&quot;48089&quot;:6.6,&quot;48091&quot;:6.6,&quot;48093&quot;:6.1,&quot;48095&quot;:8.2,&quot;48097&quot;:6.5,&quot;48099&quot;:8.7,&quot;48101&quot;:5.6,&quot;48103&quot;:9.5,&quot;48105&quot;:9.7,&quot;48107&quot;:7.0,&quot;48109&quot;:4.5,&quot;48111&quot;:4.4,&quot;48113&quot;:8.7,&quot;48115&quot;:8.7,&quot;48117&quot;:5.8,&quot;48119&quot;:8.4,&quot;48121&quot;:7.7,&quot;48123&quot;:8.3,&quot;48125&quot;:6.0,&quot;48127&quot;:11.0,&quot;48129&quot;:7.0,&quot;48131&quot;:12.5,&quot;48133&quot;:8.4,&quot;48135&quot;:9.2,&quot;48137&quot;:6.7,&quot;48139&quot;:8.6,&quot;48141&quot;:9.8,&quot;48143&quot;:7.1,&quot;48145&quot;:9.5,&quot;48147&quot;:9.0,&quot;48149&quot;:5.7,&quot;48151&quot;:6.4,&quot;48153&quot;:6.9,&quot;48155&quot;:5.7,&quot;48157&quot;:8.3,&quot;48159&quot;:7.3,&quot;48161&quot;:6.7,&quot;48163&quot;:8.4,&quot;48165&quot;:6.8,&quot;48167&quot;:8.5,&quot;48169&quot;:5.7,&quot;48171&quot;:4.9,&quot;48173&quot;:5.2,&quot;48175&quot;:7.9,&quot;48177&quot;:6.1,&quot;48179&quot;:8.9,&quot;48181&quot;:8.7,&quot;48183&quot;:8.0,&quot;48185&quot;:10.0,&quot;48187&quot;:6.7,&quot;48189&quot;:6.4,&quot;48191&quot;:8.9,&quot;48193&quot;:6.0,&quot;48195&quot;:5.5,&quot;48197&quot;:7.2,&quot;48199&quot;:10.1,&quot;48201&quot;:8.5,&quot;48203&quot;:8.7,&quot;48205&quot;:4.3,&quot;48207&quot;:5.2,&quot;48209&quot;:6.8,&quot;48211&quot;:3.0,&quot;48213&quot;:8.5,&quot;48215&quot;:11.6,&quot;48217&quot;:8.5,&quot;48219&quot;:7.0,&quot;48221&quot;:7.6,&quot;48223&quot;:6.5,&quot;48225&quot;:10.3,&quot;48227&quot;:7.5,&quot;48229&quot;:6.5,&quot;48231&quot;:8.5,&quot;48233&quot;:8.0,&quot;48235&quot;:5.4,&quot;48237&quot;:6.4,&quot;48239&quot;:7.6,&quot;48241&quot;:11.9,&quot;48243&quot;:5.6,&quot;48245&quot;:10.8,&quot;48247&quot;:10.0,&quot;48249&quot;:10.0,&quot;48251&quot;:9.1,&quot;48253&quot;:8.2,&quot;48255&quot;:10.5,&quot;48257&quot;:8.8,&quot;48259&quot;:6.0,&quot;48261&quot;:6.1,&quot;48263&quot;:6.2,&quot;48265&quot;:6.0,&quot;48267&quot;:5.4,&quot;48269&quot;:5.4,&quot;48271&quot;:8.9,&quot;48273&quot;:7.7,&quot;48275&quot;:6.4,&quot;48277&quot;:7.8,&quot;48279&quot;:6.6,&quot;48281&quot;:6.1,&quot;48283&quot;:9.9,&quot;48285&quot;:6.4,&quot;48287&quot;:6.9,&quot;48289&quot;:7.9,&quot;48291&quot;:11.2,&quot;48293&quot;:7.2,&quot;48295&quot;:6.1,&quot;48297&quot;:7.6,&quot;48299&quot;:7.3,&quot;48301&quot;:11.5,&quot;48303&quot;:5.7,&quot;48305&quot;:6.8,&quot;48307&quot;:9.1,&quot;48309&quot;:7.1,&quot;48311&quot;:7.8,&quot;48313&quot;:8.7,&quot;48315&quot;:11.8,&quot;48317&quot;:5.0,&quot;48319&quot;:5.4,&quot;48321&quot;:11.2,&quot;48323&quot;:13.6,&quot;48325&quot;:7.1,&quot;48327&quot;:9.0,&quot;48329&quot;:6.2,&quot;48331&quot;:10.2,&quot;48333&quot;:6.0,&quot;48335&quot;:8.7,&quot;48337&quot;:7.8,&quot;48339&quot;:7.9,&quot;48341&quot;:5.3,&quot;48343&quot;:15.6,&quot;48345&quot;:5.3,&quot;48347&quot;:7.0,&quot;48349&quot;:8.4,&quot;48351&quot;:12.4,&quot;48353&quot;:6.4,&quot;48355&quot;:7.7,&quot;48357&quot;:6.3,&quot;48359&quot;:5.5,&quot;48361&quot;:11.1,&quot;48363&quot;:9.1,&quot;48365&quot;:7.5,&quot;48367&quot;:8.4,&quot;48369&quot;:4.8,&quot;48371&quot;:11.7,&quot;48373&quot;:10.3,&quot;48375&quot;:6.6,&quot;48377&quot;:17.8,&quot;48379&quot;:8.5,&quot;48381&quot;:5.1,&quot;48383&quot;:5.8,&quot;48385&quot;:6.1,&quot;48387&quot;:10.5,&quot;48389&quot;:14.0,&quot;48391&quot;:7.0,&quot;48393&quot;:6.2,&quot;48395&quot;:8.7,&quot;48397&quot;:7.8,&quot;48399&quot;:10.1,&quot;48401&quot;:9.1,&quot;48403&quot;:15.9,&quot;48405&quot;:10.8,&quot;48407&quot;:10.0,&quot;48409&quot;:9.8,&quot;48411&quot;:7.8,&quot;48413&quot;:11.1,&quot;48415&quot;:7.2,&quot;48417&quot;:4.3,&quot;48419&quot;:8.1,&quot;48421&quot;:4.9,&quot;48423&quot;:8.3,&quot;48425&quot;:7.3,&quot;48427&quot;:17.8,&quot;48429&quot;:6.9,&quot;48431&quot;:4.6,&quot;48433&quot;:4.8,&quot;48435&quot;:7.8,&quot;48437&quot;:6.7,&quot;48439&quot;:8.2,&quot;48441&quot;:6.1,&quot;48443&quot;:7.8,&quot;48445&quot;:7.7,&quot;48447&quot;:5.6,&quot;48449&quot;:7.7,&quot;48451&quot;:7.0,&quot;48453&quot;:7.0,&quot;48455&quot;:8.8,&quot;48457&quot;:10.5,&quot;48459&quot;:8.1,&quot;48461&quot;:5.6,&quot;48463&quot;:8.9,&quot;48465&quot;:9.6,&quot;48467&quot;:7.4,&quot;48469&quot;:7.9,&quot;48471&quot;:7.8,&quot;48473&quot;:9.0,&quot;48475&quot;:8.5,&quot;48477&quot;:6.9,&quot;48479&quot;:9.1,&quot;48481&quot;:7.9,&quot;48483&quot;:5.6,&quot;48485&quot;:8.1,&quot;48487&quot;:5.5,&quot;48489&quot;:13.9,&quot;48491&quot;:7.8,&quot;48493&quot;:6.9,&quot;48495&quot;:9.0,&quot;48497&quot;:9.6,&quot;48499&quot;:8.4,&quot;48501&quot;:7.1,&quot;48503&quot;:6.4,&quot;48505&quot;:12.6,&quot;48507&quot;:16.3,&quot;49001&quot;:4.2,&quot;49003&quot;:5.6,&quot;49005&quot;:4.2,&quot;49007&quot;:6.5,&quot;49009&quot;:2.7,&quot;49011&quot;:5.6,&quot;49013&quot;:6.9,&quot;49015&quot;:6.2,&quot;49017&quot;:4.9,&quot;49019&quot;:5.2,&quot;49021&quot;:6.3,&quot;49023&quot;:6.8,&quot;49025&quot;:4.4,&quot;49027&quot;:4.0,&quot;49029&quot;:5.3,&quot;49031&quot;:3.8,&quot;49033&quot;:2.8,&quot;49035&quot;:6.0,&quot;49037&quot;:8.6,&quot;49039&quot;:5.6,&quot;49041&quot;:5.7,&quot;49043&quot;:5.8,&quot;49045&quot;:6.4,&quot;49047&quot;:6.6,&quot;49049&quot;:5.4,&quot;49051&quot;:6.0,&quot;49053&quot;:7.8,&quot;49055&quot;:4.2,&quot;49057&quot;:7.0,&quot;50001&quot;:5.8,&quot;50003&quot;:6.8,&quot;50005&quot;:7.0,&quot;50007&quot;:5.7,&quot;50009&quot;:7.8,&quot;50011&quot;:6.2,&quot;50013&quot;:7.0,&quot;50015&quot;:6.6,&quot;50017&quot;:5.5,&quot;50019&quot;:8.3,&quot;50021&quot;:8.7,&quot;50023&quot;:6.1,&quot;50025&quot;:6.3,&quot;50027&quot;:5.8,&quot;51001&quot;:6.1,&quot;51003&quot;:5.0,&quot;51005&quot;:8.7,&quot;51007&quot;:7.0,&quot;51009&quot;:7.0,&quot;51011&quot;:6.7,&quot;51013&quot;:4.2,&quot;51015&quot;:5.8,&quot;51017&quot;:5.4,&quot;51019&quot;:6.2,&quot;51021&quot;:7.5,&quot;51023&quot;:6.2,&quot;51025&quot;:11.4,&quot;51027&quot;:8.8,&quot;51029&quot;:7.8,&quot;51031&quot;:6.6,&quot;51033&quot;:8.2,&quot;51035&quot;:11.3,&quot;51036&quot;:8.7,&quot;51037&quot;:9.1,&quot;51041&quot;:6.8,&quot;51043&quot;:6.1,&quot;51045&quot;:7.2,&quot;51047&quot;:7.5,&quot;51049&quot;:7.0,&quot;51051&quot;:8.3,&quot;51053&quot;:8.3,&quot;51057&quot;:7.7,&quot;51059&quot;:4.7,&quot;51061&quot;:5.0,&quot;51063&quot;:7.1,&quot;51065&quot;:5.8,&quot;51067&quot;:7.8,&quot;51069&quot;:7.3,&quot;51071&quot;:8.5,&quot;51073&quot;:5.5,&quot;51075&quot;:6.7,&quot;51077&quot;:10.4,&quot;51079&quot;:5.8,&quot;51081&quot;:9.1,&quot;51083&quot;:11.5,&quot;51085&quot;:6.6,&quot;51087&quot;:7.2,&quot;51089&quot;:13.4,&quot;51091&quot;:5.9,&quot;51093&quot;:6.3,&quot;51095&quot;:4.6,&quot;51097&quot;:7.5,&quot;51099&quot;:7.5,&quot;51101&quot;:6.4,&quot;51103&quot;:7.3,&quot;51105&quot;:7.1,&quot;51107&quot;:4.7,&quot;51109&quot;:8.1,&quot;51111&quot;:9.1,&quot;51113&quot;:6.0,&quot;51115&quot;:4.8,&quot;51117&quot;:10.5,&quot;51119&quot;:6.4,&quot;51121&quot;:6.3,&quot;51125&quot;:6.2,&quot;51127&quot;:6.9,&quot;51131&quot;:6.6,&quot;51133&quot;:6.5,&quot;51135&quot;:7.9,&quot;51137&quot;:7.6,&quot;51139&quot;:9.8,&quot;51141&quot;:9.9,&quot;51143&quot;:10.3,&quot;51145&quot;:6.0,&quot;51147&quot;:8.4,&quot;51149&quot;:7.3,&quot;51153&quot;:5.3,&quot;51155&quot;:10.8,&quot;51157&quot;:5.6,&quot;51159&quot;:7.2,&quot;51161&quot;:5.9,&quot;51163&quot;:5.6,&quot;51165&quot;:5.3,&quot;51167&quot;:9.6,&quot;51169&quot;:9.9,&quot;51171&quot;:7.6,&quot;51173&quot;:10.2,&quot;51175&quot;:7.7,&quot;51177&quot;:5.1,&quot;51179&quot;:5.1,&quot;51181&quot;:7.3,&quot;51183&quot;:9.5,&quot;51185&quot;:7.9,&quot;51187&quot;:6.6,&quot;51191&quot;:8.2,&quot;51193&quot;:7.1,&quot;51195&quot;:6.7,&quot;51197&quot;:9.7,&quot;51199&quot;:5.0,&quot;51510&quot;:4.8,&quot;51515&quot;:8.9,&quot;51520&quot;:9.9,&quot;51530&quot;:8.7,&quot;51540&quot;:6.2,&quot;51550&quot;:6.4,&quot;51570&quot;:8.2,&quot;51580&quot;:9.1,&quot;51590&quot;:13.0,&quot;51595&quot;:11.8,&quot;51600&quot;:5.4,&quot;51610&quot;:7.3,&quot;51620&quot;:10.7,&quot;51630&quot;:9.1,&quot;51640&quot;:10.3,&quot;51650&quot;:7.7,&quot;51660&quot;:6.4,&quot;51670&quot;:10.4,&quot;51678&quot;:9.2,&quot;51680&quot;:7.7,&quot;51683&quot;:6.8,&quot;51685&quot;:5.4,&quot;51690&quot;:20.0,&quot;51700&quot;:7.3,&quot;51710&quot;:8.4,&quot;51720&quot;:5.5,&quot;51730&quot;:13.8,&quot;51735&quot;:5.0,&quot;51740&quot;:8.4,&quot;51750&quot;:8.5,&quot;51760&quot;:10.0,&quot;51770&quot;:8.6,&quot;51775&quot;:6.3,&quot;51790&quot;:7.3,&quot;51800&quot;:6.6,&quot;51810&quot;:5.9,&quot;51820&quot;:8.2,&quot;51830&quot;:13.5,&quot;51840&quot;:7.9,&quot;53001&quot;:6.5,&quot;53003&quot;:8.1,&quot;53005&quot;:5.8,&quot;53007&quot;:6.5,&quot;53009&quot;:8.5,&quot;53011&quot;:12.7,&quot;53013&quot;:8.4,&quot;53015&quot;:12.8,&quot;53017&quot;:6.6,&quot;53019&quot;:11.3,&quot;53021&quot;:6.2,&quot;53023&quot;:5.3,&quot;53025&quot;:7.3,&quot;53027&quot;:11.7,&quot;53029&quot;:8.1,&quot;53031&quot;:7.4,&quot;53033&quot;:8.8,&quot;53035&quot;:7.1,&quot;53037&quot;:7.3,&quot;53039&quot;:8.1,&quot;53041&quot;:12.0,&quot;53043&quot;:7.4,&quot;53045&quot;:9.4,&quot;53047&quot;:7.4,&quot;53049&quot;:10.7,&quot;53051&quot;:12.1,&quot;53053&quot;:8.8,&quot;53055&quot;:4.7,&quot;53057&quot;:9.1,&quot;53059&quot;:9.4,&quot;53061&quot;:10.1,&quot;53063&quot;:8.3,&quot;53065&quot;:10.5,&quot;53067&quot;:7.1,&quot;53069&quot;:11.4,&quot;53071&quot;:5.5,&quot;53073&quot;:7.8,&quot;53075&quot;:4.7,&quot;53077&quot;:6.8,&quot;54001&quot;:9.2,&quot;54003&quot;:8.5,&quot;54005&quot;:9.4,&quot;54007&quot;:8.0,&quot;54009&quot;:11.1,&quot;54011&quot;:6.6,&quot;54013&quot;:12.1,&quot;54015&quot;:11.9,&quot;54017&quot;:7.4,&quot;54019&quot;:8.6,&quot;54021&quot;:6.5,&quot;54023&quot;:11.2,&quot;54025&quot;:8.3,&quot;54027&quot;:7.8,&quot;54029&quot;:11.8,&quot;54031&quot;:9.7,&quot;54033&quot;:7.1,&quot;54035&quot;:12.9,&quot;54037&quot;:6.6,&quot;54039&quot;:7.1,&quot;54041&quot;:7.5,&quot;54043&quot;:10.6,&quot;54045&quot;:9.8,&quot;54047&quot;:12.7,&quot;54049&quot;:6.5,&quot;54051&quot;:8.7,&quot;54053&quot;:12.1,&quot;54055&quot;:6.9,&quot;54057&quot;:7.9,&quot;54059&quot;:10.7,&quot;54061&quot;:4.6,&quot;54063&quot;:6.5,&quot;54065&quot;:9.1,&quot;54067&quot;:9.1,&quot;54069&quot;:7.8,&quot;54071&quot;:7.5,&quot;54073&quot;:10.2,&quot;54075&quot;:11.3,&quot;54077&quot;:7.0,&quot;54079&quot;:6.3,&quot;54081&quot;:8.0,&quot;54083&quot;:8.5,&quot;54085&quot;:8.8,&quot;54087&quot;:13.0,&quot;54089&quot;:7.8,&quot;54091&quot;:7.9,&quot;54093&quot;:10.9,&quot;54095&quot;:10.8,&quot;54097&quot;:8.9,&quot;54099&quot;:7.7,&quot;54101&quot;:10.4,&quot;54103&quot;:12.3,&quot;54105&quot;:11.4,&quot;54107&quot;:8.8,&quot;54109&quot;:11.5,&quot;55001&quot;:8.3,&quot;55003&quot;:8.3,&quot;55005&quot;:7.1,&quot;55007&quot;:6.2,&quot;55009&quot;:7.1,&quot;55011&quot;:5.7,&quot;55013&quot;:9.1,&quot;55015&quot;:6.7,&quot;55017&quot;:6.6,&quot;55019&quot;:7.6,&quot;55021&quot;:7.1,&quot;55023&quot;:8.1,&quot;55025&quot;:5.4,&quot;55027&quot;:8.4,&quot;55029&quot;:6.6,&quot;55031&quot;:6.5,&quot;55033&quot;:5.8,&quot;55035&quot;:6.0,&quot;55037&quot;:8.1,&quot;55039&quot;:7.8,&quot;55041&quot;:8.1,&quot;55043&quot;:6.1,&quot;55045&quot;:7.8,&quot;55047&quot;:7.5,&quot;55049&quot;:6.2,&quot;55051&quot;:9.4,&quot;55053&quot;:7.2,&quot;55055&quot;:8.0,&quot;55057&quot;:8.5,&quot;55059&quot;:9.8,&quot;55061&quot;:7.3,&quot;55063&quot;:5.9,&quot;55065&quot;:6.0,&quot;55067&quot;:8.5,&quot;55069&quot;:9.6,&quot;55071&quot;:8.5,&quot;55073&quot;:7.7,&quot;55075&quot;:10.2,&quot;55077&quot;:8.3,&quot;55078&quot;:12.7,&quot;55079&quot;:9.3,&quot;55081&quot;:6.4,&quot;55083&quot;:9.1,&quot;55085&quot;:7.4,&quot;55087&quot;:7.5,&quot;55089&quot;:7.2,&quot;55091&quot;:5.4,&quot;55093&quot;:6.1,&quot;55095&quot;:8.4,&quot;55097&quot;:5.8,&quot;55099&quot;:9.4,&quot;55101&quot;:9.3,&quot;55103&quot;:7.5,&quot;55105&quot;:11.1,&quot;55107&quot;:10.1,&quot;55109&quot;:6.8,&quot;55111&quot;:7.0,&quot;55113&quot;:7.1,&quot;55115&quot;:8.2,&quot;55117&quot;:8.3,&quot;55119&quot;:9.6,&quot;55121&quot;:6.4,&quot;55123&quot;:6.6,&quot;55125&quot;:7.1,&quot;55127&quot;:7.7,&quot;55129&quot;:7.8,&quot;55131&quot;:8.1,&quot;55133&quot;:7.2,&quot;55135&quot;:8.2,&quot;55137&quot;:8.2,&quot;55139&quot;:7.0,&quot;55141&quot;:7.4,&quot;56001&quot;:3.6,&quot;56003&quot;:8.2,&quot;56005&quot;:5.7,&quot;56007&quot;:6.8,&quot;56009&quot;:5.9,&quot;56011&quot;:4.9,&quot;56013&quot;:7.4,&quot;56015&quot;:5.3,&quot;56017&quot;:5.8,&quot;56019&quot;:6.7,&quot;56021&quot;:6.3,&quot;56023&quot;:6.5,&quot;56025&quot;:7.3,&quot;56027&quot;:4.5,&quot;56029&quot;:5.1,&quot;56031&quot;:6.2,&quot;56033&quot;:6.6,&quot;56035&quot;:4.5,&quot;56037&quot;:7.4,&quot;56039&quot;:5.2,&quot;56041&quot;:7.2,&quot;56043&quot;:5.9,&quot;56045&quot;:5.9,&quot;72001&quot;:21.7,&quot;72003&quot;:17.9,&quot;72005&quot;:17.8,&quot;72007&quot;:18.2,&quot;72009&quot;:19.2,&quot;72011&quot;:18.3,&quot;72013&quot;:16.7,&quot;72015&quot;:22.7,&quot;72017&quot;:20.1,&quot;72019&quot;:19.6,&quot;72021&quot;:13.6,&quot;72023&quot;:13.5,&quot;72025&quot;:15.8,&quot;72027&quot;:15.6,&quot;72029&quot;:21.2,&quot;72031&quot;:13.3,&quot;72033&quot;:18.3,&quot;72035&quot;:18.1,&quot;72037&quot;:17.6,&quot;72039&quot;:23.6,&quot;72041&quot;:17.3,&quot;72043&quot;:23.1,&quot;72045&quot;:23.4,&quot;72047&quot;:17.7,&quot;72049&quot;:11.6,&quot;72051&quot;:15.2,&quot;72053&quot;:17.8,&quot;72054&quot;:21.5,&quot;72055&quot;:19.9,&quot;72057&quot;:22.0,&quot;72059&quot;:22.6,&quot;72061&quot;:10.6,&quot;72063&quot;:16.3,&quot;72065&quot;:16.5,&quot;72067&quot;:16.4,&quot;72069&quot;:20.8,&quot;72071&quot;:19.1,&quot;72073&quot;:21.9,&quot;72075&quot;:18.6,&quot;72077&quot;:19.1,&quot;72079&quot;:18.6,&quot;72081&quot;:17.5,&quot;72083&quot;:18.1,&quot;72085&quot;:19.2,&quot;72087&quot;:20.4,&quot;72089&quot;:20.2,&quot;72091&quot;:19.2,&quot;72093&quot;:19.9,&quot;72095&quot;:25.9,&quot;72097&quot;:17.9,&quot;72099&quot;:18.0,&quot;72101&quot;:21.6,&quot;72103&quot;:23.2,&quot;72105&quot;:18.9,&quot;72107&quot;:22.8,&quot;72109&quot;:23.6,&quot;72111&quot;:20.2,&quot;72113&quot;:15.9,&quot;72115&quot;:16.8,&quot;72117&quot;:17.9,&quot;72119&quot;:17.1,&quot;72121&quot;:18.9,&quot;72123&quot;:25.2,&quot;72125&quot;:17.8,&quot;72127&quot;:11.9,&quot;72129&quot;:18.5,&quot;72131&quot;:18.2,&quot;72133&quot;:25.7,&quot;72135&quot;:12.9,&quot;72137&quot;:13.4,&quot;72139&quot;:11.1,&quot;72141&quot;:25.8,&quot;72143&quot;:16.3,&quot;72145&quot;:17.6,&quot;72147&quot;:27.7,&quot;72149&quot;:19.8,&quot;72151&quot;:24.1,&quot;72153&quot;:16.0}</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm5 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM13 7.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/jamiely/sweet-vis/blame/3a6e3f4b4d93434b985c49d469891193874e57c4/data/unemployment.json">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/jamiely/sweet-vis/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
+  </div>
+
+    </div>
+
+  
+
+  <details class="details-reset details-overlay details-overlay-dark">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get">
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button type="submit" class="btn" data-close-dialog>Go</button>
+</form>    </details-dialog>
+  </details>
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg width-full p-responsive" role="contentinfo">
+  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      <li class="mr-3 mr-lg-0">&copy; 2020 GitHub, Inc.</li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" async="async" integrity="sha512-o4vS4IKrjdy/HD+xr2+VhO6DxQmj5jikhHbEGrd8+JGhpmIOxRrpT1Qo5k3IhKimm8VXIu3pyYejLtOAkm+OsQ==" type="application/javascript" id="js-conditional-compat" data-src="https://github.githubassets.com/assets/compat-bootstrap-a38bd2e0.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-6XqOrpzsRfeWz1MuH9q2GuzW4Ktvt+kA5KbChOp1ZjaoGbRl3tBng8HiA5B/lClMvkkj4h+vVuSwLeh14JzGuA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-e97a8eae.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-1/6VVx6z9r6uphSoGlmYgbqD5KaY+GVMt1Gqa3DIa0U+3Pv2SWu8Fk1BZ2xPne5upvF8HdEWcGeiUjd2URl+oA==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-d7fe9557.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-RDggGUYWJq0pjfr/60y4ITVdK0zFDicDs0h46xLtUfsgDq6L6OWInB0F66615pE295U74v8ykPH/qsoL3U38ng==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-44382019.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-29L/S+E27RLI8L1J4nsgMlvhsQrPjgyIgjOEADPr57Y9jJwzNWGxnPNLOoI9Zut/rbBWwDbYJWNYnD75qfS6Ug==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-dbd2ff4b.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+
+  </body>
+</html>
+

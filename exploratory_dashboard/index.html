@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Visualizing Environmental Migration</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+<header></header>
+      <center><h1><i>Climate Change and Migration - Exploratory</h1></header></center></i>
+    
+  <div>
+      <div classs='section'>
+      </div>
+<br><br>
+      <center><span style="color: #29A579; font-size: 25px"><u><b>Number of New Disaster Displacements by Region and Year</b><br></u></span></center>
+      <div class='section' id='one'>
+        <div class='text'>       
+          <center> <label for="dropdown"><b>Select a Region</b></label>
+            <select id="dropdown" name="dropdown"></select></center>
+
+
+        </div>
+        <div class='graph' id="d3-container-1"> </div>
+      </div>
+
+
+      <div class='section' id='two'>
+        <div class='text'>
+          <center><span style="color: #29A579; font-size: 25px"><u><b>Net Migration Rate and Climate Change Vulnerability Score</b><br></u></span></center>
+          <i><br><br>The chart to the right shows the climate change risk and net migration rate by income group.</i>
+          <br>
+          <br>
+          <span style="color: #2ca25f"> <center><label for="dropdown1"><b>Select a Country Income Grouping</b></label>
+            <select id="dropdown1" name="dropdown1"></select>
+            <div class='section' id='two'>
+              <div class='graph' id="d3-container-2"> </div>
+            </div>
+  
+
+
+  </div>
+
+<br><br>
+<span style="color: #bdbdbd"><u><b>Citations</b><br></u>
+1. Internal Displacement Monitoring Center Database. <https://www.internal-displacement.org/database>
+<br>
+2. International Organization for Migration (IOM). Environmental Migration Portal. <https://environmentalmigration.iom.int/environmental-migration> 
+<i><br>- Used for standard definitions and background/contextual information on environmental migration.
+<br>- Color scheme of narrative also derived from the color scheme used on their website and their Atlas on Environmental Migration.</i>
+<br>3. United Nations High Commissioner for  Refugees (UNHCR). Mid-Year Trends, 2015. <http://www.unhcr.org/statistics/mid2015stats.zip>
+<br>4. University of Notre Dame. ND-GAIN Country Index, Climate Change Vulnerability. <https://gain.nd.edu/our-work/country-index/>
+<br>5. World Population Prospects, 2019. The 2019 Revision of World Population Prospects. Population Division of the Department of Economic and Social Affairs, UN Secretariat. <https://population.un.org/wpp/>
+</span>
+    <script src="../../../lib/d3.js"></script>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

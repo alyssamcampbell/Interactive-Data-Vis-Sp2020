@@ -1,0 +1,6 @@
+for domain of negative values want a divergent scale, so take 
+take the max of all absolute values
+negative max of all absolute values 
+
+if you wanted to use this in a table 
+- an 

@@ -1,0 +1,40 @@
+body {
+  font-family: Quicksand, sans-serif;
+  padding: 1em;
+}
+
+section {
+  padding: 1em 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  padding: 0 0.5em; 
+  background-color: #1DB79B;
+  font-weight: 700;
+}
+
+tr {
+  border-bottom: solid 1px #d3d3d3;
+  line-height: 1.75;
+  font-weight: 700; 
+  background-color: #1DB79B; 
+}
+
+td {
+  text-align: right;
+  padding: 0 0.5em;
+  font-weight: 300; 
+  background-color:#FFFFFF;
+}
+
+.high {
+  background-color: #1DB79B;
+}
+
+.low {
+  background-color: #89DF9F;
+}
