@@ -32,7 +32,7 @@ export function chart1() {
  /**
   * LOAD DATA
   * */
- d3.csv("../../data/narrative/timeseries.csv", d => ({
+ d3.csv("../data/narrative/timeseries.csv", d => ({
    year: new Date(d.Year, 0, 1),
    country: d.Region,
    population: +d.NNDD,
