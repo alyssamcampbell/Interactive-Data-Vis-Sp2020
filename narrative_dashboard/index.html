@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Visualizing Environmental Migration</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+<header></header>
+      <u><center><h1>Visualizing Environmental Migration</h1></header></center></u>
+    
+  <div>
+      <div class='section'>
+
+        <b>As weather events in the 21st century become ever frequent and intense, more people’s livelihoods and centuries old way of life will become threatened.</b>  Natural disasters, from hurricanes to floods, put in peril the future of many cities. From sea level rise and coastal erosion to ocean acidification and soil salinization, water-related events endanger soil quality and groundwater, which in turn threatens agriculture, food supply, and food prices. Together, these could engender disastrous effects on local and global economies. Ocean oxygen depletion, ocean acidification, and sea surface temperature damage coral reefs, which threaten fish stocks and fishing practices.  In addition, desertification and drought present further risks to food and water supply. As lands become less inhabitable to meet people’s daily needs, communities will be forced to move in search of new livelihoods and safety. <b>Such a process has already begun.</b>
+        <br><br>
+        Measuring the effect of climate change on migration is not straight forward, and it is difficult to find accurate and up to date data on a complex and ever-changing scenario. <b>Human movement is complex, with both forced and voluntary internal and external displacement, and can be both temporary and permanent in scope.</b> As a term, "Environmental refugee” or “climate change refugee” do not carry a legal basis under international refugee law.
+        <br><br>
+        <center><i><span style="color: #1DB79B">“Environmental migrants are persons or groups of persons who, predominantly for reasons of sudden or progressive change in the environment that adversely affects their lives or living conditions, are obliged to leave their habitual homes, or choose to do so, either temporarily or permanently, and who move either within their country or abroad.”</i></span><br> - The International Organization for Migration (IOM)</center>
+
+      </div>
+
+
+      <div class='section' id='one'>
+        <div class='text'>
+          <span style="color: #1DB79B"><u><b>Map 1 - Climate Change Vulnerability Score</b><br></u></span>
+ The below map uses the Notre Dame Global Adaptation Initiative’s Country Index for Climate Change Vulnerability. The ND-GAIN Country Index summarizes a country’s vulnerability to climate change and other global challenges in combination with its readiness to improve resilience. It is up to date as of 3/4/2019. 
+ <br>
+ <br>
+ <b>Top 5 Countries	Score</b><br>
+ 1. Norway<br>
+ 2. New Zealand <br>
+ 3. Finland <br>
+ 4. Sweden<br>
+ 5. Australia <br>
+ <br>
+ <b>Bottom 5 Countries Score</b><br>
+ 177. Democratic Republic of the Congo<br>
+ 178. Central African Republic<br>
+ 179. Eritrea<br>
+ 180. Chad<br>
+ 181. Somalia<br>
+        </div>
+        <div class='graph' id="d3-container-1"> </div>
+      </div>
+
+
+      <div class='section' id='two'>
+        <div class='text'>
+          <span style="color: #1DB79B"><u><b>Map 2 - Net Migration Rate</b><br></u></span>
+ The following map shows net migration rate by country for 2019. The net migration rate is calculated as the difference between the number of people coming into an area and the number of people leaving an area during a year. In other words, immigrants MINUS emigrants during a period of time. <b>Countries that tend to have a higher positive net migration rate appear in darker blue.</b>
+<br><br>
+<b>Countries that have a higher vulnerability to climate change also tend to have a higher net migration rate already. Climate change could intensify this already existing trend.</b>
+
+        </div>
+        <div class='graph' id="d3-container-2"> </div>
+      </div>
+      <div class='section' id='three'>
+        <div class='text'>
+          <center><span style="color: #1DB79B; font-size: 25px"><u><b>Table of Top 10 Countries in 2019 by Total, New, and Stock Disaster Displacements </b><br></u></span></center>
+          <br>
+          The UN Office for Disaster Risk Reduction (UNDRR) defines a disaster as:
+          <br><br>
+        <center><i><span style="color: #1DB79B">“A serious disruption of the functioning of a community or a society at any scale due to hazardous events interacting with conditions of exposure, vulnerability and capacity, leading to one or more of the following: human, material, economic and environmental losses and impacts.”</i><br><br></center></span>
+          Each year, natural disasters can displace thousands to hundreds of thousands of people, sometimes temporarily, sometimes permanently. The Nansen Initiative’s Protection Agenda defines disaster displacement as:<br><br>
+        <i><span style="color: #1DB79B">“Situations where people are forced or obliged to leave their homes or places of habitual residence as a result of a disaster or in order to avoid the impact of an immediate and foreseeable natural hazard. Such displacement results from the fact that affected persons are exposed to a natural hazard in a situation where they are too vulnerable and lack the resilience to withstand the impacts of that hazard. <b></b>It is the effects of natural hazards, including the adverse impacts of climate change, that may overwhelm the resilience or adaptive capacity of an affected community or society, thus leading to a disaster that potentially results in displacement.</b> Disaster displacement may take the form of spontaneous flight, an evacuation ordered or enforced by authorities or an involuntary planned relocation process. Such displacement can occur within a country (internal displacement), or across international borders (cross-border disaster-displacement).”</i></span></center>
+<br><br>
+          </div>
+        <center></cr><div class='graph' id="d3-container-3"> </div></center>
+        <br><br><span style="color: #4D4D4D"><b>The Internal Displacement Monitoring Center</b> publishes data estimates each year on internal displacements from natural disasters. <b>Their stock displacement</b> figures <i>"refers to the number of people living in displacement as of 31 December each year, whether in camps, informal settlements, official shelters, rented accommodation or with friends or relatives. They may also include IDPs who have attempted to return, resettle elsewhere or integrate locally but have been unable to achieve durable solutions."</i>
+
+      </div>
+
+      <div class='section' id='four'>
+        <div class='text'>
+        </div>
+      </div> 
+      <center><span style="color: #1DB79B; font-size: 25px"><u><b>Number of New Disaster Displacements by Region and Year</b><br></u></span></center>
+      <br><br><span style="color: #4D4D4D">It is difficult to gather data and measure the number of people displaced by a disaster at a given point in time. According to IDMC:<br><br></span>
+
+<i><span style ="color: #1DB79B"><center>"There is relatively little comprehensive, accurate observational time series data on the number of people displaced before, during and after such as event. Many figures reported during the emergency phase cannot be verified and subsequently prove to be inaccurate. There is also little data collection on outflows associated with disaster displacement. It is difficult, for example, to ascertain when people leave evacuation centres or where they go. It is usually simply assumed that they have returned to their homes. Nor is it possible to assess their vulnerabilities, which represents an obstacle to response."</i></span></center>
+  <br><br>
+  <br>
+  <center> <label for="dropdown"><b>Select a Region</b></label>
+      <select id="dropdown" name="dropdown"></select></center>
+
+      <div class='section' id='four'>
+        <div class='graph' id="d3-container-4"> </div>
+      </div>
+
+
+
+
+      <div class='section' id='five'>
+        <div class='text'>
+          <center><span style="color: #1DB79B; font-size: 25px"><u><b>Average Number of Refugees per 1,000 People, by Host Country/Country of Asylum</b><br></u></span></center>
+<br><br><i>When displacement is external, whether from an environmental cause or not, low and middle income countries bear a disproportionate impact as host countries. The bar chart shows the average number of refugees per 1,000 people in the population by country of asylum.</i>
+        </div>
+      </div>
+      <div class='section' id='five'>
+    <div class='graph' id="d3-container-5"> </div>
+      </div>
+    </div>
+
+    </div>
+    <div class='section' id='six'>
+      <div class='text'>
+
+        <center><span style="color: #1DB79B; font-size: 25px"><u><b>Net Migration Rate and Climate Change Vulnerability Score</b><br></u></span></center>
+<i><br><br>The chart to the right shows the climate change risk and net migration rate by income group. The color of the dots indicates the income grouping, with dark blue high income all the way to light green, which signifies low income.</i>
+<br><br>
+
+<span style="color: #1DB79B"> <center><label for="dropdown1"><b>Select a Country Income Grouping</b></label>
+    <select id="dropdown1" name="dropdown1"></select>
+    <label for="dropdown2"><b> Select a Region</b></label>
+    <select id="dropdown2" name="dropdown2"></select>
+
+<br><br><br>
+   <u> <span style="color: #4D4D4D"><b><i>Legend: </i></b></span> 
+<b><span style="color: #124DC2">• High Income |</span> 
+<span style="color: #1894BC">• Upper Middle |</span>
+<span style="color: #1DB79B">• Lower Middle |</span>
+<span style="color: #89DF9F">• Low Income </span></b></u>
+    <div class='section' id='six'>
+      <div class='graph' id="d3-container-6"> </div></center> </span> 
+    </div>
+  </div>
+
+  </div>
+
+<br><br>
+<span style="color: #4D4D4D"><u><b>Citations</b><br></u>
+1. Internal Displacement Monitoring Center Database. <https://www.internal-displacement.org/database>
+<br>
+2. International Organization for Migration (IOM). Environmental Migration Portal. <https://environmentalmigration.iom.int/environmental-migration> 
+<i><br>- Used for standard definitions and background/contextual information on environmental migration.
+<br>- Color scheme of narrative also derived from the color scheme used on their website and their Atlas on Environmental Migration.</i>
+<br>3. United Nations High Commissioner for  Refugees (UNHCR). Mid-Year Trends, 2015. <http://www.unhcr.org/statistics/mid2015stats.zip>
+<br>4. University of Notre Dame. ND-GAIN Country Index, Climate Change Vulnerability. <https://gain.nd.edu/our-work/country-index/>
+<br>5. World Population Prospects, 2019. The 2019 Revision of World Population Prospects. Population Division of the Department of Economic and Social Affairs, UN Secretariat. <https://population.un.org/wpp/>
+</span>
+    <script src="../../../lib/d3.js"></script>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

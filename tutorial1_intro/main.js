@@ -11,7 +11,7 @@ d3.csv("../../data/barchartdata.csv").then(data => {
   thead
     .append("tr")
     .append("th")
-    .attr("colspan", "7")
+    .attr("colspan", "8")
     .text("2018 Displacements due to Natural Disaster, and Climate Change Vulnerability Score");
 
   thead

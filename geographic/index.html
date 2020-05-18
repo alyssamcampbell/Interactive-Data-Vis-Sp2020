@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>World Life Expectancy and Retirement Age</title>
+    <script type="text/javascript" src="js/d3.v2.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/global.css"/>
+    <link type="text/css" rel="stylesheet" href="css/colorbrewer.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="controls">
+      <fieldset>
+        <legend>Data Source</legend>
+        <label>Life Expectancy (All)</label><input type="radio" name="data_source" value="life_expectancy_all" />
+        <label>Life Expectancy (Limited)</label><input type="radio" name="data_source" value="life_expectancy_limited" />
+        <label>Retirement Age (Official)</label><input type="radio" name="data_source" value="official_retirement_age" />
+        <label>Retirement Age (Effective)</label><input type="radio" name="data_source" value="effective_retirement_age" />
+      </fieldset>
+    </div>
+    <div id="chart"></div>
+    <script type="text/javascript" src="js/d3chart.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

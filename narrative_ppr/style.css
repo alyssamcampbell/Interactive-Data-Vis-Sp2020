@@ -1,0 +1,82 @@
+html .page {
+  overflow: visible;
+}
+
+body {
+  /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
+  font-family: Quicksand;
+  padding: 1em 3em;
+}
+
+.dot {
+  cursor: pointer;
+}
+
+.dot:hover {
+  fill: white;
+}
+
+.axis-label {
+  font-size: 9px;
+  fill: black;
+  text-anchor: left;
+}
+
+body {
+  /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
+  font-family: Helvetica Neue;
+  padding: 1em 3em;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+  }
+  
+  section {
+    padding: 1em 0;
+  }
+  
+  table {
+    border-collapse: separate;
+  }
+  
+  th {
+    padding: 0 1em;
+    font-weight: bold; 
+  }
+  
+  tr {
+    border-bottom: dotted 1px #e61f1f;
+    line-height: 2.0;
+  }
+  
+  td {
+    text-align: left;
+    padding: 0 2.0em;
+    background-color: green;
+  }
+  
+  .high {
+    background-color: red;
+  }
+
+.high2 {
+background-color: yellow;
+}
+
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.sphere {
+  fill: #4242e4;
+}
+
+.admin {
+  fill: lightgreen;
+  stroke: black;
+  stroke-opacity: 0.1;
+}

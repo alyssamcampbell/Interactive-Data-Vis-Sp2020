@@ -1,181 +1,185 @@
-admin,Region,IG,CCVS,NMR,2018CCD,2018SD,2018CD,PPR
-Afghanistan,Western Asia,Low Income,0.595,-0.1,435000,2598000,372000,7.59
-Albania,Southern Europe,Lower Middle Income,0.423,-3.3,110,,,0.35
-Algeria,North Africa,Upper Middle Income,0.371,-0.9,19,,,0.01
-Angola,Sub-Saharan Africa,Lower Middle Income,0.517,-0.2,11000,,,0.04
-Antigua and Barbuda,Central America & the Caribbean,Upper Middle Income,0.487,2.1,,,,0.06
-Argentina,South America,Upper Middle Income,0.368,-0.1,16000,,,0
-Armenia,Western Asia,Lower Middle Income,0.414,-5.5,,,,0.39
-Australia,Oceania,High Income,0.295,8.1,11000,,,0
-Austria,Western Europe,High Income,0.313,3.6,,,,0
-Azerbaijan,Western Asia,Upper Middle Income,0.408,0,390,344000,,0.11
-Bahamas,Central America & the Caribbean,High Income,0.376,0,,,,0.06
-Bahrain,Western Asia,High Income,0.458,10.6,,,,0.03
-Bangladesh,South Asia,Low Income,0.543,-3,78000,426000,300,0.01
-Barbados,Central America & the Caribbean,Upper Middle Income,0.381,-0.3,,,,0.03
-Belarus,Eastern Europe,Upper Middle Income,0.342,0.7,,,,0.05
-Belgium,Western Europe,High Income,0.361,4.8,50,,,0
-Belize,Central America & the Caribbean,Lower Middle Income,0.474,-1,,,,0.01
-Benin,Sub-Saharan Africa,Low Income,0.574,0.3,23000,3500,3500,0
-Bhutan,South Asia,Lower Middle Income,0.493,0,,,,3
-Bolivia,South America,Lower Middle Income,0.46,-0.3,2400,,,0.01
-Bosnia & Herzegovina,Southern Europe,Lower Middle Income,0.371,-0.4,,,,#N/A
-Botswana,Sub-Saharan Africa,Upper Middle Income,0.471,2.9,1600,,,0.01
-Brazil,South America,Upper Middle Income,0.381,-0.1,86000,,,0
-Brunei Darussalam,Southeast Asia,High Income,0.395,2.3,,,,#N/A
-Bulgaria,Eastern Europe,Upper Middle Income,0.344,-0.3,50,,,#N/A
-Burkina Faso,Sub-Saharan Africa,Low Income,0.572,-0.6,5100,47000,42000,#N/A
-Burundi,Sub-Saharan Africa,Low Income,0.581,-0.8,35000,49000,5100,#N/A
-Cambodia,Southeast Asia,Low Income,0.517,-0.3,37000,,,#N/A
-Cameroon,Sub-Saharan Africa,Low Income,0.483,-0.3,,668000,459000,#N/A
-Canada,North America,High Income,0.296,5.6,19000,,,#N/A
-Central African Republic,Sub-Saharan Africa,Low Income,0.58,0,9300,641000,510000,#N/A
-Chad,Sub-Saharan Africa,Low Income,0.651,-0.1,2000,90000,,#N/A
-Chile,South America,Upper Middle Income,0.345,0.3,2500,,,#N/A
-China,East Asia,Upper Middle Income,0.389,-0.4,3762000,,,#N/A
-Colombia,South America,Upper Middle Income,0.388,-0.6,67000,5761000,145000,#N/A
-Comoros,Sub-Saharan Africa,Low Income,0.479,-2.3,,,,#N/A
-Congo,Sub-Saharan Africa,Lower Middle Income,0.518,-0.9,,,,#N/A
-Costa Rica,Central America & the Caribbean,Upper Middle Income,0.389,0.8,5800,,,#N/A
-C“te d'Ivoire,Sub-Saharan Africa,Low Income,0.514,1.2,3200,302000,700,#N/A
-Croatia,Southern Europe,Upper Middle Income,0.387,-1,140,,,#N/A
-Cuba,Central America & the Caribbean,Lower Middle Income,0.428,-3.7,52000,,,#N/A
-Cyprus,Western Asia,High Income,0.36,7.6,8,228000,,#N/A
-Czech Republic,Western Europe,High Income,0.31,2.3,12,,,#N/A
-Democratic Republic of the Congo,Sub-Saharan Africa,Low Income,0.588,-0.9,,,,#N/A
-Denmark,Northern Europe,High Income,0.344,2.8,,,,#N/A
-Djibouti,Sub-Saharan Africa,Low Income,0.5,5.1,9400,,,#N/A
-Dominica,Central America & the Caribbean,Lower Middle Income,0.403,-5.3,350,,,#N/A
-Dominican Republic,Central America & the Caribbean,Upper Middle Income,0.432,-2.7,27000,,,#N/A
-Ecuador,South America,Lower Middle Income,0.446,0,4200,0,420,#N/A
-Egypt,Western Asia,Lower Middle Income,0.426,-0.3,,,,#N/A
-El Salvador,Central America & the Caribbean,Lower Middle Income,0.448,-4.8,4700,0,246000,#N/A
-Equatorial Guinea,Sub-Saharan Africa,Upper Middle Income,0.479,0,,,,#N/A
-Eritrea,Sub-Saharan Africa,Low Income,0.596,-11.6,,,,#N/A
-Estonia,Northern Europe,High Income,0.376,-3.1,,,,#N/A
-Ethiopia,Sub-Saharan Africa,Low Income,0.566,-0.2,296000,2137000,2895000,#N/A
-Fiji,Oceania,Lower Middle Income,0.452,-6.2,12000,,,#N/A
-Finland,Northern Europe,High Income,0.308,2.6,51,,,0
-France,Western Europe,High Income,0.296,1.1,6300,,,#N/A
-Gabon,Sub-Saharan Africa,Upper Middle Income,0.44,3.9,,,,#N/A
-Gambia,Sub-Saharan Africa,Low Income,0.539,-1.6,,,,#N/A
-Georgia,Western Asia,Lower Middle Income,0.41,0.1,310,293000,,#N/A
-Germany,Western Europe,High Income,0.292,1.5,510,,,#N/A
-Ghana,Sub-Saharan Africa,Lower Middle Income,0.468,-1.6,61000,5000,5000,#N/A
-Greece,Southern Europe,Upper Middle Income,0.346,0.9,9200,,,#N/A
-Grenada,Central America & the Caribbean,Upper Middle Income,0.391,-2.6,27,,,#N/A
-Guatemala,Central America & the Caribbean,Lower Middle Income,0.457,-1.7,27000,242000,,#N/A
-Guinea,Sub-Saharan Africa,Low Income,0.543,0,3900,,,#N/A
-Guinea-Bissau,Sub-Saharan Africa,Low Income,0.626,-3.8,3700,,,#N/A
-Guyana,South America,Lower Middle Income,0.48,0,170,,,#N/A
-Haiti,Central America & the Caribbean,Low Income,0.556,-1.9,8800,,,#N/A
-Honduras,Central America & the Caribbean,Lower Middle Income,0.462,-1.4,17000,190000,950,#N/A
-Hungary,Eastern Europe,Upper Middle Income,0.365,1.3,,,,#N/A
-Iceland,Northern Europe,High Income,0.312,3.3,,,,#N/A
-India,South Asia,Lower Middle Income,0.502,0,2675000,479000,169000,#N/A
-Indonesia,Southeast Asia,Lower Middle Income,0.445,-1.1,853000,16000,4500,#N/A
-Iran,Western Asia,Upper Middle Income,0.387,-0.3,,,,#N/A
-Iraq,Western Asia,Upper Middle Income,0.436,-0.5,69000,1962000,150000,#N/A
-Ireland,Western Europe,High Income,0.345,3.9,,,,#N/A
-Israel,Western Asia,High Income,0.336,2.1,80,,,#N/A
-Italy,Southern Europe,High Income,0.32,3.2,3300,,,#N/A
-Jamaica,Central America & the Caribbean,Lower Middle Income,0.433,-9.4,7,,,#N/A
-Japan,East Asia,High Income,0.372,0,146000,,,#N/A
-Jordan,Western Asia,Lower Middle Income,0.377,-11.3,2000,,,#N/A
-Kazakhstan,Central Asia,Upper Middle Income,0.336,0.4,400,,,#N/A
-Kenya,Sub-Saharan Africa,Low Income,0.546,-0.2,336000,162000,10000,#N/A
-Kuwait,Western Asia,High Income,0.434,-3.3,,,,#N/A
-Kyrgyzstan,Central Asia,Low Income,0.391,-5,,,,#N/A
-Laos,Southeast Asia,Lower Middle Income,0.537,-1,,,,#N/A
-Latvia,,Upper Middle Income,0.393,-5.9,24,,,#N/A
-Lebanon,Western Asia,Upper Middle Income,0.408,-20.3,,11000,,#N/A
-Lesotho,Sub-Saharan Africa,Low Income,0.509,-6.1,1400,,,#N/A
-Liberia,Sub-Saharan Africa,Low Income,0.617,-2.9,15000,,,#N/A
-Libya,North Africa,Upper Middle Income,0.382,-0.7,,221000,70000,#N/A
-Lithuania,Northern Europe,High Income,0.388,-5.9,,,,#N/A
-Luxembourg,Western Europe,High Income,0.285,13.3,,,,#N/A
-Macedonia,Southern Europe,Upper Middle Income,0.366,0.4,,,,#N/A
-Madagascar,Sub-Saharan Africa,Low Income,0.584,0,75000,2000,1700,#N/A
-Malawi,Sub-Saharan Africa,Low Income,0.55,0,20000,,,#N/A
-Malaysia,Southeast Asia,High Income,0.377,-0.3,38000,,,#N/A
-Maldives,South Asia,Upper Middle Income,0.56,-12.7,20,,,#N/A
-Mali,Sub-Saharan Africa,Low Income,0.609,-3.9,19000,120000,126000,#N/A
-Malta,Southern Europe,High Income,0.356,6.6,,,,#N/A
-Mauritania,Sub-Saharan Africa,Low Income,0.567,-0.8,450,,,#N/A
-Mauritius,Sub-Saharan Africa,Upper Middle Income,0.438,0,3600,,,#N/A
-Mexico,North America,Upper Middle Income,0.382,-1.9,20000,338000,11000,#N/A
-Micronesia,Oceania,Low Income,0.638,-20.9,,,,#N/A
-Moldova,Eastern Europe,Lower Middle Income,0.417,-9,,,,#N/A
-Mongolia,East Asia,Lower Middle Income,0.407,-0.8,5900,,,#N/A
-Montenegro,Southern Europe,Upper Middle Income,0.388,-4.9,6,,,#N/A
-Morocco,North Africa,Lower Middle Income,0.378,-1.9,,,,#N/A
-Mozambique,Sub-Saharan Africa,Low Income,0.541,-1.7,31000,14000,3800,#N/A
-Myanmar,Southeast Asia,Lower Middle Income,0.542,-1.4,298000,401000,42000,#N/A
-Namibia,Sub-Saharan Africa,Lower Middle Income,0.491,0,13,,,#N/A
-Nepal,South Asia,Low Income,0.516,-3.1,12000,,,#N/A
-Netherlands,Western Europe,High Income,0.351,1.9,,,,#N/A
-New Zealand,Oceania,High Income,0.331,8,990,,,#N/A
-Nicaragua,Central America & the Caribbean,Lower Middle Income,0.453,-2.4,6900,,,#N/A
-Niger,Sub-Saharan Africa,Low Income,0.67,-0.7,40000,156000,52000,#N/A
-Nigeria,Sub-Saharan Africa,Lower Middle Income,0.489,-0.2,613000,2216000,541000,#N/A
-Norway,Northern Europe,High Income,0.278,4,,,,#N/A
-Oman,Western Asia,High Income,0.416,-0.4,10000,,,#N/A
-Pakistan,South Asia,Lower Middle Income,0.507,-0.9,2100,119000,1800,#N/A
-Panama,Central America & the Caribbean,Upper Middle Income,0.406,-0.1,,,,#N/A
-Papua New Guinea,Oceania,Lower Middle Income,0.573,0,61000,12000,360,#N/A
-Paraguay,South America,Lower Middle Income,0.385,-0.1,30000,,,#N/A
-Peru,South America,Upper Middle Income,0.426,-1.8,8600,59000,,#N/A
-Philippines,Southeast Asia,Lower Middle Income,0.459,-1.8,3802000,301000,188000,#N/A
-Poland,Eastern Europe,High Income,0.324,-0.3,,,,#N/A
-Portugal,Southern Europe,High Income,0.347,0.3,410,,,#N/A
-Qatar,Western Asia,High Income,0.375,12.28,,,,#N/A
-Romania,Eastern Europe,Upper Middle Income,0.411,-0.2,1200,,,#N/A
-Russia,Eastern Europe,Upper Middle Income,0.335,1.7,,,,#N/A
-Rwanda,Sub-Saharan Africa,Low Income,0.555,-3.3,47000,,,#N/A
-Saint Kitts and Nevis,Central America & the Caribbean,High Income,0.418,1.2,,,,#N/A
-Saint Lucia,Central America & the Caribbean,Upper Middle Income,0.391,-1.7,,,,0.5
-Saint Vincent and the Grenadines,Central America & the Caribbean,Lower Middle Income,0.378,-7.2,,,,1.56
-Samoa,Oceania,Lower Middle Income,0.483,-8.1,330,,,0
-Sao Tome and Principe,Sub-Saharan Africa,Low Income,0.478,-7.9,,,,0.01
-Saudi Arabia,Western Asia,High Income,0.388,4.7,2000,,,0
-Senegal,Sub-Saharan Africa,Low Income,0.535,-1.3,2,18000,,0.16
-Serbia,Southern Europe,Upper Middle Income,0.409,0,130,,,0.51
-Seychelles,Sub-Saharan Africa,High Income,0.472,1,,,,0.03
-Sierra Leone,Sub-Saharan Africa,Low Income,0.557,-1.2,,3000,3000,0.08
-Singapore,Southeast Asia,High Income,0.415,11.8,,,,0
-Slovakia,Eastern Europe,High Income,0.364,0.2,,,,0.01
-Slovenia,Southern Europe,High Income,0.339,1.5,340,,,0
-Solomon Islands,Oceania,Low Income,0.658,-1.6,1100,,,0.01
-Somalia,Sub-Saharan Africa,Low Income,0.678,-3.8,547000,2648000,578000,9.52
-South Africa,Sub-Saharan Africa,Upper Middle Income,0.398,-0.2,2100,,,0
-South Korea,East Asia,High Income,0.375,2.3,,,,#N/A
-Spain,Southern Europe,High Income,0.308,7,3300,,,0
-Sri Lanka,South Asia,Lower Middle Income,0.47,-1.3,100000,37000,1100,0.59
-Sudan,Sub-Saharan Africa,Lower Middle Income,0.623,-0.4,121000,2072000,41000,1.65
-Suriname,South America,Upper Middle Income,0.404,0.5,,,,0
-Sweden,Northern Europe,High Income,0.301,5.2,130,,,0
-Switzerland,Western Europe,High Income,0.274,4.6,18,,,0
-Syria,Western Asia,Lower Middle Income,,,,,,17.09
-Tajikistan,Central Asia,Low Income,0.438,-1.1,5400,,,0.01
-Tanzania,Sub-Saharan Africa,Low Income,0.551,-0.4,29000,,,0
-Thailand,Southeast Asia,Upper Middle Income,0.409,0,4600,41000,,0
-Timor-Leste,Southeast Asia,Lower Middle Income,0.558,-3.9,,,,#N/A
-Togo,Sub-Saharan Africa,Low Income,0.539,0,,,,0.13
-Tonga,Oceania,Lower Middle Income,0.573,-17.9,5700,,,0.02
-Trinidad and Tobago,Central America & the Caribbean,High Income,0.405,-5.4,860,,,0.03
-Tunisia,North Africa,Lower Middle Income,0.394,-1.4,3300,,,0.01
-Turkey,Western Asia,Upper Middle Income,0.338,-4.3,640,1097000,,0.08
-Turkmenistan,Central Asia,Upper Middle Income,0.425,-1.7,,,,0.01
-Uganda,Sub-Saharan Africa,Low Income,0.58,-3.5,164000,32000,9000,0.02
-Ukraine,Eastern Europe,Lower Middle Income,0.367,2.3,,800000,12000,0.53
-United Arab Emirates,Western Asia,High Income,0.378,7.6,,,,0
-United Kingdom,Western Europe,High Income,0.299,2.5,160,,,0
-United States,North America,High Income,0.339,3,1247000,,,0
-Uruguay,South America,Upper Middle Income,0.383,-0.9,300,,,0
-Uzbekistan,Central Asia,Lower Middle Income,0.388,-1.9,,,,0.02
-Vanuatu,Oceania,Low Income,0.569,-1.3,13000,,,0
-Venezuela,South America,Upper Middle Income,0.347,-3.4,,,,0.03
-Vietnam,Southeast Asia,Lower Middle Income,0.477,-0.3,143000,,,0.34
-Yemen,Western Asia,Low Income,0.555,-0.2,,,,0.01
-Zambia,Sub-Saharan Africa,Low Income,0.542,0,21,,,0
-Zimbabwe,Sub-Saharan Africa,Low Income,0.543,-5,1100,,,0.15
+Country,Region,IG,CCVS,NMR,2018CCD,2018SD,2018CD,PPR,new2019DD,totalDD
+Philippines,Southeast Asia,Lower Middle Income,0.459,-1.8,3802000,301000,188000,#N/A,,
+China,East Asia,Upper Middle Income,0.389,-0.4,3762000,,,#N/A,,
+India,South Asia,Lower Middle Income,0.502,0,2675000,479000,169000,#N/A,,
+United States of America,North America,High Income,0.339,3,1247000,,,0,,
+Indonesia,Southeast Asia,Lower Middle Income,0.445,-1.1,853000,16000,4500,#N/A,,
+Nigeria,Sub-Saharan Africa,Lower Middle Income,0.489,-0.2,613000,2216000,541000,#N/A,,
+Somalia,Sub-Saharan Africa,Low Income,0.678,-3.8,547000,2648000,578000,9.52,,
+Afghanistan,Western Asia,Low Income,0.595,-0.1,435000,2598000,372000,7.59,,
+Kenya,Sub-Saharan Africa,Low Income,0.546,-0.2,336000,162000,10000,#N/A,,
+Myanmar,Southeast Asia,Lower Middle Income,0.542,-1.4,298000,401000,42000,#N/A,,
+Ethiopia,Sub-Saharan Africa,Low Income,0.566,-0.2,296000,2137000,2895000,#N/A,,
+Uganda,Sub-Saharan Africa,Low Income,0.58,-3.5,164000,32000,9000,0.02,,
+Bahrain,Western Asia,High Income,0.458,10.6,,,,0.03,,
+Vietnam,Southeast Asia,Lower Middle Income,0.477,-0.3,143000,,,0.34,,
+Sudan,Sub-Saharan Africa,Lower Middle Income,0.623,-0.4,121000,2072000,41000,1.65,,
+Sri Lanka,South Asia,Lower Middle Income,0.47,-1.3,100000,37000,1100,0.59,,
+Brazil,South America,Upper Middle Income,0.381,-0.1,86000,,,0,,
+Bangladesh,South Asia,Low Income,0.543,-3,78000,426000,300,0.01,,
+Madagascar,Sub-Saharan Africa,Low Income,0.584,0,75000,2000,1700,#N/A,,
+Iraq,Western Asia,Upper Middle Income,0.436,-0.5,69000,1962000,150000,#N/A,,
+Colombia,South America,Upper Middle Income,0.388,-0.6,67000,5761000,145000,#N/A,,
+Papua New Guinea,Oceania,Lower Middle Income,0.573,0,61000,12000,360,#N/A,,
+Ghana,Sub-Saharan Africa,Lower Middle Income,0.468,-1.6,61000,5000,5000,#N/A,,
+Cuba,Central America & the Caribbean,Lower Middle Income,0.428,-3.7,52000,,,#N/A,,
+Rwanda,Sub-Saharan Africa,Low Income,0.555,-3.3,47000,,,#N/A,,
+Niger,Sub-Saharan Africa,Low Income,0.67,-0.7,40000,156000,52000,#N/A,,
+Brunei Darussalam,Southeast Asia,High Income,0.395,2.3,,,,#N/A,,
+Cambodia,Southeast Asia,Low Income,0.517,-0.3,37000,,,#N/A,,
+Burundi,Sub-Saharan Africa,Low Income,0.581,-0.8,35000,49000,5100,#N/A,,
+Mozambique,Sub-Saharan Africa,Low Income,0.541,-1.7,31000,14000,3800,#N/A,,
+Paraguay,South America,Lower Middle Income,0.385,-0.1,30000,,,#N/A,,
+United Republic of Tanzania,Sub-Saharan Africa,Low Income,0.551,-0.4,29000,,,0,,
+Dominican Republic,Central America & the Caribbean,Upper Middle Income,0.432,-2.7,27000,,,#N/A,,
+Guatemala,Central America & the Caribbean,Lower Middle Income,0.457,-1.7,27000,242000,,#N/A,,
+Benin,Sub-Saharan Africa,Low Income,0.574,0.3,23000,3500,3500,0,,
+Mexico,North America,Upper Middle Income,0.382,-1.9,20000,338000,11000,#N/A,,
+Malawi,Sub-Saharan Africa,Low Income,0.55,0,20000,,,#N/A,,
+Canada,North America,High Income,0.296,5.6,19000,,,#N/A,,
+Mali,Sub-Saharan Africa,Low Income,0.609,-3.9,19000,120000,126000,#N/A,,
+Honduras,Central America & the Caribbean,Lower Middle Income,0.462,-1.4,17000,190000,950,#N/A,,
+Argentina,South America,Upper Middle Income,0.368,-0.1,16000,,,0,,
+Liberia,Sub-Saharan Africa,Low Income,0.617,-2.9,15000,,,#N/A,,
+Vanuatu,Oceania,Low Income,0.569,-1.3,13000,,,0,,
+Fiji,Oceania,Lower Middle Income,0.452,-6.2,12000,,,#N/A,,
+Nepal,South Asia,Low Income,0.516,-3.1,12000,,,#N/A,,
+Australia,Oceania,High Income,0.295,8.1,11000,,,0,,
+Angola,Sub-Saharan Africa,Lower Middle Income,0.517,-0.2,11000,,,0.04,,
+Cyprus,Western Asia,High Income,0.36,7.6,8,228000,,#N/A,,
+Djibouti,Sub-Saharan Africa,Low Income,0.5,5.1,9400,,,#N/A,,
+Central African Republic,Sub-Saharan Africa,Low Income,0.58,0,9300,641000,510000,#N/A,,
+Greece,Southern Europe,Upper Middle Income,0.346,0.9,9200,,,#N/A,,
+Haiti,Central America & the Caribbean,Low Income,0.556,-1.9,8800,,,#N/A,,
+Peru,South America,Upper Middle Income,0.426,-1.8,8600,59000,,#N/A,,
+Nicaragua,Central America & the Caribbean,Lower Middle Income,0.453,-2.4,6900,,,#N/A,,
+Czech Republic,Western Europe,High Income,0.31,2.3,12,,,#N/A,,
+Mongolia,East Asia,Lower Middle Income,0.407,-0.8,5900,,,#N/A,,
+Costa Rica,Central America & the Caribbean,Upper Middle Income,0.389,0.8,5800,,,#N/A,,
+Tonga,Oceania,Lower Middle Income,0.573,-17.9,5700,,,0.02,,
+Tajikistan,Central Asia,Low Income,0.438,-1.1,5400,,,0.01,,
+Burkina Faso,Sub-Saharan Africa,Low Income,0.572,-0.6,5100,47000,42000,#N/A,,
+El Salvador,Central America & the Caribbean,Lower Middle Income,0.448,-4.8,4700,0,246000,#N/A,,
+Thailand,Southeast Asia,Upper Middle Income,0.409,0,4600,41000,,0,,
+Ecuador,South America,Lower Middle Income,0.446,0,4200,0,420,#N/A,,
+Guinea,Sub-Saharan Africa,Low Income,0.543,0,3900,,,#N/A,,
+Guinea-Bissau,Sub-Saharan Africa,Low Income,0.626,-3.8,3700,,,#N/A,,
+Mauritius,Sub-Saharan Africa,Upper Middle Income,0.438,0,3600,,,#N/A,,
+Tunisia,North Africa,Lower Middle Income,0.394,-1.4,3300,,,0.01,,
+Denmark,Northern Europe,High Income,0.344,2.8,,,,#N/A,,
+Spain,Southern Europe,High Income,0.308,7,3300,,,0,,
+Ivory Coast,Sub-Saharan Africa,Low Income,0.514,1.2,3200,302000,700,#N/A,,
+Chile,South America,Upper Middle Income,0.345,0.3,2500,,,#N/A,,
+Bolivia,South America,Lower Middle Income,0.46,-0.3,2400,,,0.01,,
+Pakistan,South Asia,Lower Middle Income,0.507,-0.9,2100,119000,1800,#N/A,,
+South Africa,Sub-Saharan Africa,Upper Middle Income,0.398,-0.2,2100,,,0,,
+Chad,Sub-Saharan Africa,Low Income,0.651,-0.1,2000,90000,,#N/A,,
+Jordan,Western Asia,Lower Middle Income,0.377,-11.3,2000,,,#N/A,,
+Saudi Arabia,Western Asia,High Income,0.388,4.7,2000,,,0,,
+Botswana,Sub-Saharan Africa,Upper Middle Income,0.471,2.9,1600,,,0.01,,
+Lesotho,Sub-Saharan Africa,Low Income,0.509,-6.1,1400,,,#N/A,,
+Romania,Eastern Europe,Upper Middle Income,0.411,-0.2,1200,,,#N/A,,
+Solomon Islands,Oceania,Low Income,0.658,-1.6,1100,,,0.01,,
+Zimbabwe,Sub-Saharan Africa,Low Income,0.543,-5,1100,,,0.15,,
+Estonia,Northern Europe,High Income,0.376,-3.1,,,,#N/A,,
+France,Western Europe,High Income,0.296,1.1,6300,,,#N/A,,
+Turkey,Western Asia,Upper Middle Income,0.338,-4.3,640,1097000,,0.08,,
+Germany,Western Europe,High Income,0.292,1.5,510,,,#N/A,,
+Mauritania,Sub-Saharan Africa,Low Income,0.567,-0.8,450,,,#N/A,,
+Greenland,Northern Europe,High Income,0.344,2.8,,,,#N/A,,
+Kazakhstan,Central Asia,Upper Middle Income,0.336,0.4,400,,,#N/A,,
+Azerbaijan,Western Asia,Upper Middle Income,0.408,0,390,344000,,0.11,,
+Dominica,Central America & the Caribbean,Lower Middle Income,0.403,-5.3,350,,,#N/A,,
+Slovenia,Southern Europe,High Income,0.339,1.5,340,,,0,,
+Samoa,Oceania,Lower Middle Income,0.483,-8.1,330,,,0,,
+Georgia,Western Asia,Lower Middle Income,0.41,0.1,310,293000,,#N/A,,
+Uruguay,South America,Upper Middle Income,0.383,-0.9,300,,,0,,
+Guyana,South America,Lower Middle Income,0.48,0,170,,,#N/A,,
+United Kingdom,Western Europe,High Income,0.299,2.5,160,,,0,,
+Croatia,Southern Europe,Upper Middle Income,0.387,-1,140,,,#N/A,,
+Sweden,Northern Europe,High Income,0.301,5.2,130,,,0,,
+Republic of Serbia,Southern Europe,Upper Middle Income,0.409,0,130,,,0.51,,
+Albania,Southern Europe,Lower Middle Income,0.423,-3.3,110,,,0.35,,
+Iceland,Northern Europe,High Income,0.312,3.3,,,,#N/A,,
+Finland,Northern Europe,High Income,0.308,2.6,51,,,0,,
+Bulgaria,Eastern Europe,Upper Middle Income,0.344,-0.3,50,,,#N/A,,
+Belgium,Western Europe,High Income,0.361,4.8,50,,,0,,
+Grenada,Central America & the Caribbean,Upper Middle Income,0.391,-2.6,27,,,#N/A,,
+Latvia,Northern Europe,Upper Middle Income,0.393,-5.9,24,,,#N/A,,
+Zambia,Sub-Saharan Africa,Low Income,0.542,0,21,,,0,,
+Maldives,South Asia,Upper Middle Income,0.56,-12.7,20,,,#N/A,,
+Algeria,North Africa,Upper Middle Income,0.371,-0.9,19,,,0.01,,
+Switzerland,Western Europe,High Income,0.274,4.6,18,,,0,,
+Namibia,Sub-Saharan Africa,Lower Middle Income,0.491,0,13,,,#N/A,,
+Ireland,Western Europe,High Income,0.345,3.9,,,,#N/A,,
+Israel,Western Asia,High Income,0.336,2.1,80,,,#N/A,,
+Jamaica,Central America & the Caribbean,Lower Middle Income,0.433,-9.4,7,,,#N/A,,
+Montenegro,Southern Europe,Upper Middle Income,0.388,-4.9,6,,,#N/A,,
+Senegal,Sub-Saharan Africa,Low Income,0.535,-1.3,2,18000,,0.16,,
+Italy,Southern Europe,High Income,0.32,3.2,3300,,,#N/A,,
+Antigua and Barbuda,Central America & the Caribbean,Upper Middle Income,0.487,2.1,,,,0.06,,
+Bahamas,Central America & the Caribbean,High Income,0.376,0,,,,0.06,,
+Barbados,Central America & the Caribbean,Upper Middle Income,0.381,-0.3,,,,0.03,,
+Belize,Central America & the Caribbean,Lower Middle Income,0.474,-1,,,,0.01,,
+Panama,Central America & the Caribbean,Upper Middle Income,0.406,-0.1,,,,#N/A,,
+Japan,East Asia,High Income,0.372,0,146000,,,#N/A,,
+Saint Lucia,Central America & the Caribbean,Upper Middle Income,0.391,-1.7,,,,0.5,,
+Saint Vincent and the Grenadines,Central America & the Caribbean,Lower Middle Income,0.378,-7.2,,,,1.56,,
+Kyrgyzstan,Central Asia,Low Income,0.391,-5,,,,#N/A,,
+Turkmenistan,Central Asia,Upper Middle Income,0.425,-1.7,,,,0.01,,
+Uzbekistan,Central Asia,Lower Middle Income,0.388,-1.9,,,,0.02,,
+North Korea,East Asia,Low Income,,,,,,,,
+Kuwait,Western Asia,High Income,0.434,-3.3,,,,#N/A,,
+Belarus,Eastern Europe,Upper Middle Income,0.342,0.7,,,,0.05,,
+Hungary,Eastern Europe,Upper Middle Income,0.365,1.3,,,,#N/A,,
+Moldova,Eastern Europe,Lower Middle Income,0.417,-9,,,,#N/A,,
+Lithuania,Northern Europe,High Income,0.388,-5.9,,,,#N/A,,
+Russia,Eastern Europe,Upper Middle Income,0.335,1.7,,,,#N/A,,
+Slovakia,Eastern Europe,High Income,0.364,0.2,,,,0.01,,
+Ukraine,Eastern Europe,Lower Middle Income,0.367,2.3,,800000,12000,0.53,,
+Libya,North Africa,Upper Middle Income,0.382,-0.7,,221000,70000,#N/A,,
+Morocco,North Africa,Lower Middle Income,0.378,-1.9,,,,#N/A,,
+Luxembourg,Western Europe,High Income,0.285,13.3,,,,#N/A,,
+Malaysia,Southeast Asia,High Income,0.377,-0.3,38000,,,#N/A,,
+Malta,Southern Europe,High Income,0.356,6.6,,,,#N/A,,
+Netherlands,Western Europe,High Income,0.351,1.9,,,,#N/A,,
+New Zealand,Oceania,High Income,0.331,8,990,,,#N/A,,
+Micronesia,Oceania,Low Income,0.638,-20.9,,,,#N/A,,
+Suriname,South America,Upper Middle Income,0.404,0.5,,,,0,,
+Venezuela,South America,Upper Middle Income,0.347,-3.4,,,,0.03,,
+Bhutan,South Asia,Lower Middle Income,0.493,0,,,,3,,
+Norway,Northern Europe,High Income,0.278,4,,,,#N/A,,
+Laos,Southeast Asia,Lower Middle Income,0.537,-1,,,,#N/A,,
+Singapore,Southeast Asia,High Income,0.415,11.8,,,,0,,
+Timor-Leste,Southeast Asia,Lower Middle Income,0.558,-3.9,,,,#N/A,,
+Bosnia and Herzegovina,Southern Europe,Lower Middle Income,0.371,-0.4,,,,#N/A,,
+Macedonia,Southern Europe,Upper Middle Income,0.366,0.4,,,,#N/A,,
+Oman,Western Asia,High Income,0.416,-0.4,10000,,,#N/A,,
+Cameroon,Sub-Saharan Africa,Low Income,0.483,-0.3,,668000,459000,#N/A,,
+Comoros,Sub-Saharan Africa,Low Income,0.479,-2.3,,,,#N/A,,
+Republic of Congo,Sub-Saharan Africa,Lower Middle Income,0.518,-0.9,,,,#N/A,,
+Democratic Republic of the Congo,Sub-Saharan Africa,Low Income,0.588,-0.9,,,,#N/A,,
+Equatorial Guinea,Sub-Saharan Africa,Upper Middle Income,0.479,0,,,,#N/A,,
+Eritrea,Sub-Saharan Africa,Low Income,0.596,-11.6,,,,#N/A,,
+Gabon,Sub-Saharan Africa,Upper Middle Income,0.44,3.9,,,,#N/A,,
+Gambia,Sub-Saharan Africa,Low Income,0.539,-1.6,,,,#N/A,,
+Sao Tome and Principe,Sub-Saharan Africa,Low Income,0.478,-7.9,,,,0.01,,
+Poland,Eastern Europe,High Income,0.324,-0.3,,,,#N/A,,
+Sierra Leone,Sub-Saharan Africa,Low Income,0.557,-1.2,,3000,3000,0.08,,
+Somaliland,,,,,,,,,,
+South Sudan,Sub-Saharan Africa,,0.623,,,,,,,
+Togo,Sub-Saharan Africa,Low Income,0.539,0,,,,0.13,,
+Armenia,Western Asia,Lower Middle Income,0.414,-5.5,,,,0.39,,
+Portugal,Southern Europe,High Income,0.347,0.3,410,,,#N/A,,
+Egypt,Western Asia,Lower Middle Income,0.426,-0.3,,,,#N/A,,
+Iran,Western Asia,Upper Middle Income,0.387,-0.3,,,,#N/A,,
+Qatar,Western Asia,High Income,0.375,12.28,,,,#N/A,,
+Lebanon,Western Asia,Upper Middle Income,0.408,-20.3,,11000,,#N/A,,
+Saint Kitts and Nevis,Central America & the Caribbean,High Income,0.418,1.2,,,,#N/A,,
+Syria,Western Asia,Lower Middle Income,,,,,,17.09,,
+United Arab Emirates,Western Asia,High Income,0.378,7.6,,,,0,,
+Yemen,Western Asia,Low Income,0.555,-0.2,,,,0.01,,
+Austria,Western Europe,High Income,0.313,3.6,,,,0,,
+Seychelles,Sub-Saharan Africa,High Income,0.472,1,,,,0.03,,
+South Korea,East Asia,High Income,0.375,2.3,,,,#N/A,,
+Trinidad and Tobago,Central America & the Caribbean,High Income,0.405,-5.4,860,,,0.03,,

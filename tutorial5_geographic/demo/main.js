@@ -64,17 +64,25 @@ function init() {
  
 
   svg
-    .selectAll(".state") // what is this referring to in the GeoJson file? I see no feature called 'state' in the geojson
+    .selectAll(".state") // arbitrary name, not referring to geojson
     // all of the features of the geojson, meaning all the states as individuals
-    .data(state.geojson.features)
-    .join("path")
-    .attr("d", path)
-    .attr("class", "admin") // how do i fill the countries to be red?
-    .attr("fill", "transparent")
-    .on("mouseover", d => {
+    .data(state.geojson.features) // all of your countries, state refers to app state
+    .join("path") 
+    .attr("d", path) 
+    .attr("class", "state") // how do i fill the countries to be red?
+    .attr("fill", "transparent") // if you wanted to do highlighting just a certain country, here you would do (if d.properties.admin="Uganda" return "Pink")
+    .on("mouseover", function(d) {
+    d3.select(this)
+    .attr("fill","red") // would need to do "mouseout"
       // when the mouse rolls over this feature, do this
-      state.hover["state"] = d.properties.NAME;
+      state.hover["state"] = d.properties.admin;
       draw(); // re-call the draw function when we set a new hoveredState
+    }) 
+    .on("mouseout", function(d) {
+    d3.select(this)
+    .attr("fill","transparent")
+  state.hover["state"]= d.properties.admin;
+  draw();
     })
 
   svg 
@@ -89,7 +97,7 @@ function init() {
     .join("circle")
     .attr("r", 10)
     .attr("fill", "red")
-    .attr("text","Beirut")
+
     .attr("transform", d => {
       const [x, y] = projection([d.longitude, d.latitude]);
       return `translate(${x}, ${y})`;
