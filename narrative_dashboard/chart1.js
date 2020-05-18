@@ -22,7 +22,7 @@ export function chart1() {
    * Using a Promise.all([]), we can load more than one dataset at a time
    * */
   Promise.all([
-    d3.json("../../data/worldmapgeojson.json"),
+    d3.json("../data/worldmapgeojson.json"),
     d3.csv("../data/narrative/projectdata.csv", d3.autoType),
   ]).then(([geojson, migration]) => {
     state.geojson = geojson;
