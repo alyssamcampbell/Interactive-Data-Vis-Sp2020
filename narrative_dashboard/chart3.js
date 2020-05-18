@@ -1,6 +1,6 @@
 export function chart3() {
 // load in csv
-d3.csv("../../data/narrative/topcountriesdisplacementbydisaster.csv").then(data => {
+d3.csv("../data/narrative/topcountriesdisplacementbydisaster.csv").then(data => {
   // once the data loads, console log it
   console.log("data", data);
 
